@@ -1,4 +1,5 @@
 import type { Space, Suite } from '../../data/spaces';
+import { ArrowIcon } from '../ArrowIcon/ArrowIcon';
 
 type Props = {
   space: Space;
@@ -12,7 +13,7 @@ export function UnitPlanViewer({ space, unit, onBack, onInquire }: Props) {
     <div className="sequence-viewer unit-plan-viewer" role="region" aria-labelledby="unit-plan-title">
       <header className="unit-plan-toolbar">
         <button className="viewer-back unit-plan-back" type="button" autoFocus onClick={onBack}>
-          <span aria-hidden="true">←</span>
+          <span aria-hidden="true"><ArrowIcon direction="left" /></span>
           Back to Level {space.displayLevel}
         </button>
         <span>Indicative plan</span>

@@ -13,8 +13,12 @@ type Gesture = {
   x: number;
   y: number;
   frame: number;
+  pixelsPerFrame: number;
   intent: 'pending' | 'horizontal' | 'vertical';
 };
+
+const MOUSE_PIXELS_PER_FRAME = 8;
+const TOUCH_PIXELS_PER_FRAME = 7;
 
 export function usePointerScrub({ frame, maximum, disabled, onFrame, onTap, onFirstScrub }: ScrubOptions) {
   const gesture = useRef<Gesture | null>(null);
@@ -26,7 +30,13 @@ export function usePointerScrub({ frame, maximum, disabled, onFrame, onTap, onFi
     pointerHandlers: {
       onPointerDown: (event: React.PointerEvent<HTMLElement>) => {
         if (event.button !== 0) return;
-        gesture.current = { x: event.clientX, y: event.clientY, frame, intent: 'pending' };
+        gesture.current = {
+          x: event.clientX,
+          y: event.clientY,
+          frame,
+          pixelsPerFrame: event.pointerType === 'touch' ? TOUCH_PIXELS_PER_FRAME : MOUSE_PIXELS_PER_FRAME,
+          intent: 'pending',
+        };
         event.currentTarget.setPointerCapture?.(event.pointerId);
       },
       onPointerMove: (event: React.PointerEvent<HTMLElement>) => {
@@ -39,7 +49,7 @@ export function usePointerScrub({ frame, maximum, disabled, onFrame, onTap, onFi
           if (active.intent === 'horizontal') setDragging(true);
         }
         if (active.intent === 'horizontal') {
-          const next = clamp(active.frame - Math.round(dx / 14));
+          const next = clamp(active.frame - Math.round(dx / active.pixelsPerFrame));
           if (next !== frame) { onFrame(next); onFirstScrub(); }
         }
       },
@@ -56,7 +66,13 @@ export function usePointerScrub({ frame, maximum, disabled, onFrame, onTap, onFi
     touchHandlers: typeof window !== 'undefined' && !('PointerEvent' in window) ? {
       onTouchStart: (event: React.TouchEvent<HTMLElement>) => {
         const touch = event.touches[0];
-        gesture.current = { x: touch.clientX, y: touch.clientY, frame, intent: 'pending' };
+        gesture.current = {
+          x: touch.clientX,
+          y: touch.clientY,
+          frame,
+          pixelsPerFrame: TOUCH_PIXELS_PER_FRAME,
+          intent: 'pending',
+        };
       },
       onTouchMove: (event: React.TouchEvent<HTMLElement>) => {
         const active = gesture.current;
@@ -68,7 +84,7 @@ export function usePointerScrub({ frame, maximum, disabled, onFrame, onTap, onFi
           active.intent = Math.abs(dx) > Math.abs(dy) * 1.15 ? 'horizontal' : 'vertical';
         }
         if (active.intent === 'horizontal') {
-          onFrame(clamp(active.frame - Math.round(dx / 14)));
+          onFrame(clamp(active.frame - Math.round(dx / active.pixelsPerFrame)));
           onFirstScrub();
         }
       },

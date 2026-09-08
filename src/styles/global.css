@@ -235,7 +235,7 @@ textarea:focus-visible {
   cursor: pointer;
 }
 
-.viewer-back > span { font-size: 17px; line-height: 1; transition: transform 160ms ease; }
+.viewer-back > span { display: inline-flex; line-height: 1; transition: transform 160ms ease; }
 .viewer-back:hover > span { transform: translateX(-3px); }
 
 .unit-options-layer {
@@ -305,7 +305,7 @@ textarea:focus-visible {
 .unit-option-copy b { font: 400 17px/1 var(--serif); }
 .unit-option-copy small { color: var(--quiet); font-size: 8px; letter-spacing: 0.11em; text-transform: uppercase; }
 .unit-option:hover .unit-option-copy small { color: rgba(247, 244, 237, 0.66); }
-.unit-option-arrow { justify-self: end; font-size: 15px; transition: transform 160ms ease; }
+.unit-option-arrow { display: inline-flex; justify-self: end; transition: transform 160ms ease; }
 .unit-option:hover .unit-option-arrow { transform: translate(2px, -2px); }
 
 .unit-options-empty {
@@ -470,7 +470,7 @@ textarea:focus-visible {
 
 .status-leased:not(.is-selected) { color: #85827b; }
 .is-selected .level-name { color: rgba(247, 244, 237, 0.7); }
-.row-arrow { font-size: 14px; opacity: 0; transform: translate(-5px, 4px); transition: opacity 160ms, transform 160ms; }
+.row-arrow { display: inline-flex; opacity: 0; transform: translate(-5px, 4px); transition: opacity 160ms, transform 160ms; }
 .level-row:hover .row-arrow, .level-row.is-selected .row-arrow { opacity: 1; transform: translate(0, 0); }
 
 .availability-summary {
@@ -518,6 +518,20 @@ textarea:focus-visible {
   letter-spacing: 0.13em;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.back-button .arrow-icon,
+.viewer-back .arrow-icon,
+.row-arrow .arrow-icon,
+.unit-option-arrow .arrow-icon {
+  width: 18px;
+  height: 18px;
 }
 
 .level-details dl { margin: 0; border-bottom: 1px solid var(--line); }

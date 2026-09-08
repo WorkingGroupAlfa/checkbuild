@@ -1,5 +1,6 @@
 import { useEffect, useId, useState } from 'react';
 import type { Space } from '../../data/spaces';
+import { ArrowIcon } from '../ArrowIcon/ArrowIcon';
 
 type Props = {
   spaces: Space[];
@@ -68,7 +69,7 @@ export function LevelIndex({ spaces, selectedLevel, hoveredLevel, onSelect, onHo
           >
             <span className="level-number">{space.displayLevel}</span>
             <span className="level-name">Level</span>
-            <span className="row-arrow" aria-hidden="true">↗</span>
+            <span className="row-arrow" aria-hidden="true"><ArrowIcon direction="up-right" /></span>
           </button>
         ))}
       </div>

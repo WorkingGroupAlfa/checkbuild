@@ -133,6 +133,10 @@ img {
   transform: rotate(90deg);
 }
 
+.arrow-icon--up-right {
+  stroke-width: 1.35;
+}
+
 /* Header */
 .fortis-header {
   position: fixed;
@@ -622,9 +626,7 @@ img {
   background: #fff;
 }
 
-.project-selector .viewer-back > span {
-  font-size: 16px;
-}
+.project-selector .viewer-back > span { color: currentColor; }
 
 .project-selector .is-selected .level-name {
   color: rgba(255, 255, 255, 0.7);
@@ -676,9 +678,10 @@ img {
   text-transform: none;
 }
 
-.project-selector .row-arrow,
-.project-selector .unit-option-arrow {
-  font-size: 16px;
+.project-selector .row-arrow .arrow-icon,
+.project-selector .unit-option-arrow .arrow-icon {
+  width: 17px;
+  height: 17px;
 }
 
 .project-selector .unit-plan-viewer,

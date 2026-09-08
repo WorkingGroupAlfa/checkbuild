@@ -5,6 +5,7 @@ import { useSequenceLoader } from '../../hooks/useSequenceLoader';
 import { getContainRect, pointerToSource } from '../../lib/imageFit';
 import { readHitLevel } from '../../lib/maskHitTest';
 import { regionKey, sequenceManifest } from '../../lib/assetManifest';
+import { ArrowIcon } from '../ArrowIcon/ArrowIcon';
 
 type Props = {
   currentFrame: number;
@@ -507,7 +508,7 @@ export function SequenceViewer({
           onTouchStart={(event) => event.stopPropagation()}
           onClick={() => onSelectLevel(null)}
         >
-          <span aria-hidden="true">←</span>
+          <span aria-hidden="true"><ArrowIcon direction="left" /></span>
           Back to building
         </button>
       )}
@@ -537,7 +538,7 @@ export function SequenceViewer({
                   >
                     <span className="unit-option-index" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
                     <span className="unit-option-copy"><b>{unit.name}</b><small>{unit.area ?? 'Area on request'}</small></span>
-                    <span className="unit-option-arrow" aria-hidden="true">↗</span>
+                    <span className="unit-option-arrow" aria-hidden="true"><ArrowIcon direction="up-right" /></span>
                   </button>
                 ))}
               </div>

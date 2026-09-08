@@ -4,6 +4,7 @@ import {
   useRef,
   useState,
 } from 'react';
+import { ArrowIcon } from '../components/ArrowIcon/ArrowIcon';
 import { AvailableSpacesExperience } from '../components/AvailableSpacesExperience/AvailableSpacesExperience';
 import { NearbyAmenities } from './NearbyAmenities';
 import {
@@ -38,14 +39,6 @@ function ResponsiveImage({
         fetchPriority={eager ? 'high' : 'auto'}
       />
     </picture>
-  );
-}
-
-function ArrowIcon({ direction = 'right' }: { direction?: 'left' | 'right' | 'down' }) {
-  return (
-    <svg className={`arrow-icon arrow-icon--${direction}`} viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M4 12h15M14 6l6 6-6 6" />
-    </svg>
   );
 }
 
