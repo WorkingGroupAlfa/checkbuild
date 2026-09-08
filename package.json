@@ -1,0 +1,41 @@
+{
+  "name": "470-collins-available-spaces",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "assets:convert": "node scripts/convert-sequence-sources-to-webp.mjs",
+    "assets": "node scripts/build-sequence-assets.mjs",
+    "dev": "vite",
+    "build": "npm run assets && tsc -b && vite build",
+    "lint": "tsc -b --pretty false && eslint scripts/*.mjs eslint.config.js",
+    "test": "vitest run",
+    "stress:viewer": "node scripts/stress-viewer.mjs",
+    "stress:masks": "node scripts/stress-floor-interaction.mjs",
+    "stress:units": "node scripts/stress-unit-flow.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "sharp": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "eslint-plugin-react-refresh": "latest",
+    "globals": "latest",
+    "jsdom": "latest",
+    "playwright-core": "^1.63.0",
+    "vitest": "latest"
+  }
+}

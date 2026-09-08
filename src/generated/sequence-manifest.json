@@ -1,0 +1,7532 @@
+{
+  "generatedAt": "2026-09-08T15:58:00.686Z",
+  "sourceDimensions": {
+    "width": 2400,
+    "height": 3000
+  },
+  "frames": [
+    {
+      "id": 0,
+      "angle": -60,
+      "beautySmall": "/generated/beauty/mobile/frame_000.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_000.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_000.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_000.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_000.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_000/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            600,
+            1089,
+            1221,
+            359
+          ],
+          "centroid": [
+            1179,
+            1278
+          ],
+          "pixelCount": 157096,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_000/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            600,
+            938,
+            1221,
+            399
+          ],
+          "centroid": [
+            1179,
+            1148
+          ],
+          "pixelCount": 156991,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_000/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            600,
+            788,
+            1221,
+            439
+          ],
+          "centroid": [
+            1179,
+            1017
+          ],
+          "pixelCount": 157109,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_000/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            600,
+            638,
+            1221,
+            478
+          ],
+          "centroid": [
+            1179,
+            887
+          ],
+          "pixelCount": 156840,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_000/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            600,
+            488,
+            1221,
+            518
+          ],
+          "centroid": [
+            1179,
+            757
+          ],
+          "pixelCount": 156980,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_000/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            600,
+            337,
+            1221,
+            558
+          ],
+          "centroid": [
+            1179,
+            626
+          ],
+          "pixelCount": 158346,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_000/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            600,
+            82,
+            1221,
+            701
+          ],
+          "centroid": [
+            1179,
+            449
+          ],
+          "pixelCount": 267837,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_000/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            600,
+            1239,
+            1221,
+            320
+          ],
+          "centroid": [
+            1179,
+            1408
+          ],
+          "pixelCount": 157028,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_000/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            600,
+            1389,
+            1221,
+            280
+          ],
+          "centroid": [
+            1179,
+            1539
+          ],
+          "pixelCount": 156923,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_000/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            600,
+            1539,
+            1221,
+            241
+          ],
+          "centroid": [
+            1179,
+            1669
+          ],
+          "pixelCount": 157198,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_000/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            600,
+            1690,
+            1221,
+            201
+          ],
+          "centroid": [
+            1179,
+            1800
+          ],
+          "pixelCount": 157304,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_000/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            600,
+            1840,
+            1221,
+            161
+          ],
+          "centroid": [
+            1179,
+            1930
+          ],
+          "pixelCount": 157150,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_000/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            600,
+            1990,
+            1221,
+            154
+          ],
+          "centroid": [
+            1171,
+            2059
+          ],
+          "pixelCount": 150878,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_000/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            600,
+            2108,
+            1221,
+            186
+          ],
+          "centroid": [
+            1158,
+            2186
+          ],
+          "pixelCount": 108057,
+          "componentCount": 2,
+          "alphaMask": "/generated/masks/frame_000/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 17
+    },
+    {
+      "id": 1,
+      "angle": -56,
+      "beautySmall": "/generated/beauty/mobile/frame_001.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_001.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_001.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_001.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_001.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_001/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            591,
+            1096,
+            1238,
+            346
+          ],
+          "centroid": [
+            1180,
+            1279
+          ],
+          "pixelCount": 159692,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_001/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            591,
+            946,
+            1238,
+            385
+          ],
+          "centroid": [
+            1180,
+            1148
+          ],
+          "pixelCount": 159458,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_001/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            591,
+            797,
+            1238,
+            421
+          ],
+          "centroid": [
+            1180,
+            1018
+          ],
+          "pixelCount": 159663,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_001/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            591,
+            648,
+            1238,
+            458
+          ],
+          "centroid": [
+            1180,
+            887
+          ],
+          "pixelCount": 159343,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_001/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            591,
+            498,
+            1238,
+            497
+          ],
+          "centroid": [
+            1180,
+            757
+          ],
+          "pixelCount": 159429,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_001/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            591,
+            349,
+            1238,
+            534
+          ],
+          "centroid": [
+            1180,
+            626
+          ],
+          "pixelCount": 160904,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_001/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            591,
+            95,
+            1238,
+            675
+          ],
+          "centroid": [
+            1180,
+            449
+          ],
+          "pixelCount": 272063,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_001/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            591,
+            1245,
+            1238,
+            309
+          ],
+          "centroid": [
+            1180,
+            1409
+          ],
+          "pixelCount": 159449,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_001/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            591,
+            1394,
+            1238,
+            272
+          ],
+          "centroid": [
+            1180,
+            1540
+          ],
+          "pixelCount": 159414,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_001/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            591,
+            1543,
+            1238,
+            235
+          ],
+          "centroid": [
+            1180,
+            1670
+          ],
+          "pixelCount": 159615,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_001/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            591,
+            1693,
+            1238,
+            197
+          ],
+          "centroid": [
+            1180,
+            1801
+          ],
+          "pixelCount": 159720,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_001/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            591,
+            1842,
+            1238,
+            160
+          ],
+          "centroid": [
+            1180,
+            1931
+          ],
+          "pixelCount": 159549,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_001/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            591,
+            1991,
+            1238,
+            153
+          ],
+          "centroid": [
+            1172,
+            2060
+          ],
+          "pixelCount": 152776,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_001/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            591,
+            2110,
+            1238,
+            184
+          ],
+          "centroid": [
+            1162,
+            2187
+          ],
+          "pixelCount": 109435,
+          "componentCount": 2,
+          "alphaMask": "/generated/masks/frame_001/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 17
+    },
+    {
+      "id": 2,
+      "angle": -52,
+      "beautySmall": "/generated/beauty/mobile/frame_002.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_002.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_002.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_002.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_002.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_002/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            583,
+            1103,
+            1253,
+            334
+          ],
+          "centroid": [
+            1181,
+            1279
+          ],
+          "pixelCount": 161794,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_002/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            583,
+            955,
+            1253,
+            368
+          ],
+          "centroid": [
+            1181,
+            1149
+          ],
+          "pixelCount": 161612,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_002/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            583,
+            806,
+            1253,
+            404
+          ],
+          "centroid": [
+            1181,
+            1018
+          ],
+          "pixelCount": 161741,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_002/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            583,
+            658,
+            1253,
+            439
+          ],
+          "centroid": [
+            1181,
+            888
+          ],
+          "pixelCount": 161447,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_002/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            583,
+            510,
+            1253,
+            474
+          ],
+          "centroid": [
+            1181,
+            757
+          ],
+          "pixelCount": 161639,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_002/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            583,
+            362,
+            1253,
+            509
+          ],
+          "centroid": [
+            1181,
+            626
+          ],
+          "pixelCount": 163086,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_002/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            582,
+            110,
+            1254,
+            646
+          ],
+          "centroid": [
+            1181,
+            449
+          ],
+          "pixelCount": 275757,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_002/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            583,
+            1251,
+            1253,
+            299
+          ],
+          "centroid": [
+            1181,
+            1410
+          ],
+          "pixelCount": 161610,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_002/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            583,
+            1400,
+            1253,
+            263
+          ],
+          "centroid": [
+            1181,
+            1540
+          ],
+          "pixelCount": 161498,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_002/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            583,
+            1548,
+            1253,
+            229
+          ],
+          "centroid": [
+            1181,
+            1671
+          ],
+          "pixelCount": 161750,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_002/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            583,
+            1696,
+            1253,
+            194
+          ],
+          "centroid": [
+            1181,
+            1802
+          ],
+          "pixelCount": 161852,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_002/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            583,
+            1844,
+            1253,
+            159
+          ],
+          "centroid": [
+            1181,
+            1932
+          ],
+          "pixelCount": 161700,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_002/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            583,
+            1993,
+            1253,
+            152
+          ],
+          "centroid": [
+            1173,
+            2061
+          ],
+          "pixelCount": 154624,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_002/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            583,
+            2112,
+            1250,
+            180
+          ],
+          "centroid": [
+            1164,
+            2188
+          ],
+          "pixelCount": 110542,
+          "componentCount": 2,
+          "alphaMask": "/generated/masks/frame_002/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 17
+    },
+    {
+      "id": 3,
+      "angle": -48,
+      "beautySmall": "/generated/beauty/mobile/frame_003.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_003.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_003.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_003.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_003.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_003/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            575,
+            1111,
+            1267,
+            320
+          ],
+          "centroid": [
+            1182,
+            1280
+          ],
+          "pixelCount": 163722,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_003/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            575,
+            964,
+            1267,
+            352
+          ],
+          "centroid": [
+            1182,
+            1150
+          ],
+          "pixelCount": 163447,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_003/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            575,
+            817,
+            1267,
+            385
+          ],
+          "centroid": [
+            1182,
+            1019
+          ],
+          "pixelCount": 163620,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_003/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            575,
+            670,
+            1267,
+            417
+          ],
+          "centroid": [
+            1182,
+            889
+          ],
+          "pixelCount": 163380,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_003/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            575,
+            523,
+            1267,
+            450
+          ],
+          "centroid": [
+            1182,
+            758
+          ],
+          "pixelCount": 163404,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_003/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            575,
+            375,
+            1267,
+            483
+          ],
+          "centroid": [
+            1182,
+            627
+          ],
+          "pixelCount": 164968,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_003/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            575,
+            125,
+            1267,
+            617
+          ],
+          "centroid": [
+            1182,
+            450
+          ],
+          "pixelCount": 278968,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_003/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            575,
+            1258,
+            1267,
+            287
+          ],
+          "centroid": [
+            1182,
+            1411
+          ],
+          "pixelCount": 163537,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_003/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            575,
+            1405,
+            1267,
+            255
+          ],
+          "centroid": [
+            1182,
+            1541
+          ],
+          "pixelCount": 163479,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_003/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            575,
+            1552,
+            1267,
+            222
+          ],
+          "centroid": [
+            1182,
+            1672
+          ],
+          "pixelCount": 163682,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_003/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            575,
+            1699,
+            1267,
+            190
+          ],
+          "centroid": [
+            1182,
+            1802
+          ],
+          "pixelCount": 163832,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_003/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            575,
+            1847,
+            1267,
+            157
+          ],
+          "centroid": [
+            1182,
+            1933
+          ],
+          "pixelCount": 163699,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_003/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            575,
+            1994,
+            1267,
+            150
+          ],
+          "centroid": [
+            1174,
+            2062
+          ],
+          "pixelCount": 156227,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_003/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            575,
+            2115,
+            1255,
+            165
+          ],
+          "centroid": [
+            1169,
+            2188
+          ],
+          "pixelCount": 110654,
+          "componentCount": 2,
+          "alphaMask": "/generated/masks/frame_003/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 17
+    },
+    {
+      "id": 4,
+      "angle": -44,
+      "beautySmall": "/generated/beauty/mobile/frame_004.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_004.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_004.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_004.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_004.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_004/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            569,
+            1120,
+            1279,
+            305
+          ],
+          "centroid": [
+            1184,
+            1281
+          ],
+          "pixelCount": 165289,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_004/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            569,
+            974,
+            1279,
+            335
+          ],
+          "centroid": [
+            1184,
+            1151
+          ],
+          "pixelCount": 165106,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_004/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            569,
+            828,
+            1279,
+            365
+          ],
+          "centroid": [
+            1184,
+            1020
+          ],
+          "pixelCount": 165236,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_004/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            569,
+            682,
+            1279,
+            396
+          ],
+          "centroid": [
+            1184,
+            890
+          ],
+          "pixelCount": 164978,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_004/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            569,
+            536,
+            1279,
+            426
+          ],
+          "centroid": [
+            1184,
+            759
+          ],
+          "pixelCount": 165073,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_004/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            569,
+            390,
+            1279,
+            456
+          ],
+          "centroid": [
+            1184,
+            628
+          ],
+          "pixelCount": 166636,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_004/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            569,
+            142,
+            1279,
+            587
+          ],
+          "centroid": [
+            1184,
+            451
+          ],
+          "pixelCount": 281682,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_004/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            569,
+            1265,
+            1279,
+            276
+          ],
+          "centroid": [
+            1184,
+            1412
+          ],
+          "pixelCount": 165147,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_004/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            569,
+            1411,
+            1279,
+            245
+          ],
+          "centroid": [
+            1184,
+            1542
+          ],
+          "pixelCount": 165043,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_004/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            569,
+            1557,
+            1279,
+            215
+          ],
+          "centroid": [
+            1184,
+            1673
+          ],
+          "pixelCount": 165304,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_004/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            569,
+            1703,
+            1279,
+            185
+          ],
+          "centroid": [
+            1184,
+            1803
+          ],
+          "pixelCount": 165469,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_004/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            569,
+            1849,
+            1279,
+            155
+          ],
+          "centroid": [
+            1184,
+            1934
+          ],
+          "pixelCount": 165304,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_004/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            569,
+            1994,
+            1279,
+            150
+          ],
+          "centroid": [
+            1174,
+            2062
+          ],
+          "pixelCount": 157262,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_004/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            569,
+            2116,
+            1257,
+            165
+          ],
+          "centroid": [
+            1167,
+            2190
+          ],
+          "pixelCount": 110842,
+          "componentCount": 2,
+          "alphaMask": "/generated/masks/frame_004/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 17
+    },
+    {
+      "id": 5,
+      "angle": -40,
+      "beautySmall": "/generated/beauty/mobile/frame_005.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_005.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_005.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_005.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_005.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_005/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            564,
+            1128,
+            1289,
+            291
+          ],
+          "centroid": [
+            1186,
+            1282
+          ],
+          "pixelCount": 166489,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_005/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            564,
+            984,
+            1289,
+            318
+          ],
+          "centroid": [
+            1186,
+            1152
+          ],
+          "pixelCount": 166285,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_005/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            564,
+            839,
+            1289,
+            346
+          ],
+          "centroid": [
+            1186,
+            1022
+          ],
+          "pixelCount": 166463,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_005/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            564,
+            695,
+            1289,
+            373
+          ],
+          "centroid": [
+            1186,
+            891
+          ],
+          "pixelCount": 166130,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_005/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            564,
+            551,
+            1289,
+            400
+          ],
+          "centroid": [
+            1186,
+            761
+          ],
+          "pixelCount": 166266,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_005/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            564,
+            406,
+            1289,
+            428
+          ],
+          "centroid": [
+            1186,
+            630
+          ],
+          "pixelCount": 167851,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_005/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            564,
+            161,
+            1289,
+            555
+          ],
+          "centroid": [
+            1186,
+            453
+          ],
+          "pixelCount": 283814,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_005/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            564,
+            1273,
+            1289,
+            263
+          ],
+          "centroid": [
+            1186,
+            1413
+          ],
+          "pixelCount": 166336,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_005/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            564,
+            1417,
+            1289,
+            236
+          ],
+          "centroid": [
+            1186,
+            1543
+          ],
+          "pixelCount": 166300,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_005/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            564,
+            1562,
+            1289,
+            208
+          ],
+          "centroid": [
+            1186,
+            1673
+          ],
+          "pixelCount": 166531,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_005/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            564,
+            1706,
+            1289,
+            181
+          ],
+          "centroid": [
+            1186,
+            1804
+          ],
+          "pixelCount": 166654,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_005/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            564,
+            1850,
+            1289,
+            154
+          ],
+          "centroid": [
+            1186,
+            1934
+          ],
+          "pixelCount": 166480,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_005/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            564,
+            1995,
+            1289,
+            148
+          ],
+          "centroid": [
+            1175,
+            2062
+          ],
+          "pixelCount": 157770,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_005/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            564,
+            2118,
+            1257,
+            163
+          ],
+          "centroid": [
+            1163,
+            2190
+          ],
+          "pixelCount": 111509,
+          "componentCount": 2,
+          "alphaMask": "/generated/masks/frame_005/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 17
+    },
+    {
+      "id": 6,
+      "angle": -36,
+      "beautySmall": "/generated/beauty/mobile/frame_006.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_006.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_006.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_006.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_006.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_006/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            560,
+            1137,
+            1298,
+            276
+          ],
+          "centroid": [
+            1188,
+            1284
+          ],
+          "pixelCount": 167540,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_006/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            560,
+            995,
+            1298,
+            300
+          ],
+          "centroid": [
+            1189,
+            1153
+          ],
+          "pixelCount": 167338,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_006/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            560,
+            852,
+            1298,
+            325
+          ],
+          "centroid": [
+            1188,
+            1023
+          ],
+          "pixelCount": 167500,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_006/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            560,
+            709,
+            1298,
+            350
+          ],
+          "centroid": [
+            1188,
+            893
+          ],
+          "pixelCount": 167222,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_006/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            560,
+            566,
+            1298,
+            375
+          ],
+          "centroid": [
+            1188,
+            763
+          ],
+          "pixelCount": 167287,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_006/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            560,
+            423,
+            1298,
+            399
+          ],
+          "centroid": [
+            1188,
+            633
+          ],
+          "pixelCount": 168910,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_006/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            560,
+            180,
+            1298,
+            523
+          ],
+          "centroid": [
+            1189,
+            456
+          ],
+          "pixelCount": 285475,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_006/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            560,
+            1280,
+            1298,
+            251
+          ],
+          "centroid": [
+            1189,
+            1414
+          ],
+          "pixelCount": 167371,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_006/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            560,
+            1423,
+            1298,
+            226
+          ],
+          "centroid": [
+            1188,
+            1544
+          ],
+          "pixelCount": 167263,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_006/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            560,
+            1566,
+            1298,
+            201
+          ],
+          "centroid": [
+            1188,
+            1674
+          ],
+          "pixelCount": 167598,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_006/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            560,
+            1709,
+            1298,
+            177
+          ],
+          "centroid": [
+            1188,
+            1804
+          ],
+          "pixelCount": 167625,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_006/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            560,
+            1852,
+            1298,
+            152
+          ],
+          "centroid": [
+            1188,
+            1934
+          ],
+          "pixelCount": 167523,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_006/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            560,
+            1995,
+            1298,
+            147
+          ],
+          "centroid": [
+            1177,
+            2062
+          ],
+          "pixelCount": 158274,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_006/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            560,
+            2119,
+            1248,
+            161
+          ],
+          "centroid": [
+            1152,
+            2190
+          ],
+          "pixelCount": 109139,
+          "componentCount": 2,
+          "alphaMask": "/generated/masks/frame_006/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 17
+    },
+    {
+      "id": 7,
+      "angle": -32,
+      "beautySmall": "/generated/beauty/mobile/frame_007.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_007.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_007.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_007.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_007.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_007/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            557,
+            1147,
+            1305,
+            260
+          ],
+          "centroid": [
+            1191,
+            1285
+          ],
+          "pixelCount": 168159,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_007/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            557,
+            1006,
+            1305,
+            282
+          ],
+          "centroid": [
+            1191,
+            1155
+          ],
+          "pixelCount": 168018,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_007/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            557,
+            864,
+            1305,
+            304
+          ],
+          "centroid": [
+            1191,
+            1025
+          ],
+          "pixelCount": 168135,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_007/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            557,
+            723,
+            1305,
+            326
+          ],
+          "centroid": [
+            1191,
+            895
+          ],
+          "pixelCount": 167830,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_007/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            557,
+            581,
+            1305,
+            349
+          ],
+          "centroid": [
+            1191,
+            766
+          ],
+          "pixelCount": 167947,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_007/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            557,
+            440,
+            1305,
+            371
+          ],
+          "centroid": [
+            1191,
+            635
+          ],
+          "pixelCount": 169596,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_007/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            557,
+            200,
+            1305,
+            490
+          ],
+          "centroid": [
+            1191,
+            459
+          ],
+          "pixelCount": 286590,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_007/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            557,
+            1288,
+            1305,
+            238
+          ],
+          "centroid": [
+            1191,
+            1415
+          ],
+          "pixelCount": 168022,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_007/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            557,
+            1430,
+            1305,
+            215
+          ],
+          "centroid": [
+            1191,
+            1544
+          ],
+          "pixelCount": 167944,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_007/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            557,
+            1571,
+            1305,
+            194
+          ],
+          "centroid": [
+            1191,
+            1674
+          ],
+          "pixelCount": 168187,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_007/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            557,
+            1712,
+            1305,
+            172
+          ],
+          "centroid": [
+            1191,
+            1804
+          ],
+          "pixelCount": 168331,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_007/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            557,
+            1854,
+            1305,
+            149
+          ],
+          "centroid": [
+            1191,
+            1934
+          ],
+          "pixelCount": 168168,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_007/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            557,
+            1995,
+            1305,
+            145
+          ],
+          "centroid": [
+            1179,
+            2061
+          ],
+          "pixelCount": 158478,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_007/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            557,
+            2119,
+            1241,
+            158
+          ],
+          "centroid": [
+            1155,
+            2190
+          ],
+          "pixelCount": 111485,
+          "componentCount": 2,
+          "alphaMask": "/generated/masks/frame_007/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 17
+    },
+    {
+      "id": 8,
+      "angle": -28,
+      "beautySmall": "/generated/beauty/mobile/frame_008.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_008.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_008.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_008.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_008.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_008/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            555,
+            1157,
+            1310,
+            244
+          ],
+          "centroid": [
+            1194,
+            1286
+          ],
+          "pixelCount": 168512,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_008/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            555,
+            1017,
+            1310,
+            264
+          ],
+          "centroid": [
+            1194,
+            1157
+          ],
+          "pixelCount": 168275,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_008/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            555,
+            877,
+            1310,
+            283
+          ],
+          "centroid": [
+            1194,
+            1027
+          ],
+          "pixelCount": 168455,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_008/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            555,
+            738,
+            1310,
+            302
+          ],
+          "centroid": [
+            1194,
+            898
+          ],
+          "pixelCount": 168104,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_008/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            555,
+            598,
+            1310,
+            322
+          ],
+          "centroid": [
+            1194,
+            768
+          ],
+          "pixelCount": 168349,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_008/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            555,
+            458,
+            1310,
+            342
+          ],
+          "centroid": [
+            1194,
+            638
+          ],
+          "pixelCount": 169979,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_008/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            555,
+            221,
+            1310,
+            457
+          ],
+          "centroid": [
+            1194,
+            462
+          ],
+          "pixelCount": 287103,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_008/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            555,
+            1296,
+            1310,
+            225
+          ],
+          "centroid": [
+            1194,
+            1416
+          ],
+          "pixelCount": 168312,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_008/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            555,
+            1436,
+            1310,
+            205
+          ],
+          "centroid": [
+            1194,
+            1545
+          ],
+          "pixelCount": 168244,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_008/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            555,
+            1576,
+            1310,
+            186
+          ],
+          "centroid": [
+            1194,
+            1674
+          ],
+          "pixelCount": 168540,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_008/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            555,
+            1715,
+            1310,
+            167
+          ],
+          "centroid": [
+            1194,
+            1804
+          ],
+          "pixelCount": 168622,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_008/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            555,
+            1855,
+            1310,
+            147
+          ],
+          "centroid": [
+            1194,
+            1934
+          ],
+          "pixelCount": 168473,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_008/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            555,
+            1995,
+            1310,
+            143
+          ],
+          "centroid": [
+            1181,
+            2060
+          ],
+          "pixelCount": 158412,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_008/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            555,
+            2120,
+            1231,
+            153
+          ],
+          "centroid": [
+            1145,
+            2189
+          ],
+          "pixelCount": 108816,
+          "componentCount": 2,
+          "alphaMask": "/generated/masks/frame_008/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 17
+    },
+    {
+      "id": 9,
+      "angle": -24,
+      "beautySmall": "/generated/beauty/mobile/frame_009.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_009.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_009.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_009.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_009.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_009/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            554,
+            1166,
+            1313,
+            229
+          ],
+          "centroid": [
+            1197,
+            1287
+          ],
+          "pixelCount": 168434,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_009/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            554,
+            1028,
+            1313,
+            246
+          ],
+          "centroid": [
+            1197,
+            1158
+          ],
+          "pixelCount": 168237,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_009/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            554,
+            890,
+            1313,
+            262
+          ],
+          "centroid": [
+            1197,
+            1029
+          ],
+          "pixelCount": 168453,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_009/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            554,
+            753,
+            1313,
+            278
+          ],
+          "centroid": [
+            1197,
+            900
+          ],
+          "pixelCount": 168044,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_009/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            554,
+            615,
+            1313,
+            295
+          ],
+          "centroid": [
+            1197,
+            771
+          ],
+          "pixelCount": 168213,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_009/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            554,
+            477,
+            1313,
+            312
+          ],
+          "centroid": [
+            1197,
+            641
+          ],
+          "pixelCount": 169923,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_009/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            554,
+            242,
+            1313,
+            424
+          ],
+          "centroid": [
+            1197,
+            466
+          ],
+          "pixelCount": 287014,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_009/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            554,
+            1304,
+            1313,
+            212
+          ],
+          "centroid": [
+            1197,
+            1416
+          ],
+          "pixelCount": 168209,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_009/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            554,
+            1442,
+            1313,
+            195
+          ],
+          "centroid": [
+            1197,
+            1545
+          ],
+          "pixelCount": 168240,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_009/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            554,
+            1580,
+            1313,
+            179
+          ],
+          "centroid": [
+            1197,
+            1675
+          ],
+          "pixelCount": 168475,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_009/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            554,
+            1718,
+            1313,
+            162
+          ],
+          "centroid": [
+            1197,
+            1804
+          ],
+          "pixelCount": 168585,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_009/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            554,
+            1856,
+            1313,
+            145
+          ],
+          "centroid": [
+            1197,
+            1933
+          ],
+          "pixelCount": 168495,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_009/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            554,
+            1994,
+            1313,
+            142
+          ],
+          "centroid": [
+            1184,
+            2059
+          ],
+          "pixelCount": 158004,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_009/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            554,
+            2119,
+            1222,
+            152
+          ],
+          "centroid": [
+            1140,
+            2188
+          ],
+          "pixelCount": 108299,
+          "componentCount": 2,
+          "alphaMask": "/generated/masks/frame_009/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 17
+    },
+    {
+      "id": 10,
+      "angle": -20,
+      "beautySmall": "/generated/beauty/mobile/frame_010.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_010.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_010.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_010.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_010.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_010/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            554,
+            1176,
+            1315,
+            213
+          ],
+          "centroid": [
+            1200,
+            1289
+          ],
+          "pixelCount": 168181,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_010/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            554,
+            1040,
+            1315,
+            227
+          ],
+          "centroid": [
+            1200,
+            1160
+          ],
+          "pixelCount": 167985,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_010/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            554,
+            904,
+            1315,
+            241
+          ],
+          "centroid": [
+            1200,
+            1031
+          ],
+          "pixelCount": 168102,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_010/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            554,
+            768,
+            1315,
+            254
+          ],
+          "centroid": [
+            1200,
+            903
+          ],
+          "pixelCount": 167813,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_010/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            554,
+            632,
+            1315,
+            268
+          ],
+          "centroid": [
+            1200,
+            774
+          ],
+          "pixelCount": 167935,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_010/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            554,
+            495,
+            1315,
+            283
+          ],
+          "centroid": [
+            1200,
+            645
+          ],
+          "pixelCount": 169655,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_010/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            554,
+            264,
+            1315,
+            391
+          ],
+          "centroid": [
+            1200,
+            470
+          ],
+          "pixelCount": 286539,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_010/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            554,
+            1312,
+            1315,
+            199
+          ],
+          "centroid": [
+            1200,
+            1417
+          ],
+          "pixelCount": 168002,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_010/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            554,
+            1449,
+            1315,
+            184
+          ],
+          "centroid": [
+            1200,
+            1546
+          ],
+          "pixelCount": 167924,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_010/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            554,
+            1585,
+            1315,
+            170
+          ],
+          "centroid": [
+            1200,
+            1675
+          ],
+          "pixelCount": 168185,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_010/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            554,
+            1721,
+            1315,
+            157
+          ],
+          "centroid": [
+            1200,
+            1803
+          ],
+          "pixelCount": 168285,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_010/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            554,
+            1857,
+            1315,
+            143
+          ],
+          "centroid": [
+            1200,
+            1932
+          ],
+          "pixelCount": 168194,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_010/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            554,
+            1993,
+            1315,
+            140
+          ],
+          "centroid": [
+            1188,
+            2058
+          ],
+          "pixelCount": 157636,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_010/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            554,
+            2119,
+            1217,
+            149
+          ],
+          "centroid": [
+            1135,
+            2187
+          ],
+          "pixelCount": 107440,
+          "componentCount": 2,
+          "alphaMask": "/generated/masks/frame_010/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 17
+    },
+    {
+      "id": 11,
+      "angle": -16,
+      "beautySmall": "/generated/beauty/mobile/frame_011.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_011.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_011.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_011.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_011.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_011/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            555,
+            1186,
+            1315,
+            197
+          ],
+          "centroid": [
+            1203,
+            1290
+          ],
+          "pixelCount": 167578,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_011/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            555,
+            1052,
+            1315,
+            208
+          ],
+          "centroid": [
+            1203,
+            1162
+          ],
+          "pixelCount": 167403,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_011/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            555,
+            918,
+            1315,
+            219
+          ],
+          "centroid": [
+            1203,
+            1034
+          ],
+          "pixelCount": 167525,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_011/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            555,
+            783,
+            1315,
+            231
+          ],
+          "centroid": [
+            1203,
+            906
+          ],
+          "pixelCount": 167247,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_011/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            555,
+            649,
+            1315,
+            242
+          ],
+          "centroid": [
+            1203,
+            778
+          ],
+          "pixelCount": 167359,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_011/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            555,
+            515,
+            1315,
+            253
+          ],
+          "centroid": [
+            1203,
+            649
+          ],
+          "pixelCount": 169065,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_011/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            555,
+            286,
+            1315,
+            358
+          ],
+          "centroid": [
+            1203,
+            475
+          ],
+          "pixelCount": 285499,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_011/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            555,
+            1321,
+            1315,
+            185
+          ],
+          "centroid": [
+            1203,
+            1418
+          ],
+          "pixelCount": 167388,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_011/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            555,
+            1455,
+            1315,
+            174
+          ],
+          "centroid": [
+            1203,
+            1546
+          ],
+          "pixelCount": 167232,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_011/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            555,
+            1589,
+            1315,
+            163
+          ],
+          "centroid": [
+            1203,
+            1674
+          ],
+          "pixelCount": 167584,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_011/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            555,
+            1723,
+            1315,
+            152
+          ],
+          "centroid": [
+            1203,
+            1803
+          ],
+          "pixelCount": 167654,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_011/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            555,
+            1858,
+            1315,
+            141
+          ],
+          "centroid": [
+            1203,
+            1931
+          ],
+          "pixelCount": 167490,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_011/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            555,
+            1992,
+            1315,
+            138
+          ],
+          "centroid": [
+            1192,
+            2056
+          ],
+          "pixelCount": 157159,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_011/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            555,
+            2118,
+            1184,
+            145
+          ],
+          "centroid": [
+            1134,
+            2184
+          ],
+          "pixelCount": 105655,
+          "componentCount": 2,
+          "alphaMask": "/generated/masks/frame_011/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 17
+    },
+    {
+      "id": 12,
+      "angle": -12,
+      "beautySmall": "/generated/beauty/mobile/frame_012.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_012.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_012.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_012.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_012.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_012/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            556,
+            1196,
+            1314,
+            182
+          ],
+          "centroid": [
+            1206,
+            1291
+          ],
+          "pixelCount": 166644,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_012/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            556,
+            1064,
+            1314,
+            190
+          ],
+          "centroid": [
+            1206,
+            1164
+          ],
+          "pixelCount": 166487,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_012/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            556,
+            931,
+            1314,
+            199
+          ],
+          "centroid": [
+            1206,
+            1036
+          ],
+          "pixelCount": 166625,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_012/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            556,
+            799,
+            1314,
+            207
+          ],
+          "centroid": [
+            1206,
+            909
+          ],
+          "pixelCount": 166348,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_012/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            556,
+            666,
+            1314,
+            216
+          ],
+          "centroid": [
+            1206,
+            781
+          ],
+          "pixelCount": 166414,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_012/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            556,
+            534,
+            1314,
+            225
+          ],
+          "centroid": [
+            1206,
+            653
+          ],
+          "pixelCount": 168163,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_012/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            556,
+            309,
+            1314,
+            324
+          ],
+          "centroid": [
+            1206,
+            480
+          ],
+          "pixelCount": 284130,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_012/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            556,
+            1329,
+            1314,
+            172
+          ],
+          "centroid": [
+            1206,
+            1419
+          ],
+          "pixelCount": 166538,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_012/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            556,
+            1461,
+            1314,
+            164
+          ],
+          "centroid": [
+            1206,
+            1547
+          ],
+          "pixelCount": 166449,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_012/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            556,
+            1594,
+            1314,
+            155
+          ],
+          "centroid": [
+            1206,
+            1674
+          ],
+          "pixelCount": 166709,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_012/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            556,
+            1726,
+            1314,
+            147
+          ],
+          "centroid": [
+            1206,
+            1802
+          ],
+          "pixelCount": 166827,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_012/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            556,
+            1858,
+            1314,
+            139
+          ],
+          "centroid": [
+            1205,
+            1930
+          ],
+          "pixelCount": 166652,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_012/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            556,
+            1991,
+            1314,
+            136
+          ],
+          "centroid": [
+            1194,
+            2054
+          ],
+          "pixelCount": 155674,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_012/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            556,
+            2117,
+            1173,
+            141
+          ],
+          "centroid": [
+            1135,
+            2183
+          ],
+          "pixelCount": 105875,
+          "componentCount": 2,
+          "alphaMask": "/generated/masks/frame_012/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 17
+    },
+    {
+      "id": 13,
+      "angle": -8,
+      "beautySmall": "/generated/beauty/mobile/frame_013.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_013.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_013.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_013.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_013.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_013/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            559,
+            1206,
+            1310,
+            166
+          ],
+          "centroid": [
+            1209,
+            1293
+          ],
+          "pixelCount": 165522,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_013/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            559,
+            1076,
+            1310,
+            172
+          ],
+          "centroid": [
+            1209,
+            1166
+          ],
+          "pixelCount": 165282,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_013/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            559,
+            945,
+            1310,
+            178
+          ],
+          "centroid": [
+            1209,
+            1039
+          ],
+          "pixelCount": 165473,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_013/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            559,
+            814,
+            1310,
+            185
+          ],
+          "centroid": [
+            1209,
+            912
+          ],
+          "pixelCount": 165170,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_013/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            559,
+            684,
+            1310,
+            190
+          ],
+          "centroid": [
+            1209,
+            785
+          ],
+          "pixelCount": 165313,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_013/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            559,
+            553,
+            1310,
+            197
+          ],
+          "centroid": [
+            1209,
+            657
+          ],
+          "pixelCount": 167027,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_013/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            558,
+            331,
+            1311,
+            293
+          ],
+          "centroid": [
+            1209,
+            485
+          ],
+          "pixelCount": 282043,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_013/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            559,
+            1337,
+            1310,
+            160
+          ],
+          "centroid": [
+            1209,
+            1420
+          ],
+          "pixelCount": 165351,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_013/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            559,
+            1467,
+            1310,
+            154
+          ],
+          "centroid": [
+            1209,
+            1547
+          ],
+          "pixelCount": 165284,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_013/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            559,
+            1598,
+            1310,
+            147
+          ],
+          "centroid": [
+            1209,
+            1674
+          ],
+          "pixelCount": 165549,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_013/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            559,
+            1728,
+            1310,
+            142
+          ],
+          "centroid": [
+            1209,
+            1801
+          ],
+          "pixelCount": 165652,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_013/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            559,
+            1859,
+            1310,
+            136
+          ],
+          "centroid": [
+            1209,
+            1928
+          ],
+          "pixelCount": 165411,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_013/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            559,
+            1989,
+            1310,
+            134
+          ],
+          "centroid": [
+            1197,
+            2052
+          ],
+          "pixelCount": 154335,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_013/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            559,
+            2116,
+            1132,
+            138
+          ],
+          "centroid": [
+            1131,
+            2180
+          ],
+          "pixelCount": 103188,
+          "componentCount": 2,
+          "alphaMask": "/generated/masks/frame_013/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 17
+    },
+    {
+      "id": 14,
+      "angle": -4,
+      "beautySmall": "/generated/beauty/mobile/frame_014.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_014.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_014.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_014.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_014.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_014/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            562,
+            1216,
+            1305,
+            151
+          ],
+          "centroid": [
+            1212,
+            1294
+          ],
+          "pixelCount": 164073,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_014/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            562,
+            1087,
+            1305,
+            155
+          ],
+          "centroid": [
+            1212,
+            1168
+          ],
+          "pixelCount": 163928,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_014/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            562,
+            959,
+            1305,
+            158
+          ],
+          "centroid": [
+            1212,
+            1042
+          ],
+          "pixelCount": 164029,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_014/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            562,
+            830,
+            1305,
+            162
+          ],
+          "centroid": [
+            1212,
+            915
+          ],
+          "pixelCount": 163850,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_014/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            562,
+            701,
+            1305,
+            166
+          ],
+          "centroid": [
+            1212,
+            789
+          ],
+          "pixelCount": 163869,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_014/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            562,
+            573,
+            1305,
+            169
+          ],
+          "centroid": [
+            1212,
+            662
+          ],
+          "pixelCount": 165586,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_014/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            562,
+            354,
+            1305,
+            261
+          ],
+          "centroid": [
+            1212,
+            490
+          ],
+          "pixelCount": 279490,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_014/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            562,
+            1344,
+            1305,
+            148
+          ],
+          "centroid": [
+            1212,
+            1421
+          ],
+          "pixelCount": 163927,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_014/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            562,
+            1473,
+            1305,
+            144
+          ],
+          "centroid": [
+            1212,
+            1547
+          ],
+          "pixelCount": 163849,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_014/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            562,
+            1602,
+            1305,
+            140
+          ],
+          "centroid": [
+            1212,
+            1673
+          ],
+          "pixelCount": 164123,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_014/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            562,
+            1730,
+            1305,
+            137
+          ],
+          "centroid": [
+            1212,
+            1800
+          ],
+          "pixelCount": 164264,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_014/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            562,
+            1859,
+            1305,
+            133
+          ],
+          "centroid": [
+            1212,
+            1926
+          ],
+          "pixelCount": 164020,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_014/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            562,
+            1987,
+            1305,
+            133
+          ],
+          "centroid": [
+            1199,
+            2050
+          ],
+          "pixelCount": 152676,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_014/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            562,
+            2114,
+            1143,
+            134
+          ],
+          "centroid": [
+            1134,
+            2177
+          ],
+          "pixelCount": 101591,
+          "componentCount": 2,
+          "alphaMask": "/generated/masks/frame_014/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 17
+    },
+    {
+      "id": 15,
+      "angle": 0,
+      "beautySmall": "/generated/beauty/mobile/frame_015.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_015.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_015.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_015.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_015.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_015/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            565,
+            1224,
+            1299,
+            139
+          ],
+          "centroid": [
+            1214,
+            1296
+          ],
+          "pixelCount": 162462,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_015/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            565,
+            1097,
+            1299,
+            141
+          ],
+          "centroid": [
+            1214,
+            1170
+          ],
+          "pixelCount": 162273,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_015/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            565,
+            970,
+            1299,
+            142
+          ],
+          "centroid": [
+            1214,
+            1044
+          ],
+          "pixelCount": 162431,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_015/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            565,
+            843,
+            1299,
+            144
+          ],
+          "centroid": [
+            1214,
+            919
+          ],
+          "pixelCount": 162002,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_015/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            565,
+            716,
+            1299,
+            146
+          ],
+          "centroid": [
+            1214,
+            793
+          ],
+          "pixelCount": 162294,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_015/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            565,
+            590,
+            1299,
+            146
+          ],
+          "centroid": [
+            1214,
+            667
+          ],
+          "pixelCount": 163989,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_015/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            565,
+            374,
+            1299,
+            235
+          ],
+          "centroid": [
+            1214,
+            496
+          ],
+          "pixelCount": 276720,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_015/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            565,
+            1351,
+            1299,
+            138
+          ],
+          "centroid": [
+            1214,
+            1421
+          ],
+          "pixelCount": 162369,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_015/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            565,
+            1478,
+            1299,
+            136
+          ],
+          "centroid": [
+            1214,
+            1547
+          ],
+          "pixelCount": 162150,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_015/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            565,
+            1605,
+            1299,
+            134
+          ],
+          "centroid": [
+            1214,
+            1673
+          ],
+          "pixelCount": 162694,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_015/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            565,
+            1731,
+            1299,
+            134
+          ],
+          "centroid": [
+            1214,
+            1799
+          ],
+          "pixelCount": 162201,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_015/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            565,
+            1858,
+            1299,
+            132
+          ],
+          "centroid": [
+            1215,
+            1925
+          ],
+          "pixelCount": 162342,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_015/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            565,
+            1985,
+            1299,
+            131
+          ],
+          "centroid": [
+            1200,
+            2047
+          ],
+          "pixelCount": 150595,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_015/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            565,
+            2111,
+            1118,
+            132
+          ],
+          "centroid": [
+            1128,
+            2173
+          ],
+          "pixelCount": 97022,
+          "componentCount": 2,
+          "alphaMask": "/generated/masks/frame_015/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 17
+    },
+    {
+      "id": 16,
+      "angle": 4,
+      "beautySmall": "/generated/beauty/mobile/frame_016.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_016.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_016.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_016.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_016.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_016/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            562,
+            1214,
+            1307,
+            154
+          ],
+          "centroid": [
+            1218,
+            1294
+          ],
+          "pixelCount": 164359,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_016/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            562,
+            1085,
+            1307,
+            158
+          ],
+          "centroid": [
+            1218,
+            1168
+          ],
+          "pixelCount": 164055,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_016/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            562,
+            956,
+            1307,
+            162
+          ],
+          "centroid": [
+            1218,
+            1041
+          ],
+          "pixelCount": 164230,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_016/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            562,
+            827,
+            1307,
+            166
+          ],
+          "centroid": [
+            1218,
+            915
+          ],
+          "pixelCount": 163986,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_016/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            562,
+            699,
+            1307,
+            169
+          ],
+          "centroid": [
+            1218,
+            788
+          ],
+          "pixelCount": 164046,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_016/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            562,
+            570,
+            1307,
+            173
+          ],
+          "centroid": [
+            1218,
+            661
+          ],
+          "pixelCount": 165812,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_016/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            562,
+            351,
+            1307,
+            266
+          ],
+          "centroid": [
+            1217,
+            490
+          ],
+          "pixelCount": 280105,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_016/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            562,
+            1343,
+            1307,
+            150
+          ],
+          "centroid": [
+            1218,
+            1420
+          ],
+          "pixelCount": 164133,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_016/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            562,
+            1472,
+            1307,
+            145
+          ],
+          "centroid": [
+            1218,
+            1547
+          ],
+          "pixelCount": 164043,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_016/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            562,
+            1601,
+            1307,
+            141
+          ],
+          "centroid": [
+            1218,
+            1673
+          ],
+          "pixelCount": 164292,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_016/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            562,
+            1730,
+            1307,
+            137
+          ],
+          "centroid": [
+            1218,
+            1800
+          ],
+          "pixelCount": 164408,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_016/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            562,
+            1858,
+            1307,
+            135
+          ],
+          "centroid": [
+            1218,
+            1926
+          ],
+          "pixelCount": 164176,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_016/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            562,
+            1987,
+            1307,
+            132
+          ],
+          "centroid": [
+            1204,
+            2049
+          ],
+          "pixelCount": 151725,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_016/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            562,
+            2113,
+            1110,
+            135
+          ],
+          "centroid": [
+            1127,
+            2177
+          ],
+          "pixelCount": 96159,
+          "componentCount": 2,
+          "alphaMask": "/generated/masks/frame_016/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 17
+    },
+    {
+      "id": 17,
+      "angle": 8,
+      "beautySmall": "/generated/beauty/mobile/frame_017.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_017.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_017.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_017.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_017.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_017/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            560,
+            1204,
+            1312,
+            169
+          ],
+          "centroid": [
+            1220,
+            1292
+          ],
+          "pixelCount": 165877,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_017/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            560,
+            1073,
+            1312,
+            175
+          ],
+          "centroid": [
+            1220,
+            1165
+          ],
+          "pixelCount": 165672,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_017/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            560,
+            942,
+            1312,
+            182
+          ],
+          "centroid": [
+            1220,
+            1038
+          ],
+          "pixelCount": 165824,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_017/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            560,
+            811,
+            1312,
+            188
+          ],
+          "centroid": [
+            1220,
+            911
+          ],
+          "pixelCount": 165535,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_017/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            560,
+            681,
+            1312,
+            194
+          ],
+          "centroid": [
+            1220,
+            784
+          ],
+          "pixelCount": 165659,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_017/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            560,
+            550,
+            1312,
+            201
+          ],
+          "centroid": [
+            1220,
+            656
+          ],
+          "pixelCount": 167418,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_017/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            560,
+            327,
+            1312,
+            298
+          ],
+          "centroid": [
+            1220,
+            484
+          ],
+          "pixelCount": 282647,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_017/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            560,
+            1335,
+            1312,
+            162
+          ],
+          "centroid": [
+            1220,
+            1419
+          ],
+          "pixelCount": 165759,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_017/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            560,
+            1466,
+            1312,
+            155
+          ],
+          "centroid": [
+            1220,
+            1546
+          ],
+          "pixelCount": 165626,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_017/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            560,
+            1597,
+            1312,
+            149
+          ],
+          "centroid": [
+            1220,
+            1674
+          ],
+          "pixelCount": 165930,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_017/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            560,
+            1727,
+            1312,
+            143
+          ],
+          "centroid": [
+            1220,
+            1801
+          ],
+          "pixelCount": 166044,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_017/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            560,
+            1858,
+            1312,
+            137
+          ],
+          "centroid": [
+            1220,
+            1928
+          ],
+          "pixelCount": 165821,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_017/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            560,
+            1989,
+            1312,
+            134
+          ],
+          "centroid": [
+            1204,
+            2051
+          ],
+          "pixelCount": 152400,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_017/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            560,
+            2115,
+            1080,
+            137
+          ],
+          "centroid": [
+            1125,
+            2179
+          ],
+          "pixelCount": 94952,
+          "componentCount": 2,
+          "alphaMask": "/generated/masks/frame_017/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 17
+    },
+    {
+      "id": 18,
+      "angle": 12,
+      "beautySmall": "/generated/beauty/mobile/frame_018.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_018.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_018.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_018.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_018.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_018/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            559,
+            1194,
+            1316,
+            184
+          ],
+          "centroid": [
+            1223,
+            1291
+          ],
+          "pixelCount": 167162,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_018/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            559,
+            1061,
+            1316,
+            193
+          ],
+          "centroid": [
+            1223,
+            1163
+          ],
+          "pixelCount": 167060,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_018/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            559,
+            928,
+            1316,
+            202
+          ],
+          "centroid": [
+            1223,
+            1035
+          ],
+          "pixelCount": 167094,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_018/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            559,
+            795,
+            1316,
+            212
+          ],
+          "centroid": [
+            1223,
+            907
+          ],
+          "pixelCount": 166886,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_018/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            559,
+            663,
+            1316,
+            220
+          ],
+          "centroid": [
+            1223,
+            780
+          ],
+          "pixelCount": 166958,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_018/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            559,
+            530,
+            1316,
+            229
+          ],
+          "centroid": [
+            1223,
+            651
+          ],
+          "pixelCount": 168698,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_018/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            559,
+            304,
+            1316,
+            330
+          ],
+          "centroid": [
+            1223,
+            478
+          ],
+          "pixelCount": 284940,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_018/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            559,
+            1327,
+            1316,
+            175
+          ],
+          "centroid": [
+            1223,
+            1418
+          ],
+          "pixelCount": 167071,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_018/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            559,
+            1459,
+            1316,
+            166
+          ],
+          "centroid": [
+            1223,
+            1546
+          ],
+          "pixelCount": 166944,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_018/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            559,
+            1592,
+            1316,
+            157
+          ],
+          "centroid": [
+            1223,
+            1674
+          ],
+          "pixelCount": 167211,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_018/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            559,
+            1725,
+            1316,
+            148
+          ],
+          "centroid": [
+            1223,
+            1802
+          ],
+          "pixelCount": 167391,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_018/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            559,
+            1858,
+            1316,
+            139
+          ],
+          "centroid": [
+            1223,
+            1929
+          ],
+          "pixelCount": 167147,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_018/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            559,
+            1991,
+            1316,
+            135
+          ],
+          "centroid": [
+            1203,
+            2053
+          ],
+          "pixelCount": 152400,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_018/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            559,
+            2116,
+            1088,
+            141
+          ],
+          "centroid": [
+            1124,
+            2183
+          ],
+          "pixelCount": 94906,
+          "componentCount": 2,
+          "alphaMask": "/generated/masks/frame_018/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 17
+    },
+    {
+      "id": 19,
+      "angle": 16,
+      "beautySmall": "/generated/beauty/mobile/frame_019.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_019.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_019.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_019.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_019.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_019/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            559,
+            1184,
+            1318,
+            199
+          ],
+          "centroid": [
+            1227,
+            1289
+          ],
+          "pixelCount": 168220,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_019/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            559,
+            1049,
+            1318,
+            211
+          ],
+          "centroid": [
+            1227,
+            1160
+          ],
+          "pixelCount": 168027,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_019/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            559,
+            914,
+            1318,
+            223
+          ],
+          "centroid": [
+            1227,
+            1032
+          ],
+          "pixelCount": 168227,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_019/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            559,
+            779,
+            1318,
+            235
+          ],
+          "centroid": [
+            1227,
+            904
+          ],
+          "pixelCount": 167895,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_019/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            559,
+            645,
+            1318,
+            246
+          ],
+          "centroid": [
+            1227,
+            775
+          ],
+          "pixelCount": 167982,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_019/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            559,
+            510,
+            1318,
+            258
+          ],
+          "centroid": [
+            1227,
+            646
+          ],
+          "pixelCount": 169741,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_019/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            558,
+            281,
+            1319,
+            362
+          ],
+          "centroid": [
+            1226,
+            472
+          ],
+          "pixelCount": 286856,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_019/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            559,
+            1318,
+            1318,
+            188
+          ],
+          "centroid": [
+            1226,
+            1417
+          ],
+          "pixelCount": 168042,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_019/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            559,
+            1453,
+            1318,
+            176
+          ],
+          "centroid": [
+            1227,
+            1545
+          ],
+          "pixelCount": 167989,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_019/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            559,
+            1588,
+            1318,
+            164
+          ],
+          "centroid": [
+            1227,
+            1674
+          ],
+          "pixelCount": 168265,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_019/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            559,
+            1723,
+            1318,
+            152
+          ],
+          "centroid": [
+            1227,
+            1802
+          ],
+          "pixelCount": 168353,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_019/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            559,
+            1857,
+            1318,
+            141
+          ],
+          "centroid": [
+            1227,
+            1931
+          ],
+          "pixelCount": 168205,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_019/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            559,
+            1992,
+            1318,
+            138
+          ],
+          "centroid": [
+            1210,
+            2055
+          ],
+          "pixelCount": 153857,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_019/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            559,
+            2117,
+            1076,
+            143
+          ],
+          "centroid": [
+            1122,
+            2184
+          ],
+          "pixelCount": 91887,
+          "componentCount": 2,
+          "alphaMask": "/generated/masks/frame_019/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 17
+    },
+    {
+      "id": 20,
+      "angle": 20,
+      "beautySmall": "/generated/beauty/mobile/frame_020.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_020.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_020.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_020.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_020.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_020/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            559,
+            1173,
+            1320,
+            215
+          ],
+          "centroid": [
+            1230,
+            1287
+          ],
+          "pixelCount": 169182,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_020/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            559,
+            1037,
+            1320,
+            229
+          ],
+          "centroid": [
+            1230,
+            1158
+          ],
+          "pixelCount": 168924,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_020/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            559,
+            900,
+            1320,
+            244
+          ],
+          "centroid": [
+            1230,
+            1029
+          ],
+          "pixelCount": 169120,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_020/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            559,
+            763,
+            1320,
+            258
+          ],
+          "centroid": [
+            1230,
+            900
+          ],
+          "pixelCount": 168801,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_020/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            559,
+            627,
+            1320,
+            272
+          ],
+          "centroid": [
+            1230,
+            771
+          ],
+          "pixelCount": 168906,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_020/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            559,
+            490,
+            1320,
+            287
+          ],
+          "centroid": [
+            1230,
+            642
+          ],
+          "pixelCount": 170647,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_020/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            559,
+            258,
+            1320,
+            395
+          ],
+          "centroid": [
+            1230,
+            467
+          ],
+          "pixelCount": 288209,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_020/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            559,
+            1310,
+            1320,
+            201
+          ],
+          "centroid": [
+            1230,
+            1416
+          ],
+          "pixelCount": 169010,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_020/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            559,
+            1447,
+            1320,
+            186
+          ],
+          "centroid": [
+            1230,
+            1545
+          ],
+          "pixelCount": 168917,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_020/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            559,
+            1583,
+            1320,
+            172
+          ],
+          "centroid": [
+            1230,
+            1674
+          ],
+          "pixelCount": 169173,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_020/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            559,
+            1720,
+            1320,
+            158
+          ],
+          "centroid": [
+            1230,
+            1803
+          ],
+          "pixelCount": 169236,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_020/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            559,
+            1856,
+            1320,
+            144
+          ],
+          "centroid": [
+            1230,
+            1932
+          ],
+          "pixelCount": 169159,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_020/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            559,
+            1993,
+            1320,
+            140
+          ],
+          "centroid": [
+            1215,
+            2057
+          ],
+          "pixelCount": 154798,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_020/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            559,
+            2118,
+            1320,
+            146
+          ],
+          "centroid": [
+            1146,
+            2187
+          ],
+          "pixelCount": 94006,
+          "componentCount": 3,
+          "alphaMask": "/generated/masks/frame_020/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 18
+    },
+    {
+      "id": 21,
+      "angle": 24,
+      "beautySmall": "/generated/beauty/mobile/frame_021.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_021.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_021.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_021.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_021.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_021/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            560,
+            1163,
+            1319,
+            231
+          ],
+          "centroid": [
+            1233,
+            1285
+          ],
+          "pixelCount": 169548,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_021/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            560,
+            1025,
+            1319,
+            247
+          ],
+          "centroid": [
+            1233,
+            1156
+          ],
+          "pixelCount": 169466,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_021/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            560,
+            886,
+            1319,
+            265
+          ],
+          "centroid": [
+            1233,
+            1026
+          ],
+          "pixelCount": 169500,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_021/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            560,
+            748,
+            1319,
+            282
+          ],
+          "centroid": [
+            1233,
+            897
+          ],
+          "pixelCount": 169223,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_021/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            560,
+            609,
+            1319,
+            299
+          ],
+          "centroid": [
+            1233,
+            768
+          ],
+          "pixelCount": 169410,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_021/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            560,
+            471,
+            1319,
+            316
+          ],
+          "centroid": [
+            1233,
+            638
+          ],
+          "pixelCount": 171076,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_021/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            560,
+            235,
+            1319,
+            429
+          ],
+          "centroid": [
+            1233,
+            462
+          ],
+          "pixelCount": 288975,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_021/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            560,
+            1301,
+            1319,
+            215
+          ],
+          "centroid": [
+            1233,
+            1415
+          ],
+          "pixelCount": 169501,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_021/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            560,
+            1440,
+            1319,
+            196
+          ],
+          "centroid": [
+            1233,
+            1544
+          ],
+          "pixelCount": 169339,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_021/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            560,
+            1578,
+            1319,
+            180
+          ],
+          "centroid": [
+            1233,
+            1673
+          ],
+          "pixelCount": 169603,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_021/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            560,
+            1717,
+            1319,
+            163
+          ],
+          "centroid": [
+            1233,
+            1803
+          ],
+          "pixelCount": 169752,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_021/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            560,
+            1855,
+            1319,
+            146
+          ],
+          "centroid": [
+            1233,
+            1932
+          ],
+          "pixelCount": 169631,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_021/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            560,
+            1994,
+            1319,
+            142
+          ],
+          "centroid": [
+            1218,
+            2058
+          ],
+          "pixelCount": 155106,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_021/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            560,
+            2119,
+            1319,
+            148
+          ],
+          "centroid": [
+            1161,
+            2189
+          ],
+          "pixelCount": 94615,
+          "componentCount": 3,
+          "alphaMask": "/generated/masks/frame_021/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 18
+    },
+    {
+      "id": 22,
+      "angle": 28,
+      "beautySmall": "/generated/beauty/mobile/frame_022.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_022.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_022.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_022.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_022.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_022/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            562,
+            1153,
+            1317,
+            247
+          ],
+          "centroid": [
+            1236,
+            1284
+          ],
+          "pixelCount": 169857,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_022/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            562,
+            1013,
+            1317,
+            266
+          ],
+          "centroid": [
+            1236,
+            1154
+          ],
+          "pixelCount": 169646,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_022/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            562,
+            872,
+            1317,
+            287
+          ],
+          "centroid": [
+            1236,
+            1024
+          ],
+          "pixelCount": 169840,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_022/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            562,
+            732,
+            1317,
+            306
+          ],
+          "centroid": [
+            1236,
+            894
+          ],
+          "pixelCount": 169438,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_022/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            562,
+            592,
+            1317,
+            326
+          ],
+          "centroid": [
+            1236,
+            764
+          ],
+          "pixelCount": 169651,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_022/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            562,
+            451,
+            1317,
+            346
+          ],
+          "centroid": [
+            1236,
+            634
+          ],
+          "pixelCount": 171305,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_022/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            561,
+            213,
+            1318,
+            462
+          ],
+          "centroid": [
+            1236,
+            458
+          ],
+          "pixelCount": 289541,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_022/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            562,
+            1293,
+            1317,
+            227
+          ],
+          "centroid": [
+            1236,
+            1413
+          ],
+          "pixelCount": 169687,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_022/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            562,
+            1433,
+            1317,
+            207
+          ],
+          "centroid": [
+            1236,
+            1543
+          ],
+          "pixelCount": 169609,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_022/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            562,
+            1574,
+            1317,
+            187
+          ],
+          "centroid": [
+            1236,
+            1673
+          ],
+          "pixelCount": 169925,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_022/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            562,
+            1714,
+            1317,
+            168
+          ],
+          "centroid": [
+            1236,
+            1803
+          ],
+          "pixelCount": 170007,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_022/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            562,
+            1854,
+            1317,
+            148
+          ],
+          "centroid": [
+            1236,
+            1933
+          ],
+          "pixelCount": 169858,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_022/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            562,
+            1994,
+            1317,
+            144
+          ],
+          "centroid": [
+            1223,
+            2059
+          ],
+          "pixelCount": 155400,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_022/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            562,
+            2119,
+            1317,
+            151
+          ],
+          "centroid": [
+            1176,
+            2191
+          ],
+          "pixelCount": 94420,
+          "componentCount": 3,
+          "alphaMask": "/generated/masks/frame_022/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 18
+    },
+    {
+      "id": 23,
+      "angle": 32,
+      "beautySmall": "/generated/beauty/mobile/frame_023.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_023.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_023.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_023.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_023.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_023/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            564,
+            1143,
+            1313,
+            262
+          ],
+          "centroid": [
+            1238,
+            1282
+          ],
+          "pixelCount": 169755,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_023/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            564,
+            1001,
+            1313,
+            285
+          ],
+          "centroid": [
+            1238,
+            1152
+          ],
+          "pixelCount": 169542,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_023/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            564,
+            859,
+            1313,
+            307
+          ],
+          "centroid": [
+            1238,
+            1021
+          ],
+          "pixelCount": 169749,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_023/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            564,
+            717,
+            1313,
+            330
+          ],
+          "centroid": [
+            1238,
+            891
+          ],
+          "pixelCount": 169419,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_023/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            564,
+            575,
+            1313,
+            352
+          ],
+          "centroid": [
+            1238,
+            761
+          ],
+          "pixelCount": 169464,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_023/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            564,
+            433,
+            1313,
+            375
+          ],
+          "centroid": [
+            1238,
+            630
+          ],
+          "pixelCount": 171196,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_023/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            564,
+            191,
+            1313,
+            496
+          ],
+          "centroid": [
+            1238,
+            453
+          ],
+          "pixelCount": 289325,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_023/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            564,
+            1285,
+            1313,
+            240
+          ],
+          "centroid": [
+            1238,
+            1412
+          ],
+          "pixelCount": 169570,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_023/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            564,
+            1427,
+            1313,
+            217
+          ],
+          "centroid": [
+            1238,
+            1542
+          ],
+          "pixelCount": 169550,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_023/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            564,
+            1569,
+            1313,
+            195
+          ],
+          "centroid": [
+            1238,
+            1673
+          ],
+          "pixelCount": 169805,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_023/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            564,
+            1711,
+            1313,
+            172
+          ],
+          "centroid": [
+            1238,
+            1803
+          ],
+          "pixelCount": 169930,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_023/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            564,
+            1853,
+            1313,
+            150
+          ],
+          "centroid": [
+            1238,
+            1933
+          ],
+          "pixelCount": 169699,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_023/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            564,
+            1995,
+            1313,
+            146
+          ],
+          "centroid": [
+            1227,
+            2060
+          ],
+          "pixelCount": 155365,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_023/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            564,
+            2118,
+            1313,
+            153
+          ],
+          "centroid": [
+            1185,
+            2192
+          ],
+          "pixelCount": 92242,
+          "componentCount": 3,
+          "alphaMask": "/generated/masks/frame_023/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 18
+    },
+    {
+      "id": 24,
+      "angle": 36,
+      "beautySmall": "/generated/beauty/mobile/frame_024.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_024.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_024.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_024.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_024.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_024/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            567,
+            1133,
+            1308,
+            278
+          ],
+          "centroid": [
+            1241,
+            1280
+          ],
+          "pixelCount": 169410,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_024/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            567,
+            989,
+            1308,
+            303
+          ],
+          "centroid": [
+            1241,
+            1150
+          ],
+          "pixelCount": 169265,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_024/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            567,
+            846,
+            1308,
+            328
+          ],
+          "centroid": [
+            1241,
+            1019
+          ],
+          "pixelCount": 169382,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_024/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            567,
+            702,
+            1308,
+            354
+          ],
+          "centroid": [
+            1241,
+            889
+          ],
+          "pixelCount": 169109,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_024/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            567,
+            558,
+            1308,
+            379
+          ],
+          "centroid": [
+            1241,
+            758
+          ],
+          "pixelCount": 169197,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_024/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            567,
+            415,
+            1308,
+            404
+          ],
+          "centroid": [
+            1241,
+            627
+          ],
+          "pixelCount": 170857,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_024/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            567,
+            170,
+            1308,
+            529
+          ],
+          "centroid": [
+            1241,
+            450
+          ],
+          "pixelCount": 288795,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_024/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            567,
+            1277,
+            1308,
+            253
+          ],
+          "centroid": [
+            1241,
+            1411
+          ],
+          "pixelCount": 169309,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_024/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            567,
+            1420,
+            1308,
+            228
+          ],
+          "centroid": [
+            1241,
+            1542
+          ],
+          "pixelCount": 169200,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_024/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            567,
+            1564,
+            1308,
+            202
+          ],
+          "centroid": [
+            1241,
+            1672
+          ],
+          "pixelCount": 169461,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_024/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            567,
+            1707,
+            1308,
+            178
+          ],
+          "centroid": [
+            1241,
+            1803
+          ],
+          "pixelCount": 169601,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_024/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            567,
+            1851,
+            1308,
+            153
+          ],
+          "centroid": [
+            1241,
+            1934
+          ],
+          "pixelCount": 169443,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_024/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            567,
+            1995,
+            1308,
+            147
+          ],
+          "centroid": [
+            1231,
+            2060
+          ],
+          "pixelCount": 155072,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_024/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            567,
+            2118,
+            1308,
+            165
+          ],
+          "centroid": [
+            1200,
+            2192
+          ],
+          "pixelCount": 91699,
+          "componentCount": 3,
+          "alphaMask": "/generated/masks/frame_024/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 18
+    },
+    {
+      "id": 25,
+      "angle": 40,
+      "beautySmall": "/generated/beauty/mobile/frame_025.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_025.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_025.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_025.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_025.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_025/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            571,
+            1123,
+            1300,
+            294
+          ],
+          "centroid": [
+            1243,
+            1279
+          ],
+          "pixelCount": 168674,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_025/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            571,
+            978,
+            1300,
+            321
+          ],
+          "centroid": [
+            1243,
+            1148
+          ],
+          "pixelCount": 168526,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_025/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            571,
+            833,
+            1300,
+            349
+          ],
+          "centroid": [
+            1243,
+            1017
+          ],
+          "pixelCount": 168666,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_025/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            571,
+            688,
+            1300,
+            377
+          ],
+          "centroid": [
+            1243,
+            886
+          ],
+          "pixelCount": 168349,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_025/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            571,
+            542,
+            1300,
+            405
+          ],
+          "centroid": [
+            1243,
+            755
+          ],
+          "pixelCount": 168468,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_025/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            571,
+            397,
+            1300,
+            433
+          ],
+          "centroid": [
+            1243,
+            624
+          ],
+          "pixelCount": 170087,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_025/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            571,
+            150,
+            1300,
+            561
+          ],
+          "centroid": [
+            1243,
+            446
+          ],
+          "pixelCount": 287460,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_025/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            571,
+            1268,
+            1300,
+            266
+          ],
+          "centroid": [
+            1243,
+            1410
+          ],
+          "pixelCount": 168508,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_025/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            571,
+            1414,
+            1300,
+            237
+          ],
+          "centroid": [
+            1243,
+            1541
+          ],
+          "pixelCount": 168463,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_025/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            571,
+            1559,
+            1300,
+            210
+          ],
+          "centroid": [
+            1243,
+            1671
+          ],
+          "pixelCount": 168706,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_025/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            571,
+            1704,
+            1300,
+            182
+          ],
+          "centroid": [
+            1243,
+            1802
+          ],
+          "pixelCount": 168805,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_025/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            571,
+            1849,
+            1300,
+            155
+          ],
+          "centroid": [
+            1243,
+            1933
+          ],
+          "pixelCount": 168627,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_025/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            571,
+            1994,
+            1300,
+            149
+          ],
+          "centroid": [
+            1235,
+            2060
+          ],
+          "pixelCount": 154307,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_025/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            571,
+            2117,
+            1300,
+            168
+          ],
+          "centroid": [
+            1225,
+            2193
+          ],
+          "pixelCount": 92497,
+          "componentCount": 3,
+          "alphaMask": "/generated/masks/frame_025/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 18
+    },
+    {
+      "id": 26,
+      "angle": 44,
+      "beautySmall": "/generated/beauty/mobile/frame_026.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_026.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_026.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_026.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_026.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_026/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            576,
+            1114,
+            1291,
+            308
+          ],
+          "centroid": [
+            1245,
+            1277
+          ],
+          "pixelCount": 167685,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_026/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            576,
+            967,
+            1291,
+            339
+          ],
+          "centroid": [
+            1245,
+            1146
+          ],
+          "pixelCount": 167524,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_026/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            576,
+            821,
+            1291,
+            369
+          ],
+          "centroid": [
+            1245,
+            1015
+          ],
+          "pixelCount": 167659,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_026/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            576,
+            674,
+            1291,
+            400
+          ],
+          "centroid": [
+            1246,
+            884
+          ],
+          "pixelCount": 167336,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_026/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            576,
+            527,
+            1291,
+            431
+          ],
+          "centroid": [
+            1245,
+            753
+          ],
+          "pixelCount": 167513,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_026/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            576,
+            380,
+            1291,
+            461
+          ],
+          "centroid": [
+            1246,
+            621
+          ],
+          "pixelCount": 169087,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_026/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            576,
+            131,
+            1291,
+            593
+          ],
+          "centroid": [
+            1245,
+            443
+          ],
+          "pixelCount": 285742,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_026/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            576,
+            1261,
+            1291,
+            278
+          ],
+          "centroid": [
+            1245,
+            1408
+          ],
+          "pixelCount": 167542,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_026/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            576,
+            1407,
+            1291,
+            248
+          ],
+          "centroid": [
+            1245,
+            1540
+          ],
+          "pixelCount": 167444,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_026/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            576,
+            1554,
+            1291,
+            217
+          ],
+          "centroid": [
+            1246,
+            1671
+          ],
+          "pixelCount": 167750,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_026/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            576,
+            1701,
+            1291,
+            186
+          ],
+          "centroid": [
+            1246,
+            1802
+          ],
+          "pixelCount": 167816,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_026/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            576,
+            1847,
+            1291,
+            157
+          ],
+          "centroid": [
+            1245,
+            1933
+          ],
+          "pixelCount": 167666,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_026/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            576,
+            1994,
+            1291,
+            150
+          ],
+          "centroid": [
+            1238,
+            2060
+          ],
+          "pixelCount": 153359,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_026/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            576,
+            2116,
+            1291,
+            171
+          ],
+          "centroid": [
+            1238,
+            2194
+          ],
+          "pixelCount": 91255,
+          "componentCount": 3,
+          "alphaMask": "/generated/masks/frame_026/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 17
+    },
+    {
+      "id": 27,
+      "angle": 48,
+      "beautySmall": "/generated/beauty/mobile/frame_027.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_027.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_027.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_027.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_027.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_027/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            581,
+            1105,
+            1280,
+            323
+          ],
+          "centroid": [
+            1247,
+            1276
+          ],
+          "pixelCount": 166313,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_027/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            581,
+            957,
+            1280,
+            356
+          ],
+          "centroid": [
+            1247,
+            1145
+          ],
+          "pixelCount": 166125,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_027/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            581,
+            809,
+            1280,
+            389
+          ],
+          "centroid": [
+            1247,
+            1013
+          ],
+          "pixelCount": 166235,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_027/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            581,
+            661,
+            1280,
+            422
+          ],
+          "centroid": [
+            1247,
+            882
+          ],
+          "pixelCount": 166007,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_027/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            581,
+            513,
+            1280,
+            455
+          ],
+          "centroid": [
+            1247,
+            751
+          ],
+          "pixelCount": 166085,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_027/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            581,
+            365,
+            1280,
+            488
+          ],
+          "centroid": [
+            1247,
+            619
+          ],
+          "pixelCount": 167620,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_027/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            581,
+            113,
+            1280,
+            623
+          ],
+          "centroid": [
+            1247,
+            441
+          ],
+          "pixelCount": 283483,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_027/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            581,
+            1253,
+            1280,
+            290
+          ],
+          "centroid": [
+            1247,
+            1407
+          ],
+          "pixelCount": 166174,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_027/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            581,
+            1401,
+            1280,
+            257
+          ],
+          "centroid": [
+            1247,
+            1539
+          ],
+          "pixelCount": 166078,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_027/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            581,
+            1549,
+            1280,
+            224
+          ],
+          "centroid": [
+            1247,
+            1670
+          ],
+          "pixelCount": 166297,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_027/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            581,
+            1697,
+            1280,
+            191
+          ],
+          "centroid": [
+            1247,
+            1801
+          ],
+          "pixelCount": 166461,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_027/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            581,
+            1845,
+            1280,
+            158
+          ],
+          "centroid": [
+            1247,
+            1932
+          ],
+          "pixelCount": 166330,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_027/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            581,
+            1993,
+            1280,
+            152
+          ],
+          "centroid": [
+            1242,
+            2060
+          ],
+          "pixelCount": 152508,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_027/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            581,
+            2115,
+            1280,
+            174
+          ],
+          "centroid": [
+            1267,
+            2194
+          ],
+          "pixelCount": 93648,
+          "componentCount": 3,
+          "alphaMask": "/generated/masks/frame_027/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 18
+    },
+    {
+      "id": 28,
+      "angle": 52,
+      "beautySmall": "/generated/beauty/mobile/frame_028.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_028.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_028.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_028.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_028.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_028/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            587,
+            1097,
+            1268,
+            337
+          ],
+          "centroid": [
+            1249,
+            1275
+          ],
+          "pixelCount": 164766,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_028/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            587,
+            947,
+            1268,
+            373
+          ],
+          "centroid": [
+            1249,
+            1143
+          ],
+          "pixelCount": 164542,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_028/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            587,
+            798,
+            1268,
+            408
+          ],
+          "centroid": [
+            1249,
+            1012
+          ],
+          "pixelCount": 164695,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_028/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            587,
+            649,
+            1268,
+            443
+          ],
+          "centroid": [
+            1249,
+            880
+          ],
+          "pixelCount": 164454,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_028/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            587,
+            499,
+            1268,
+            479
+          ],
+          "centroid": [
+            1249,
+            749
+          ],
+          "pixelCount": 164519,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_028/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            587,
+            350,
+            1268,
+            515
+          ],
+          "centroid": [
+            1249,
+            617
+          ],
+          "pixelCount": 166065,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_028/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            586,
+            96,
+            1269,
+            653
+          ],
+          "centroid": [
+            1248,
+            439
+          ],
+          "pixelCount": 280874,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_028/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            587,
+            1246,
+            1268,
+            302
+          ],
+          "centroid": [
+            1249,
+            1406
+          ],
+          "pixelCount": 164609,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_028/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            587,
+            1395,
+            1268,
+            266
+          ],
+          "centroid": [
+            1249,
+            1537
+          ],
+          "pixelCount": 164533,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_028/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            587,
+            1544,
+            1268,
+            231
+          ],
+          "centroid": [
+            1249,
+            1669
+          ],
+          "pixelCount": 164769,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_028/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            587,
+            1694,
+            1268,
+            195
+          ],
+          "centroid": [
+            1249,
+            1800
+          ],
+          "pixelCount": 164901,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_028/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            587,
+            1843,
+            1268,
+            160
+          ],
+          "centroid": [
+            1249,
+            1932
+          ],
+          "pixelCount": 164720,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_028/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            587,
+            1992,
+            1268,
+            153
+          ],
+          "centroid": [
+            1246,
+            2059
+          ],
+          "pixelCount": 151129,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_028/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            587,
+            2113,
+            1268,
+            177
+          ],
+          "centroid": [
+            1282,
+            2194
+          ],
+          "pixelCount": 92943,
+          "componentCount": 3,
+          "alphaMask": "/generated/masks/frame_028/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 18
+    },
+    {
+      "id": 29,
+      "angle": 56,
+      "beautySmall": "/generated/beauty/mobile/frame_029.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_029.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_029.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_029.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_029.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_029/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            593,
+            1089,
+            1254,
+            350
+          ],
+          "centroid": [
+            1249,
+            1274
+          ],
+          "pixelCount": 162767,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_029/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            593,
+            938,
+            1254,
+            388
+          ],
+          "centroid": [
+            1249,
+            1142
+          ],
+          "pixelCount": 162616,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_029/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            593,
+            788,
+            1254,
+            426
+          ],
+          "centroid": [
+            1249,
+            1011
+          ],
+          "pixelCount": 162761,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_029/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            593,
+            637,
+            1254,
+            464
+          ],
+          "centroid": [
+            1249,
+            879
+          ],
+          "pixelCount": 162449,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_029/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            593,
+            487,
+            1254,
+            502
+          ],
+          "centroid": [
+            1249,
+            748
+          ],
+          "pixelCount": 162565,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_029/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            593,
+            336,
+            1254,
+            540
+          ],
+          "centroid": [
+            1250,
+            616
+          ],
+          "pixelCount": 164105,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_029/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            593,
+            80,
+            1254,
+            682
+          ],
+          "centroid": [
+            1249,
+            438
+          ],
+          "pixelCount": 277382,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_029/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            593,
+            1239,
+            1254,
+            313
+          ],
+          "centroid": [
+            1249,
+            1405
+          ],
+          "pixelCount": 162639,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_029/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            593,
+            1389,
+            1254,
+            275
+          ],
+          "centroid": [
+            1249,
+            1536
+          ],
+          "pixelCount": 162572,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_029/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            593,
+            1540,
+            1254,
+            237
+          ],
+          "centroid": [
+            1249,
+            1668
+          ],
+          "pixelCount": 162810,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_029/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            593,
+            1690,
+            1254,
+            200
+          ],
+          "centroid": [
+            1249,
+            1799
+          ],
+          "pixelCount": 162935,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_029/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            593,
+            1841,
+            1254,
+            161
+          ],
+          "centroid": [
+            1249,
+            1931
+          ],
+          "pixelCount": 162791,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_029/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            593,
+            1991,
+            1254,
+            154
+          ],
+          "centroid": [
+            1248,
+            2058
+          ],
+          "pixelCount": 149383,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_029/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            593,
+            2111,
+            1254,
+            180
+          ],
+          "centroid": [
+            1290,
+            2194
+          ],
+          "pixelCount": 90053,
+          "componentCount": 3,
+          "alphaMask": "/generated/masks/frame_029/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 18
+    },
+    {
+      "id": 30,
+      "angle": 60,
+      "beautySmall": "/generated/beauty/mobile/frame_030.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_030.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_030.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_030.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_030.webp",
+      "sourceWidth": 2400,
+      "sourceHeight": 3000,
+      "hitMap": "/generated/masks/frame_030/hit-map.webp?v=mtsus2c2",
+      "hitMapWidth": 240,
+      "hitMapHeight": 300,
+      "regions": {
+        "10": {
+          "level": 10,
+          "bounds": [
+            600,
+            1081,
+            1238,
+            363
+          ],
+          "centroid": [
+            1250,
+            1273
+          ],
+          "pixelCount": 160450,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_030/level_10.webp?v=mtsus2c2"
+        },
+        "11": {
+          "level": 11,
+          "bounds": [
+            600,
+            930,
+            1238,
+            403
+          ],
+          "centroid": [
+            1250,
+            1141
+          ],
+          "pixelCount": 160330,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_030/level_11.webp?v=mtsus2c2"
+        },
+        "12": {
+          "level": 12,
+          "bounds": [
+            600,
+            778,
+            1238,
+            444
+          ],
+          "centroid": [
+            1250,
+            1010
+          ],
+          "pixelCount": 160432,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_030/level_12.webp?v=mtsus2c2"
+        },
+        "13": {
+          "level": 13,
+          "bounds": [
+            599,
+            627,
+            1239,
+            484
+          ],
+          "centroid": [
+            1250,
+            879
+          ],
+          "pixelCount": 160189,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_030/level_13.webp?v=mtsus2c2"
+        },
+        "14": {
+          "level": 14,
+          "bounds": [
+            600,
+            475,
+            1238,
+            524
+          ],
+          "centroid": [
+            1250,
+            747
+          ],
+          "pixelCount": 160319,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_030/level_14.webp?v=mtsus2c2"
+        },
+        "15": {
+          "level": 15,
+          "bounds": [
+            599,
+            324,
+            1239,
+            564
+          ],
+          "centroid": [
+            1250,
+            615
+          ],
+          "pixelCount": 161715,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_030/level_15.webp?v=mtsus2c2"
+        },
+        "16": {
+          "level": 16,
+          "bounds": [
+            599,
+            66,
+            1239,
+            709
+          ],
+          "centroid": [
+            1249,
+            437
+          ],
+          "pixelCount": 273747,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_030/level_16.webp?v=mtsus2c2"
+        },
+        "09": {
+          "level": 9,
+          "bounds": [
+            600,
+            1232,
+            1238,
+            324
+          ],
+          "centroid": [
+            1250,
+            1404
+          ],
+          "pixelCount": 160387,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_030/level_09.webp?v=mtsus2c2"
+        },
+        "08": {
+          "level": 8,
+          "bounds": [
+            600,
+            1384,
+            1238,
+            283
+          ],
+          "centroid": [
+            1250,
+            1535
+          ],
+          "pixelCount": 160249,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_030/level_08.webp?v=mtsus2c2"
+        },
+        "07": {
+          "level": 7,
+          "bounds": [
+            599,
+            1535,
+            1239,
+            243
+          ],
+          "centroid": [
+            1250,
+            1667
+          ],
+          "pixelCount": 160528,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_030/level_07.webp?v=mtsus2c2"
+        },
+        "06": {
+          "level": 6,
+          "bounds": [
+            599,
+            1687,
+            1239,
+            203
+          ],
+          "centroid": [
+            1250,
+            1798
+          ],
+          "pixelCount": 160639,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_030/level_06.webp?v=mtsus2c2"
+        },
+        "05": {
+          "level": 5,
+          "bounds": [
+            600,
+            1838,
+            1238,
+            163
+          ],
+          "centroid": [
+            1250,
+            1929
+          ],
+          "pixelCount": 160500,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_030/level_05.webp?v=mtsus2c2"
+        },
+        "04": {
+          "level": 4,
+          "bounds": [
+            599,
+            1990,
+            1239,
+            155
+          ],
+          "centroid": [
+            1250,
+            2057
+          ],
+          "pixelCount": 147283,
+          "componentCount": 1,
+          "alphaMask": "/generated/masks/frame_030/level_04.webp?v=mtsus2c2"
+        },
+        "03": {
+          "level": 3,
+          "bounds": [
+            600,
+            2109,
+            1238,
+            182
+          ],
+          "centroid": [
+            1308,
+            2193
+          ],
+          "pixelCount": 91177,
+          "componentCount": 3,
+          "alphaMask": "/generated/masks/frame_030/level_03.webp?v=mtsus2c2"
+        }
+      },
+      "detectedBandCount": 14,
+      "detectedComponentCount": 18
+    }
+  ],
+  "frontFrame": 15,
+  "levels": [
+    "16",
+    "15",
+    "14",
+    "13",
+    "12",
+    "11",
+    "10",
+    "09",
+    "08",
+    "07",
+    "06",
+    "05",
+    "04",
+    "03"
+  ],
+  "plans": {},
+  "warnings": [
+    "Beauty export counters are non-contiguous; frames were paired to masks by verified visual sequence order."
+  ]
+}

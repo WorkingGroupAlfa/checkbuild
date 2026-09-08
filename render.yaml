@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: 470-collins-demo
+    runtime: static
+    buildCommand: npm ci && npm run build
+    staticPublishPath: ./dist
