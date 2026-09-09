@@ -4,3 +4,7 @@ services:
     runtime: static
     buildCommand: npm ci && npm run build
     staticPublishPath: ./dist
+    headers:
+      - path: /generated/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable

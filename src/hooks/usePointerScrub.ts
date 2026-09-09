@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
 type ScrubOptions = {
   frame: number;
@@ -23,6 +23,20 @@ const TOUCH_PIXELS_PER_FRAME = 7;
 export function usePointerScrub({ frame, maximum, disabled, onFrame, onTap, onFirstScrub }: ScrubOptions) {
   const gesture = useRef<Gesture | null>(null);
   const [dragging, setDragging] = useState(false);
+  const pendingFrame = useRef<number | null>(null);
+  const animation = useRef<number | null>(null);
+  const flush = useCallback(() => {
+    if (animation.current !== null) cancelAnimationFrame(animation.current);
+    animation.current = null;
+    const next = pendingFrame.current;
+    pendingFrame.current = null;
+    if (next !== null) onFrame(next);
+  }, [onFrame]);
+  const queueFrame = useCallback((next: number) => {
+    pendingFrame.current = next;
+    if (animation.current === null) animation.current = requestAnimationFrame(flush);
+  }, [flush]);
+  useEffect(() => () => { if (animation.current !== null) cancelAnimationFrame(animation.current); }, []);
   const clamp = (value: number) => Math.max(0, Math.min(maximum, value));
 
   return useMemo(() => ({
@@ -46,14 +60,15 @@ export function usePointerScrub({ frame, maximum, disabled, onFrame, onTap, onFi
         const dy = event.clientY - active.y;
         if (active.intent === 'pending' && Math.max(Math.abs(dx), Math.abs(dy)) > 7) {
           active.intent = Math.abs(dx) > Math.abs(dy) * 1.15 ? 'horizontal' : 'vertical';
-          if (active.intent === 'horizontal') setDragging(true);
+          if (active.intent === 'horizontal') { setDragging(true); onFirstScrub(); }
         }
         if (active.intent === 'horizontal') {
           const next = clamp(active.frame - Math.round(dx / active.pixelsPerFrame));
-          if (next !== frame) { onFrame(next); onFirstScrub(); }
+          queueFrame(next);
         }
       },
       onPointerUp: (event: React.PointerEvent<HTMLElement>) => {
+        flush();
         const active = gesture.current;
         gesture.current = null;
         setDragging(false);
@@ -61,7 +76,7 @@ export function usePointerScrub({ frame, maximum, disabled, onFrame, onTap, onFi
         const moved = Math.hypot(event.clientX - active.x, event.clientY - active.y);
         if (moved < 7) onTap(event.clientX, event.clientY);
       },
-      onPointerCancel: () => { gesture.current = null; setDragging(false); },
+      onPointerCancel: () => { flush(); gesture.current = null; setDragging(false); },
     },
     touchHandlers: typeof window !== 'undefined' && !('PointerEvent' in window) ? {
       onTouchStart: (event: React.TouchEvent<HTMLElement>) => {
@@ -84,16 +99,18 @@ export function usePointerScrub({ frame, maximum, disabled, onFrame, onTap, onFi
           active.intent = Math.abs(dx) > Math.abs(dy) * 1.15 ? 'horizontal' : 'vertical';
         }
         if (active.intent === 'horizontal') {
-          onFrame(clamp(active.frame - Math.round(dx / active.pixelsPerFrame)));
-          onFirstScrub();
+          if (!dragging) { setDragging(true); onFirstScrub(); }
+          queueFrame(clamp(active.frame - Math.round(dx / active.pixelsPerFrame)));
         }
       },
       onTouchEnd: (event: React.TouchEvent<HTMLElement>) => {
+        flush();
+        setDragging(false);
         const active = gesture.current;
         const touch = event.changedTouches[0];
         gesture.current = null;
         if (active && touch && active.intent === 'pending') onTap(touch.clientX, touch.clientY);
       },
     } : {},
-  }), [disabled, dragging, frame, maximum, onFirstScrub, onFrame, onTap]);
+  }), [disabled, dragging, flush, frame, maximum, onFirstScrub, onTap, queueFrame]);
 }

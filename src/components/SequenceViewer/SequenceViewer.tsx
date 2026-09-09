@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 import type { Suite } from '../../data/spaces';
 import { usePointerScrub } from '../../hooks/usePointerScrub';
-import { useSequenceLoader } from '../../hooks/useSequenceLoader';
+import { useImageAssets, useSequenceLoader } from '../../hooks/useSequenceLoader';
 import { getContainRect, pointerToSource } from '../../lib/imageFit';
 import { readHitLevel } from '../../lib/maskHitTest';
 import { regionKey, sequenceManifest } from '../../lib/assetManifest';
@@ -13,6 +13,8 @@ type Props = {
   hoveredLevel: number | null;
   units: Suite[];
   fallback: boolean;
+  interacting: boolean;
+  onInteractionChange: (active: boolean) => void;
   onFrameChange: (frame: number) => void;
   onSelectLevel: (level: number | null) => void;
   onHoverLevel: (level: number | null) => void;
@@ -26,24 +28,11 @@ function hasRotatedBefore() {
   catch { return false; }
 }
 
-function loadImage(source: string) {
-  return new Promise<HTMLImageElement>((resolve, reject) => {
-    const image = new Image();
-    image.decoding = 'async';
-    image.onload = async () => {
-      try { await image.decode?.(); } catch { /* onload is sufficient on older engines */ }
-      resolve(image);
-    };
-    image.onerror = reject;
-    image.src = source;
-  });
-}
-
 function waitForAnimationFrame() {
   return new Promise<void>((resolve) => requestAnimationFrame(() => resolve()));
 }
 
-type BeautyTarget = { key: string; frame: (typeof sequenceManifest.frames)[number]; hi: boolean };
+type BeautyTarget = { key: string; frame: (typeof sequenceManifest.frames)[number]; hi: boolean; source?: string };
 
 function BeautyPicture({
   target,
@@ -56,7 +45,7 @@ function BeautyPicture({
   animate?: boolean;
   onReady?: () => void;
 }) {
-  const { frame, hi } = target;
+  const { frame, hi, source } = target;
   const [useFallback, setUseFallback] = useState(false);
   const reportedReady = useRef(false);
   const webp = hi ? frame.beautyHi : frame.beautyMedium;
@@ -72,10 +61,10 @@ function BeautyPicture({
       aria-hidden={hidden || undefined}
     >
       <picture>
-        {!useFallback && !hi && <source media="(max-width: 720px)" type="image/webp" srcSet={frame.beautySmall} />}
-        {!useFallback && <source type="image/webp" srcSet={webp} />}
+        {!source && !useFallback && !hi && <source media="(max-width: 720px)" type="image/webp" srcSet={frame.beautySmall} />}
+        {!source && !useFallback && <source type="image/webp" srcSet={webp} />}
         <img
-          src={fallback}
+          src={source ?? fallback}
           alt={hidden ? '' : '470 Collins Street viewed from Collins Street'}
           width="1200"
           height="1500"
@@ -102,20 +91,23 @@ function BeautyPicture({
 function BufferedBeauty({
   frame,
   hi,
+  source,
   allowPromotion,
   onDisplayed,
 }: {
   frame: BeautyTarget['frame'];
   hi: boolean;
+  source?: string;
   allowPromotion: boolean;
   onDisplayed: (frame: number) => void;
 }) {
-  const makeTarget = useCallback((nextFrame: BeautyTarget['frame'], nextHi: boolean): BeautyTarget => ({
-    key: `${nextFrame.id}-${nextHi ? 'hi' : 'normal'}`,
+  const makeTarget = useCallback((nextFrame: BeautyTarget['frame'], nextHi: boolean, nextSource?: string): BeautyTarget => ({
+    key: `${nextFrame.id}-${nextHi ? 'hi' : 'normal'}-${nextSource ?? 'poster'}`,
     frame: nextFrame,
     hi: nextHi,
+    source: nextSource,
   }), []);
-  const [active, setActive] = useState(() => makeTarget(frame, hi));
+  const [active, setActive] = useState(() => makeTarget(frame, hi, source));
   const [outgoing, setOutgoing] = useState<BeautyTarget | null>(null);
   const [incoming, setIncoming] = useState<BeautyTarget | null>(null);
   const activeRef = useRef(active);
@@ -144,7 +136,8 @@ function BufferedBeauty({
   }, [onDisplayed]);
 
   useLayoutEffect(() => {
-    const target = makeTarget(frame, hi);
+    if (!allowPromotion) return;
+    const target = makeTarget(frame, hi, source);
     if (target.key === activeRef.current.key) {
       incomingRef.current = null;
       readyIncomingKey.current = null;
@@ -159,7 +152,7 @@ function BufferedBeauty({
     readyIncomingKey.current = null;
     incomingRef.current = target;
     setIncoming(target);
-  }, [frame, hi, makeTarget, promote]);
+  }, [allowPromotion, frame, hi, source, makeTarget, promote]);
 
   useEffect(() => () => window.clearTimeout(transitionTimer.current), []);
 
@@ -193,6 +186,7 @@ function BufferedBeauty({
 
 function drawMaskOutline(
   context: CanvasRenderingContext2D,
+  scratch: HTMLCanvasElement,
   image: HTMLImageElement,
   x: number,
   y: number,
@@ -202,11 +196,14 @@ function drawMaskOutline(
   dpr: number,
 ) {
   const margin = 3;
-  const scratch = document.createElement('canvas');
-  scratch.width = Math.ceil((width + margin * 2) * dpr);
-  scratch.height = Math.ceil((height + margin * 2) * dpr);
+  const scratchWidth = Math.ceil((width + margin * 2) * dpr);
+  const scratchHeight = Math.ceil((height + margin * 2) * dpr);
+  if (scratch.width !== scratchWidth) scratch.width = scratchWidth;
+  if (scratch.height !== scratchHeight) scratch.height = scratchHeight;
   const ring = scratch.getContext('2d')!;
   ring.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ring.globalCompositeOperation = 'source-over';
+  ring.clearRect(0, 0, scratch.width / dpr, scratch.height / dpr);
   const offsets = [[-1, 0], [1, 0], [0, -1], [0, 1], [-1, -1], [1, -1], [-1, 1], [1, 1]];
   for (const [dx, dy] of offsets) ring.drawImage(image, margin + dx, margin + dy, width, height);
   ring.globalCompositeOperation = 'destination-out';
@@ -223,6 +220,8 @@ export function SequenceViewer({
   hoveredLevel,
   units,
   fallback,
+  interacting,
+  onInteractionChange,
   onFrameChange,
   onSelectLevel,
   onHoverLevel,
@@ -232,35 +231,35 @@ export function SequenceViewer({
   const overlayRef = useRef<HTMLCanvasElement>(null);
   const hitCanvasRef = useRef<HTMLCanvasElement>(null);
   const hoverRaf = useRef<number | null>(null);
-  const maskCache = useRef(new Map<string, HTMLImageElement>());
-  const maskPending = useRef(new Map<string, Promise<HTMLImageElement>>());
+  const maskAssets = useImageAssets(20, 2);
+  const hitAssets = useImageAssets(31, 2);
+  const outlineCanvas = useRef<HTMLCanvasElement | null>(null);
+  const rotated = useRef(hasRotatedBefore());
   const [size, setSize] = useState({ width: 1, height: 1 });
   const [hitReadyFrame, setHitReadyFrame] = useState<number | null>(null);
   const [selectedMask, setSelectedMask] = useState<LoadedMask>(null);
   const [hoverMask, setHoverMask] = useState<LoadedMask>(null);
-  const [readyMaskKeys, setReadyMaskKeys] = useState<Set<string>>(() => new Set());
+  const [unavailableFrames, setUnavailableFrames] = useState<Set<number>>(() => new Set());
   const [showHint, setShowHint] = useState(() => !hasRotatedBefore());
   const [visualFrame, setVisualFrame] = useState(fallback ? sequenceManifest.frontFrame : currentFrame);
-  const motionFrame = fallback || visualFrame === currentFrame
-    ? (fallback ? sequenceManifest.frontFrame : currentFrame)
-    : visualFrame + Math.sign(currentFrame - visualFrame);
-  const { frameReady, hiReady } = useSequenceLoader(
+  const direction = Math.sign(currentFrame - visualFrame);
+  let motionFrame = fallback ? sequenceManifest.frontFrame : visualFrame;
+  if (!fallback && direction) {
+    motionFrame += direction;
+    while (motionFrame !== currentFrame && unavailableFrames.has(motionFrame)) motionFrame += direction;
+  }
+  const { normal, hi, failed, retry } = useSequenceLoader(
     sequenceManifest.frames,
-    sequenceManifest.frontFrame,
     motionFrame,
-    selectedLevel !== null,
+    currentFrame,
+    selectedLevel !== null && !interacting && currentFrame === visualFrame,
     fallback,
   );
-  const requestedFrame = frameReady ? motionFrame : visualFrame;
+  useEffect(() => {
+    if (failed) setUnavailableFrames(previous => previous.has(motionFrame) ? previous : new Set(previous).add(motionFrame));
+  }, [failed, motionFrame]);
   const frame = sequenceManifest.frames[visualFrame];
-  const requestedBeautyFrame = sequenceManifest.frames[requestedFrame];
-  const requestedSelectionRegion = selectedLevel === null
-    ? null
-    : requestedBeautyFrame.regions[regionKey(selectedLevel)] ?? null;
-  const requestedMaskKey = requestedSelectionRegion && selectedLevel !== null
-    ? `${requestedFrame}:${selectedLevel}:${requestedSelectionRegion.alphaMask}`
-    : null;
-  const canShowRequestedFrame = requestedMaskKey === null || readyMaskKeys.has(requestedMaskKey);
+  const requestedBeautyFrame = sequenceManifest.frames[motionFrame];
   const contain = useMemo(() => getContainRect(
     size.width,
     size.height,
@@ -277,24 +276,6 @@ export function SequenceViewer({
     '--unit-anchor-y': `${contain.y + selectedRegion.centroid[1] * contain.scale}px`,
   } as CSSProperties : undefined;
 
-  const getMask = useCallback((frameIndex: number, level: number) => {
-    const region = sequenceManifest.frames[frameIndex]?.regions[regionKey(level)];
-    if (!region) return Promise.reject(new Error(`Missing mask for Level ${level}, frame ${frameIndex}.`));
-    const key = `${frameIndex}:${level}:${region.alphaMask}`;
-    const cached = maskCache.current.get(key);
-    if (cached) return Promise.resolve(cached);
-    const pending = maskPending.current.get(key);
-    if (pending) return pending;
-    const promise = loadImage(region.alphaMask).then((image) => {
-      maskCache.current.set(key, image);
-      setReadyMaskKeys((value) => new Set(value).add(key));
-      maskPending.current.delete(key);
-      return image;
-    }).catch((error) => { maskPending.current.delete(key); throw error; });
-    maskPending.current.set(key, promise);
-    return promise;
-  }, []);
-
   useEffect(() => {
     if (!viewportRef.current) return;
     const observer = new ResizeObserver(([entry]) => {
@@ -309,7 +290,8 @@ export function SequenceViewer({
     const hitCanvas = hitCanvasRef.current;
     if (!hitCanvas) return;
     let active = true;
-    loadImage(frame.hitMap).then((image) => {
+    if (!hitAssets) return;
+    void hitAssets.load(frame.hitMap, undefined, -10).then(({ image }) => {
       if (!active) return;
       hitCanvas.width = frame.hitMapWidth;
       hitCanvas.height = frame.hitMapHeight;
@@ -318,63 +300,67 @@ export function SequenceViewer({
       context.clearRect(0, 0, hitCanvas.width, hitCanvas.height);
       context.drawImage(image, 0, 0);
       setHitReadyFrame(visualFrame);
-    }).catch(() => setHitReadyFrame(null));
+    }).catch(() => { if (active) setHitReadyFrame(null); });
     return () => { active = false; };
-  }, [frame.hitMap, frame.hitMapHeight, frame.hitMapWidth, visualFrame]);
+  }, [frame.hitMap, frame.hitMapHeight, frame.hitMapWidth, hitAssets, visualFrame]);
+
+  useEffect(() => {
+    if (!hitAssets) return;
+    for (const index of [motionFrame, motionFrame - 1, motionFrame + 1]) {
+      if (sequenceManifest.frames[index]) void hitAssets.load(sequenceManifest.frames[index].hitMap).catch(() => undefined);
+    }
+  }, [hitAssets, motionFrame]);
 
   useLayoutEffect(() => {
-    if (selectedLevel === null) return;
-    const region = frame.regions[regionKey(selectedLevel)];
-    if (!region) return;
-    const cached = maskCache.current.get(`${visualFrame}:${selectedLevel}:${region.alphaMask}`);
-    if (cached) {
-      setSelectedMask({ frame: visualFrame, level: selectedLevel, image: cached });
-      return;
-    }
-    setSelectedMask(null);
+    const source = selectedLevel === null ? undefined : frame.regions[regionKey(selectedLevel)]?.alphaMask;
+    const cached = source ? maskAssets?.peek(source) : undefined;
+    setSelectedMask(cached && selectedLevel !== null ? { frame: visualFrame, level: selectedLevel, image: cached.image } : null);
+    if (!source || selectedLevel === null || !maskAssets || cached) return;
     let active = true;
-    getMask(visualFrame, selectedLevel).then((image) => {
+    void maskAssets.load(source, undefined, -10).then(({ image }) => {
       if (active) setSelectedMask({ frame: visualFrame, level: selectedLevel, image });
     }).catch(() => undefined);
     return () => { active = false; };
-  }, [frame.regions, getMask, selectedLevel, visualFrame]);
+  }, [frame.regions, maskAssets, selectedLevel, visualFrame]);
 
   useEffect(() => {
-    if (selectedLevel === null) return;
-    const order = sequenceManifest.frames
-      .map((_, index) => index)
-      .sort((left, right) => Math.abs(left - visualFrame) - Math.abs(right - visualFrame));
-    for (const index of order) void getMask(index, selectedLevel).catch(() => undefined);
-  }, [getMask, selectedLevel, visualFrame]);
+    if (selectedLevel === null || !maskAssets) return;
+    for (const index of [motionFrame, motionFrame + direction, motionFrame + direction * 2, motionFrame - 1, motionFrame + 1]) {
+      const region = sequenceManifest.frames[index]?.regions[regionKey(selectedLevel)];
+      if (region) void maskAssets.load(region.alphaMask).catch(() => undefined);
+    }
+  }, [direction, maskAssets, motionFrame, selectedLevel]);
 
   useLayoutEffect(() => {
-    if (hoveredLevel === null || hoveredLevel === selectedLevel) return;
-    const region = frame.regions[regionKey(hoveredLevel)];
-    if (!region) return;
-    const cached = maskCache.current.get(`${visualFrame}:${hoveredLevel}:${region.alphaMask}`);
-    if (cached) {
-      setHoverMask({ frame: visualFrame, level: hoveredLevel, image: cached });
-      return;
-    }
-    setHoverMask(null);
+    const source = hoveredLevel === null || hoveredLevel === selectedLevel ? undefined : frame.regions[regionKey(hoveredLevel)]?.alphaMask;
+    const cached = source ? maskAssets?.peek(source) : undefined;
+    setHoverMask(cached && hoveredLevel !== null ? { frame: visualFrame, level: hoveredLevel, image: cached.image } : null);
+    if (!source || hoveredLevel === null || !maskAssets || cached) return;
     let active = true;
-    getMask(visualFrame, hoveredLevel).then((image) => {
+    void maskAssets.load(source).then(({ image }) => {
       if (active) setHoverMask({ frame: visualFrame, level: hoveredLevel, image });
     }).catch(() => undefined);
     return () => { active = false; };
-  }, [frame.regions, getMask, hoveredLevel, selectedLevel, visualFrame]);
+  }, [frame.regions, hoveredLevel, maskAssets, selectedLevel, visualFrame]);
+
+  useEffect(() => () => {
+    if (hoverRaf.current !== null) cancelAnimationFrame(hoverRaf.current);
+  }, []);
 
   useEffect(() => {
     const canvas = overlayRef.current;
     if (!canvas) return;
     const dpr = Math.min(2, window.devicePixelRatio || 1);
-    canvas.width = Math.max(1, Math.round(size.width * dpr));
-    canvas.height = Math.max(1, Math.round(size.height * dpr));
+    const width = Math.max(1, Math.round(size.width * dpr));
+    const height = Math.max(1, Math.round(size.height * dpr));
+    if (canvas.width !== width) canvas.width = width;
+    if (canvas.height !== height) canvas.height = height;
+    const scratch = outlineCanvas.current ?? (outlineCanvas.current = document.createElement('canvas'));
     const context = canvas.getContext('2d')!;
     context.setTransform(dpr, 0, 0, dpr, 0, 0);
     context.clearRect(0, 0, size.width, size.height);
 
-    if (selectedLevel !== null && selectedRegion) {
+    if (selectedLevel !== null && selectedRegion && selectedMask?.frame === visualFrame && selectedMask.level === selectedLevel) {
       context.fillStyle = 'rgba(17, 17, 17, 0.52)';
       context.fillRect(contain.x, contain.y, contain.width, contain.height);
     }
@@ -388,7 +374,7 @@ export function SequenceViewer({
       context.globalCompositeOperation = 'destination-out';
       context.drawImage(selectedMask.image, x, y, width, height);
       context.globalCompositeOperation = 'source-over';
-      drawMaskOutline(context, selectedMask.image, x, y, width, height, '#fff', dpr);
+      drawMaskOutline(context, scratch, selectedMask.image, x, y, width, height, '#fff', dpr);
     }
 
     if (hoverMask?.frame === visualFrame && hoverMask.level === hoveredLevel) {
@@ -396,6 +382,7 @@ export function SequenceViewer({
       const [sourceX, sourceY, sourceWidth, sourceHeight] = region.bounds;
       drawMaskOutline(
         context,
+        scratch,
         hoverMask.image,
         contain.x + sourceX * contain.scale,
         contain.y + sourceY * contain.scale,
@@ -428,7 +415,10 @@ export function SequenceViewer({
 
   const dismissHint = useCallback(() => {
     setShowHint(false);
-    try { localStorage.setItem('collins-rotated', '1'); } catch { /* Storage may be disabled. */ }
+    if (!rotated.current) {
+      rotated.current = true;
+      try { localStorage.setItem('collins-rotated', '1'); } catch { /* Storage may be disabled. */ }
+    }
   }, []);
   const onTap = useCallback((x: number, y: number) => {
     const level = hitAt(x, y);
@@ -445,7 +435,7 @@ export function SequenceViewer({
 
   const handlePointerMove = (event: React.PointerEvent<HTMLDivElement>) => {
     scrub.pointerHandlers.onPointerMove(event);
-    if (scrub.dragging || !window.matchMedia('(hover: hover) and (pointer: fine)').matches) return;
+    if (event.buttons || scrub.dragging || !window.matchMedia('(hover: hover) and (pointer: fine)').matches) return;
     if (hoverRaf.current !== null) cancelAnimationFrame(hoverRaf.current);
     const x = event.clientX;
     const y = event.clientY;
@@ -466,12 +456,18 @@ export function SequenceViewer({
       aria-label="Interactive building view. Use left and right arrow keys to rotate."
       tabIndex={0}
       onKeyDown={handleKeyDown}
-      onPointerDown={scrub.pointerHandlers.onPointerDown}
+      data-target-frame={currentFrame}
+      data-displayed-frame={visualFrame}
+      onPointerDown={(event) => { if (event.button === 0) onInteractionChange(true); scrub.pointerHandlers.onPointerDown(event); }}
       onPointerMove={handlePointerMove}
-      onPointerUp={scrub.pointerHandlers.onPointerUp}
-      onPointerCancel={scrub.pointerHandlers.onPointerCancel}
+      onPointerUp={(event) => { scrub.pointerHandlers.onPointerUp(event); onInteractionChange(false); }}
+      onPointerCancel={() => { scrub.pointerHandlers.onPointerCancel(); onInteractionChange(false); }}
+      onLostPointerCapture={() => { scrub.pointerHandlers.onPointerCancel(); onInteractionChange(false); }}
       onPointerLeave={() => onHoverLevel(null)}
       {...scrub.touchHandlers}
+      onTouchStart={scrub.touchHandlers.onTouchStart ? (event) => { onInteractionChange(true); scrub.touchHandlers.onTouchStart?.(event); } : undefined}
+      onTouchEnd={scrub.touchHandlers.onTouchEnd ? (event) => { scrub.touchHandlers.onTouchEnd?.(event); onInteractionChange(false); } : undefined}
+      onTouchCancel={() => { scrub.pointerHandlers.onPointerCancel(); onInteractionChange(false); }}
     >
       <div
         className="sequence-stage"
@@ -493,8 +489,9 @@ export function SequenceViewer({
         />
         <BufferedBeauty
           frame={requestedBeautyFrame}
-          hi={requestedFrame === currentFrame && visualFrame === currentFrame && hiReady}
-          allowPromotion={canShowRequestedFrame}
+          source={hi?.url ?? normal?.url}
+          hi={Boolean(hi)}
+          allowPromotion={Boolean(normal)}
           onDisplayed={setVisualFrame}
         />
         <canvas ref={overlayRef} className="viewer-overlay" aria-hidden="true" />
@@ -547,6 +544,13 @@ export function SequenceViewer({
             <div className="unit-options-empty"><i aria-hidden="true" />No current options</div>
           )}
         </div>
+      )}
+      {(failed || unavailableFrames.has(currentFrame)) && (
+        <button className="viewer-retry" type="button"
+          onPointerDown={(event) => event.stopPropagation()}
+          onClick={() => { setUnavailableFrames(new Set()); retry(); }}>
+          View unavailable. Try again
+        </button>
       )}
       <div className={`rotation-hint${showHint && !fallback ? ' is-visible' : ''}`} aria-hidden="true">
         <span className="hint-line" />

@@ -30,6 +30,7 @@ export function AvailableSpacesExperience({ embedded = false }: Props) {
   const [hoveredLevel, setHoveredLevel] = useState<number | null>(null);
   const [selectedUnitId, setSelectedUnitId] = useState<string | null>(null);
   const [enquiryOpen, setEnquiryOpen] = useState(false);
+  const [interacting, setInteracting] = useState(false);
   const selectedSpace = selectedLevel === null ? null : spaceByLevel.get(selectedLevel) ?? null;
   const selectableUnits = selectedSpace?.suites?.filter(
     (unit) => unit.status === 'available' || unit.status === 'under-offer',
@@ -43,14 +44,19 @@ export function AvailableSpacesExperience({ embedded = false }: Props) {
   }, []);
 
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    if (selectedLevel === null) params.delete('level');
-    else params.set('level', String(selectedLevel));
-    if (initial.fallback) params.set('fallback', '1');
-    else params.set('angle', String(sequenceManifest.frames[currentFrame].angle));
-    const query = params.toString();
-    window.history.replaceState(null, '', `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`);
-  }, [currentFrame, initial.fallback, selectedLevel]);
+    if (interacting) return;
+    const timer = window.setTimeout(() => {
+      const params = new URLSearchParams(window.location.search);
+      if (selectedLevel === null) params.delete('level');
+      else params.set('level', String(selectedLevel));
+      if (initial.fallback) params.set('fallback', '1');
+      else params.set('angle', String(sequenceManifest.frames[currentFrame].angle));
+      const query = params.toString();
+      const url = `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`;
+      if (url !== window.location.pathname + window.location.search + window.location.hash) window.history.replaceState(window.history.state, '', url);
+    }, 150);
+    return () => window.clearTimeout(timer);
+  }, [currentFrame, initial.fallback, interacting, selectedLevel]);
 
   const clearSelection = useCallback(() => {
     setSelectedLevel(null);
@@ -91,6 +97,8 @@ export function AvailableSpacesExperience({ embedded = false }: Props) {
               hoveredLevel={hoveredLevel}
               units={selectableUnits}
               fallback={initial.fallback}
+              interacting={interacting}
+              onInteractionChange={setInteracting}
               onFrameChange={setCurrentFrame}
               onSelectLevel={selectLevel}
               onHoverLevel={setHoveredLevel}

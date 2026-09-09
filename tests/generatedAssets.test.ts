@@ -1,10 +1,22 @@
 import path from 'node:path';
 import sharp from 'sharp';
+import fs from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import { describe, expect, it } from 'vitest';
 import { sequenceManifest } from '../src/lib/assetManifest';
 
 describe('generated sequence assets', () => {
   const localAssetPath = (url: string) => path.join(process.cwd(), 'public', url.split('?')[0]);
+
+  it('uses content hashes for every resource served with immutable caching', async () => {
+    for (const frame of sequenceManifest.frames) {
+      const sources = [frame.beautySmall, frame.beautySmallFallback, frame.beautyMedium, frame.beautyMediumFallback, frame.beautyHi, frame.hitMap, ...Object.values(frame.regions).map(region => region.alphaMask)];
+      for (const source of sources) {
+        const hash = createHash('sha256').update(await fs.readFile(localAssetPath(source))).digest('hex').slice(0, 16);
+        expect(source, source).toMatch(new RegExp('\\.' + hash + '\\.[a-z]+$'));
+      }
+    }
+  });
 
   it('encodes every selectable floor, and no excluded floor, in every hit map', async () => {
     for (const frame of sequenceManifest.frames) {

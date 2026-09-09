@@ -8,9 +8,11 @@ await fs.mkdir('.tmp', { recursive: true });
 
 async function verify(viewport, label) {
   const page = await browser.newPage({ viewport, deviceScaleFactor: label === 'mobile' ? 2 : 1 });
+  await page.addInitScript(() => localStorage.setItem('fortis-cookie-choice', 'necessary'));
   await page.goto(`${baseUrl}/?level=10&angle=32`, { waitUntil: 'domcontentloaded' });
   const viewer = page.locator('.sequence-viewer');
   await viewer.scrollIntoViewIfNeeded();
+  await page.waitForFunction(() => document.querySelector('.beauty-frame.is-active img')?.naturalWidth > 0);
   await page.locator('.unit-option', { hasText: 'Unit 10.01' }).waitFor();
   await viewer.screenshot({ path: `.tmp/unit-options-${label}.png` });
 
@@ -20,8 +22,8 @@ async function verify(viewport, label) {
   await page.locator('.unit-plan-viewer').screenshot({ path: `.tmp/unit-plan-${label}.png` });
 
   await page.getByRole('button', { name: 'Inquire selected' }).click();
-  await page.getByRole('dialog').waitFor();
-  const dialogText = await page.getByRole('dialog').innerText();
+  await page.locator('.enquiry-panel[role="dialog"]').waitFor();
+  const dialogText = await page.locator('.enquiry-panel[role="dialog"]').innerText();
   if (!dialogText.includes('Unit 10.01')) throw new Error(`${label}: enquiry did not retain the selected unit.`);
   await page.getByRole('button', { name: 'Close enquiry' }).click();
 

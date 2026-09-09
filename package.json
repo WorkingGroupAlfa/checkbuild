@@ -13,7 +13,8 @@
     "stress:viewer": "node scripts/stress-viewer.mjs",
     "stress:masks": "node scripts/stress-floor-interaction.mjs",
     "stress:units": "node scripts/stress-unit-flow.mjs",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "stress:loading": "node scripts/stress-sequence-loading.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",

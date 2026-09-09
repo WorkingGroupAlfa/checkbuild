@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T16:53:27.678Z",
+  "generatedAt": "2026-09-09T18:58:42.359Z",
   "sourceDimensions": {
     "width": 2400,
     "height": 3000
@@ -8,14 +8,14 @@
     {
       "id": 0,
       "angle": -60,
-      "beautySmall": "/generated/beauty/mobile/frame_000.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_000.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_000.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_000.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_000.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_000.a2c2ebae3a473d7a.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_000.d9e3e61d18eba1e0.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_000.3781c3d15ea0c629.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_000.1b4777123a7e59d2.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_000.ecaf0630e94ea0ac.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_000/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_000/hit-map.eb9dd7c044823292.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -33,7 +33,7 @@
           ],
           "pixelCount": 157096,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_000/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_000/level_10.2f3fa383cf5df9ea.webp"
         },
         "11": {
           "level": 11,
@@ -49,7 +49,7 @@
           ],
           "pixelCount": 156991,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_000/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_000/level_11.87cf18333ef21d0c.webp"
         },
         "12": {
           "level": 12,
@@ -65,7 +65,7 @@
           ],
           "pixelCount": 157109,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_000/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_000/level_12.74b759229938d7ee.webp"
         },
         "13": {
           "level": 13,
@@ -81,7 +81,7 @@
           ],
           "pixelCount": 156840,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_000/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_000/level_13.f08d2db05633606f.webp"
         },
         "14": {
           "level": 14,
@@ -97,7 +97,7 @@
           ],
           "pixelCount": 156980,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_000/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_000/level_14.0f90a5e9bcc5c069.webp"
         },
         "15": {
           "level": 15,
@@ -113,7 +113,7 @@
           ],
           "pixelCount": 158346,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_000/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_000/level_15.66e4523ba95629d9.webp"
         },
         "16": {
           "level": 16,
@@ -129,7 +129,7 @@
           ],
           "pixelCount": 267837,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_000/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_000/level_16.73be4b12b0543320.webp"
         },
         "09": {
           "level": 9,
@@ -145,7 +145,7 @@
           ],
           "pixelCount": 157028,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_000/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_000/level_09.6fecaa87150d2a3a.webp"
         },
         "08": {
           "level": 8,
@@ -161,7 +161,7 @@
           ],
           "pixelCount": 156923,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_000/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_000/level_08.ace970b1676b495f.webp"
         },
         "07": {
           "level": 7,
@@ -177,7 +177,7 @@
           ],
           "pixelCount": 157198,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_000/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_000/level_07.3e0603f7e59b0319.webp"
         },
         "06": {
           "level": 6,
@@ -193,7 +193,7 @@
           ],
           "pixelCount": 157304,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_000/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_000/level_06.2387b73421b716a8.webp"
         },
         "05": {
           "level": 5,
@@ -209,7 +209,7 @@
           ],
           "pixelCount": 157150,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_000/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_000/level_05.21ef86c52e50a3cb.webp"
         },
         "04": {
           "level": 4,
@@ -225,7 +225,7 @@
           ],
           "pixelCount": 150878,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_000/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_000/level_04.1c0eaedb57fb8b0d.webp"
         },
         "03": {
           "level": 3,
@@ -241,7 +241,7 @@
           ],
           "pixelCount": 108057,
           "componentCount": 2,
-          "alphaMask": "/generated/masks/frame_000/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_000/level_03.3dbb452318b53bd3.webp"
         }
       },
       "detectedBandCount": 14,
@@ -250,14 +250,14 @@
     {
       "id": 1,
       "angle": -56,
-      "beautySmall": "/generated/beauty/mobile/frame_001.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_001.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_001.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_001.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_001.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_001.c96e5660199add63.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_001.7b8616b93bd60fc1.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_001.94cdde87199151b7.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_001.f1e2dd1256493eb5.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_001.a8a6070939b41265.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_001/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_001/hit-map.80169ef982fff593.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -275,7 +275,7 @@
           ],
           "pixelCount": 159692,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_001/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_001/level_10.5f6c5d2cf15198d2.webp"
         },
         "11": {
           "level": 11,
@@ -291,7 +291,7 @@
           ],
           "pixelCount": 159458,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_001/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_001/level_11.e5b897c1e1e91a21.webp"
         },
         "12": {
           "level": 12,
@@ -307,7 +307,7 @@
           ],
           "pixelCount": 159663,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_001/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_001/level_12.a0f684dd814f592a.webp"
         },
         "13": {
           "level": 13,
@@ -323,7 +323,7 @@
           ],
           "pixelCount": 159343,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_001/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_001/level_13.bea775e951543153.webp"
         },
         "14": {
           "level": 14,
@@ -339,7 +339,7 @@
           ],
           "pixelCount": 159429,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_001/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_001/level_14.0d59500e80a78d24.webp"
         },
         "15": {
           "level": 15,
@@ -355,7 +355,7 @@
           ],
           "pixelCount": 160904,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_001/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_001/level_15.8565c30421ee2999.webp"
         },
         "16": {
           "level": 16,
@@ -371,7 +371,7 @@
           ],
           "pixelCount": 272063,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_001/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_001/level_16.e8622bfd97a4bbb4.webp"
         },
         "09": {
           "level": 9,
@@ -387,7 +387,7 @@
           ],
           "pixelCount": 159449,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_001/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_001/level_09.fb280364e59bfaea.webp"
         },
         "08": {
           "level": 8,
@@ -403,7 +403,7 @@
           ],
           "pixelCount": 159414,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_001/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_001/level_08.50e3b40ebddfffd4.webp"
         },
         "07": {
           "level": 7,
@@ -419,7 +419,7 @@
           ],
           "pixelCount": 159615,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_001/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_001/level_07.5c8c28aa13391bf6.webp"
         },
         "06": {
           "level": 6,
@@ -435,7 +435,7 @@
           ],
           "pixelCount": 159720,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_001/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_001/level_06.831fbff16a53c450.webp"
         },
         "05": {
           "level": 5,
@@ -451,7 +451,7 @@
           ],
           "pixelCount": 159549,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_001/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_001/level_05.64fbe0fd1b37154e.webp"
         },
         "04": {
           "level": 4,
@@ -467,7 +467,7 @@
           ],
           "pixelCount": 152776,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_001/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_001/level_04.19a364321b6c2af6.webp"
         },
         "03": {
           "level": 3,
@@ -483,7 +483,7 @@
           ],
           "pixelCount": 109435,
           "componentCount": 2,
-          "alphaMask": "/generated/masks/frame_001/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_001/level_03.17a66e694a6edd23.webp"
         }
       },
       "detectedBandCount": 14,
@@ -492,14 +492,14 @@
     {
       "id": 2,
       "angle": -52,
-      "beautySmall": "/generated/beauty/mobile/frame_002.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_002.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_002.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_002.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_002.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_002.01462d4816340886.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_002.6f2efe08b31b79ce.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_002.a4d8a808a4a25a72.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_002.0cc9e116a88ab4a2.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_002.22f055525e70e026.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_002/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_002/hit-map.22ac3c59ffe91603.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -517,7 +517,7 @@
           ],
           "pixelCount": 161794,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_002/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_002/level_10.9d13a84ae401460f.webp"
         },
         "11": {
           "level": 11,
@@ -533,7 +533,7 @@
           ],
           "pixelCount": 161612,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_002/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_002/level_11.4172f4da8ada3de3.webp"
         },
         "12": {
           "level": 12,
@@ -549,7 +549,7 @@
           ],
           "pixelCount": 161741,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_002/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_002/level_12.fb2ddea3b5a99bc6.webp"
         },
         "13": {
           "level": 13,
@@ -565,7 +565,7 @@
           ],
           "pixelCount": 161447,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_002/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_002/level_13.1d22c66c0f9da11b.webp"
         },
         "14": {
           "level": 14,
@@ -581,7 +581,7 @@
           ],
           "pixelCount": 161639,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_002/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_002/level_14.71f716cd646198eb.webp"
         },
         "15": {
           "level": 15,
@@ -597,7 +597,7 @@
           ],
           "pixelCount": 163086,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_002/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_002/level_15.2d10dbc7b7094cd3.webp"
         },
         "16": {
           "level": 16,
@@ -613,7 +613,7 @@
           ],
           "pixelCount": 275757,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_002/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_002/level_16.083c67522b8345e5.webp"
         },
         "09": {
           "level": 9,
@@ -629,7 +629,7 @@
           ],
           "pixelCount": 161610,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_002/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_002/level_09.4d3b7889bc08a89f.webp"
         },
         "08": {
           "level": 8,
@@ -645,7 +645,7 @@
           ],
           "pixelCount": 161498,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_002/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_002/level_08.0d2ecfde2598212a.webp"
         },
         "07": {
           "level": 7,
@@ -661,7 +661,7 @@
           ],
           "pixelCount": 161750,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_002/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_002/level_07.e304290b3f91dbf7.webp"
         },
         "06": {
           "level": 6,
@@ -677,7 +677,7 @@
           ],
           "pixelCount": 161852,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_002/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_002/level_06.c72f22b43c9f1d0b.webp"
         },
         "05": {
           "level": 5,
@@ -693,7 +693,7 @@
           ],
           "pixelCount": 161700,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_002/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_002/level_05.539695b539d81c87.webp"
         },
         "04": {
           "level": 4,
@@ -709,7 +709,7 @@
           ],
           "pixelCount": 154624,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_002/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_002/level_04.ed2f3cf73bdd72d5.webp"
         },
         "03": {
           "level": 3,
@@ -725,7 +725,7 @@
           ],
           "pixelCount": 110542,
           "componentCount": 2,
-          "alphaMask": "/generated/masks/frame_002/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_002/level_03.0b34c7990fecb7b0.webp"
         }
       },
       "detectedBandCount": 14,
@@ -734,14 +734,14 @@
     {
       "id": 3,
       "angle": -48,
-      "beautySmall": "/generated/beauty/mobile/frame_003.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_003.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_003.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_003.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_003.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_003.60d8d51a019a7402.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_003.5443590c493fe1aa.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_003.bf9cf4aafa8b65fe.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_003.8f496d66e08bd204.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_003.98ded2e0c6065811.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_003/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_003/hit-map.b14224bdf73f429b.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -759,7 +759,7 @@
           ],
           "pixelCount": 163722,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_003/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_003/level_10.1b3c54b5d17acad0.webp"
         },
         "11": {
           "level": 11,
@@ -775,7 +775,7 @@
           ],
           "pixelCount": 163447,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_003/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_003/level_11.915d57249132a968.webp"
         },
         "12": {
           "level": 12,
@@ -791,7 +791,7 @@
           ],
           "pixelCount": 163620,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_003/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_003/level_12.869a97ed2847f07d.webp"
         },
         "13": {
           "level": 13,
@@ -807,7 +807,7 @@
           ],
           "pixelCount": 163380,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_003/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_003/level_13.07880f0abc9f1e60.webp"
         },
         "14": {
           "level": 14,
@@ -823,7 +823,7 @@
           ],
           "pixelCount": 163404,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_003/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_003/level_14.1b737ab12799853a.webp"
         },
         "15": {
           "level": 15,
@@ -839,7 +839,7 @@
           ],
           "pixelCount": 164968,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_003/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_003/level_15.e58ef9ca31ebedba.webp"
         },
         "16": {
           "level": 16,
@@ -855,7 +855,7 @@
           ],
           "pixelCount": 278968,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_003/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_003/level_16.7d3f3de193dd400d.webp"
         },
         "09": {
           "level": 9,
@@ -871,7 +871,7 @@
           ],
           "pixelCount": 163537,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_003/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_003/level_09.e8f66239c42ae836.webp"
         },
         "08": {
           "level": 8,
@@ -887,7 +887,7 @@
           ],
           "pixelCount": 163479,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_003/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_003/level_08.7ad77003eea69575.webp"
         },
         "07": {
           "level": 7,
@@ -903,7 +903,7 @@
           ],
           "pixelCount": 163682,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_003/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_003/level_07.e862d46e600fc15b.webp"
         },
         "06": {
           "level": 6,
@@ -919,7 +919,7 @@
           ],
           "pixelCount": 163832,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_003/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_003/level_06.f29ac1d234eab56b.webp"
         },
         "05": {
           "level": 5,
@@ -935,7 +935,7 @@
           ],
           "pixelCount": 163699,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_003/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_003/level_05.548c420a2971d28f.webp"
         },
         "04": {
           "level": 4,
@@ -951,7 +951,7 @@
           ],
           "pixelCount": 156227,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_003/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_003/level_04.98fa569034a314fd.webp"
         },
         "03": {
           "level": 3,
@@ -967,7 +967,7 @@
           ],
           "pixelCount": 110654,
           "componentCount": 2,
-          "alphaMask": "/generated/masks/frame_003/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_003/level_03.17754f18faef3521.webp"
         }
       },
       "detectedBandCount": 14,
@@ -976,14 +976,14 @@
     {
       "id": 4,
       "angle": -44,
-      "beautySmall": "/generated/beauty/mobile/frame_004.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_004.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_004.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_004.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_004.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_004.75c552acf8c4e7cb.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_004.9886b892926767f4.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_004.19dfdd55868b17e0.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_004.65d4998ec71a6a53.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_004.be2f8e34323cbf4e.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_004/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_004/hit-map.41e1b685674b3e27.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -1001,7 +1001,7 @@
           ],
           "pixelCount": 165289,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_004/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_004/level_10.124474a3f4c2b4ea.webp"
         },
         "11": {
           "level": 11,
@@ -1017,7 +1017,7 @@
           ],
           "pixelCount": 165106,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_004/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_004/level_11.ba03d0fc3b40e48a.webp"
         },
         "12": {
           "level": 12,
@@ -1033,7 +1033,7 @@
           ],
           "pixelCount": 165236,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_004/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_004/level_12.1d37c36cc3ef2ae7.webp"
         },
         "13": {
           "level": 13,
@@ -1049,7 +1049,7 @@
           ],
           "pixelCount": 164978,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_004/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_004/level_13.3c2ec69770d399a8.webp"
         },
         "14": {
           "level": 14,
@@ -1065,7 +1065,7 @@
           ],
           "pixelCount": 165073,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_004/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_004/level_14.4574dc442cb6ed51.webp"
         },
         "15": {
           "level": 15,
@@ -1081,7 +1081,7 @@
           ],
           "pixelCount": 166636,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_004/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_004/level_15.a329fbd99d127531.webp"
         },
         "16": {
           "level": 16,
@@ -1097,7 +1097,7 @@
           ],
           "pixelCount": 281682,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_004/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_004/level_16.88d5d3970db11e51.webp"
         },
         "09": {
           "level": 9,
@@ -1113,7 +1113,7 @@
           ],
           "pixelCount": 165147,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_004/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_004/level_09.20cc020b844440c3.webp"
         },
         "08": {
           "level": 8,
@@ -1129,7 +1129,7 @@
           ],
           "pixelCount": 165043,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_004/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_004/level_08.4c4e8cbede343b20.webp"
         },
         "07": {
           "level": 7,
@@ -1145,7 +1145,7 @@
           ],
           "pixelCount": 165304,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_004/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_004/level_07.571bec9687fb6dc4.webp"
         },
         "06": {
           "level": 6,
@@ -1161,7 +1161,7 @@
           ],
           "pixelCount": 165469,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_004/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_004/level_06.fedd85e1365aceda.webp"
         },
         "05": {
           "level": 5,
@@ -1177,7 +1177,7 @@
           ],
           "pixelCount": 165304,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_004/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_004/level_05.a3e829bb12346b5d.webp"
         },
         "04": {
           "level": 4,
@@ -1193,7 +1193,7 @@
           ],
           "pixelCount": 157262,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_004/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_004/level_04.e0f457ffd4cba7f1.webp"
         },
         "03": {
           "level": 3,
@@ -1209,7 +1209,7 @@
           ],
           "pixelCount": 110842,
           "componentCount": 2,
-          "alphaMask": "/generated/masks/frame_004/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_004/level_03.aaa806bbc31e9741.webp"
         }
       },
       "detectedBandCount": 14,
@@ -1218,14 +1218,14 @@
     {
       "id": 5,
       "angle": -40,
-      "beautySmall": "/generated/beauty/mobile/frame_005.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_005.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_005.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_005.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_005.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_005.35f19ffd6f20d7c6.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_005.906a716dc361de7d.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_005.d479bbecf49a8732.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_005.68ddb6ea4fd1c479.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_005.5929318b2bb8925a.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_005/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_005/hit-map.efd0c510e4236ca4.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -1243,7 +1243,7 @@
           ],
           "pixelCount": 166489,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_005/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_005/level_10.e5771670a3c9a86d.webp"
         },
         "11": {
           "level": 11,
@@ -1259,7 +1259,7 @@
           ],
           "pixelCount": 166285,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_005/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_005/level_11.bde752edb12cbf92.webp"
         },
         "12": {
           "level": 12,
@@ -1275,7 +1275,7 @@
           ],
           "pixelCount": 166463,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_005/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_005/level_12.f54d3d92f9eb62b6.webp"
         },
         "13": {
           "level": 13,
@@ -1291,7 +1291,7 @@
           ],
           "pixelCount": 166130,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_005/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_005/level_13.102d8ebb5427798e.webp"
         },
         "14": {
           "level": 14,
@@ -1307,7 +1307,7 @@
           ],
           "pixelCount": 166266,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_005/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_005/level_14.ec85a2ca233d855a.webp"
         },
         "15": {
           "level": 15,
@@ -1323,7 +1323,7 @@
           ],
           "pixelCount": 167851,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_005/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_005/level_15.a42b5b323499269c.webp"
         },
         "16": {
           "level": 16,
@@ -1339,7 +1339,7 @@
           ],
           "pixelCount": 283814,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_005/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_005/level_16.3e76c1931dba1855.webp"
         },
         "09": {
           "level": 9,
@@ -1355,7 +1355,7 @@
           ],
           "pixelCount": 166336,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_005/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_005/level_09.69649f255df140e8.webp"
         },
         "08": {
           "level": 8,
@@ -1371,7 +1371,7 @@
           ],
           "pixelCount": 166300,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_005/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_005/level_08.9ba01f7ed565c69f.webp"
         },
         "07": {
           "level": 7,
@@ -1387,7 +1387,7 @@
           ],
           "pixelCount": 166531,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_005/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_005/level_07.90ba363b3bf58624.webp"
         },
         "06": {
           "level": 6,
@@ -1403,7 +1403,7 @@
           ],
           "pixelCount": 166654,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_005/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_005/level_06.4be04e4805c0da2f.webp"
         },
         "05": {
           "level": 5,
@@ -1419,7 +1419,7 @@
           ],
           "pixelCount": 166480,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_005/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_005/level_05.32a00352995520b7.webp"
         },
         "04": {
           "level": 4,
@@ -1435,7 +1435,7 @@
           ],
           "pixelCount": 157770,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_005/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_005/level_04.c679a0737fada3c1.webp"
         },
         "03": {
           "level": 3,
@@ -1451,7 +1451,7 @@
           ],
           "pixelCount": 111509,
           "componentCount": 2,
-          "alphaMask": "/generated/masks/frame_005/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_005/level_03.8f841a98b4c95954.webp"
         }
       },
       "detectedBandCount": 14,
@@ -1460,14 +1460,14 @@
     {
       "id": 6,
       "angle": -36,
-      "beautySmall": "/generated/beauty/mobile/frame_006.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_006.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_006.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_006.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_006.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_006.d8cbb509df682b8b.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_006.1b525883f411d5de.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_006.0c8bbd0729edf29d.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_006.e51889770ebb5ac1.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_006.adca0cc05d9ed0fd.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_006/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_006/hit-map.b5c5386904609992.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -1485,7 +1485,7 @@
           ],
           "pixelCount": 167540,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_006/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_006/level_10.91198ad8e5b37957.webp"
         },
         "11": {
           "level": 11,
@@ -1501,7 +1501,7 @@
           ],
           "pixelCount": 167338,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_006/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_006/level_11.e1c47ec13726a4d0.webp"
         },
         "12": {
           "level": 12,
@@ -1517,7 +1517,7 @@
           ],
           "pixelCount": 167500,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_006/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_006/level_12.0006a45ddb3dd1c4.webp"
         },
         "13": {
           "level": 13,
@@ -1533,7 +1533,7 @@
           ],
           "pixelCount": 167222,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_006/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_006/level_13.9a5a9be6a80fdcfd.webp"
         },
         "14": {
           "level": 14,
@@ -1549,7 +1549,7 @@
           ],
           "pixelCount": 167287,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_006/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_006/level_14.e81a74eb7d315a1a.webp"
         },
         "15": {
           "level": 15,
@@ -1565,7 +1565,7 @@
           ],
           "pixelCount": 168910,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_006/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_006/level_15.f333d37f22fd6207.webp"
         },
         "16": {
           "level": 16,
@@ -1581,7 +1581,7 @@
           ],
           "pixelCount": 285475,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_006/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_006/level_16.697a54e64d7a39f4.webp"
         },
         "09": {
           "level": 9,
@@ -1597,7 +1597,7 @@
           ],
           "pixelCount": 167371,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_006/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_006/level_09.7c04ee95d794072c.webp"
         },
         "08": {
           "level": 8,
@@ -1613,7 +1613,7 @@
           ],
           "pixelCount": 167263,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_006/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_006/level_08.f5a434e97f1209a1.webp"
         },
         "07": {
           "level": 7,
@@ -1629,7 +1629,7 @@
           ],
           "pixelCount": 167598,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_006/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_006/level_07.4800d8c6055cafdb.webp"
         },
         "06": {
           "level": 6,
@@ -1645,7 +1645,7 @@
           ],
           "pixelCount": 167625,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_006/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_006/level_06.6e00360f6f1b0f75.webp"
         },
         "05": {
           "level": 5,
@@ -1661,7 +1661,7 @@
           ],
           "pixelCount": 167523,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_006/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_006/level_05.ba8ba40d0c6d70ca.webp"
         },
         "04": {
           "level": 4,
@@ -1677,7 +1677,7 @@
           ],
           "pixelCount": 158274,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_006/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_006/level_04.9261ec0e9e606521.webp"
         },
         "03": {
           "level": 3,
@@ -1693,7 +1693,7 @@
           ],
           "pixelCount": 109139,
           "componentCount": 2,
-          "alphaMask": "/generated/masks/frame_006/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_006/level_03.f41556f923417d41.webp"
         }
       },
       "detectedBandCount": 14,
@@ -1702,14 +1702,14 @@
     {
       "id": 7,
       "angle": -32,
-      "beautySmall": "/generated/beauty/mobile/frame_007.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_007.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_007.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_007.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_007.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_007.9516a16dc4ed6360.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_007.68de4e65b81ba0d5.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_007.a22cfc7ad6191f65.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_007.e5cb030647207de2.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_007.459305971f00ef59.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_007/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_007/hit-map.36b8a699d57a61fc.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -1727,7 +1727,7 @@
           ],
           "pixelCount": 168159,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_007/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_007/level_10.dab87cd18c4d773c.webp"
         },
         "11": {
           "level": 11,
@@ -1743,7 +1743,7 @@
           ],
           "pixelCount": 168018,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_007/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_007/level_11.bc3293a743356593.webp"
         },
         "12": {
           "level": 12,
@@ -1759,7 +1759,7 @@
           ],
           "pixelCount": 168135,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_007/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_007/level_12.194ce2b8f0f77a76.webp"
         },
         "13": {
           "level": 13,
@@ -1775,7 +1775,7 @@
           ],
           "pixelCount": 167830,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_007/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_007/level_13.f12688c04094eec0.webp"
         },
         "14": {
           "level": 14,
@@ -1791,7 +1791,7 @@
           ],
           "pixelCount": 167947,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_007/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_007/level_14.66d92e1d64611c26.webp"
         },
         "15": {
           "level": 15,
@@ -1807,7 +1807,7 @@
           ],
           "pixelCount": 169596,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_007/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_007/level_15.3b6c0c208d708cb6.webp"
         },
         "16": {
           "level": 16,
@@ -1823,7 +1823,7 @@
           ],
           "pixelCount": 286590,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_007/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_007/level_16.79c0bf55225f09fd.webp"
         },
         "09": {
           "level": 9,
@@ -1839,7 +1839,7 @@
           ],
           "pixelCount": 168022,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_007/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_007/level_09.105c75b363115f4f.webp"
         },
         "08": {
           "level": 8,
@@ -1855,7 +1855,7 @@
           ],
           "pixelCount": 167944,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_007/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_007/level_08.7f517f04a6fe3c7c.webp"
         },
         "07": {
           "level": 7,
@@ -1871,7 +1871,7 @@
           ],
           "pixelCount": 168187,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_007/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_007/level_07.5f4062be091af131.webp"
         },
         "06": {
           "level": 6,
@@ -1887,7 +1887,7 @@
           ],
           "pixelCount": 168331,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_007/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_007/level_06.e7d31e5075ed0dc7.webp"
         },
         "05": {
           "level": 5,
@@ -1903,7 +1903,7 @@
           ],
           "pixelCount": 168168,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_007/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_007/level_05.032f28f2ab20708b.webp"
         },
         "04": {
           "level": 4,
@@ -1919,7 +1919,7 @@
           ],
           "pixelCount": 158478,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_007/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_007/level_04.b1b314b5e1ad4970.webp"
         },
         "03": {
           "level": 3,
@@ -1935,7 +1935,7 @@
           ],
           "pixelCount": 111485,
           "componentCount": 2,
-          "alphaMask": "/generated/masks/frame_007/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_007/level_03.1190c3b4b247c100.webp"
         }
       },
       "detectedBandCount": 14,
@@ -1944,14 +1944,14 @@
     {
       "id": 8,
       "angle": -28,
-      "beautySmall": "/generated/beauty/mobile/frame_008.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_008.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_008.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_008.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_008.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_008.b85c3709b7a28df8.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_008.3026ece7d9a30052.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_008.d957571cd85c7fbe.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_008.d668d741f2a64b16.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_008.82335f815d98fcc1.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_008/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_008/hit-map.019944a8da49d424.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -1969,7 +1969,7 @@
           ],
           "pixelCount": 168512,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_008/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_008/level_10.a52668cc95d944e8.webp"
         },
         "11": {
           "level": 11,
@@ -1985,7 +1985,7 @@
           ],
           "pixelCount": 168275,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_008/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_008/level_11.358d9959ad02757d.webp"
         },
         "12": {
           "level": 12,
@@ -2001,7 +2001,7 @@
           ],
           "pixelCount": 168455,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_008/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_008/level_12.a1bbe39f8fff78f6.webp"
         },
         "13": {
           "level": 13,
@@ -2017,7 +2017,7 @@
           ],
           "pixelCount": 168104,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_008/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_008/level_13.f189431bc0a1385e.webp"
         },
         "14": {
           "level": 14,
@@ -2033,7 +2033,7 @@
           ],
           "pixelCount": 168349,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_008/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_008/level_14.a9a8d972d3086721.webp"
         },
         "15": {
           "level": 15,
@@ -2049,7 +2049,7 @@
           ],
           "pixelCount": 169979,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_008/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_008/level_15.d3bfa1376716c8ee.webp"
         },
         "16": {
           "level": 16,
@@ -2065,7 +2065,7 @@
           ],
           "pixelCount": 287103,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_008/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_008/level_16.dffa35c87bc72829.webp"
         },
         "09": {
           "level": 9,
@@ -2081,7 +2081,7 @@
           ],
           "pixelCount": 168312,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_008/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_008/level_09.72e93df41bea6cbb.webp"
         },
         "08": {
           "level": 8,
@@ -2097,7 +2097,7 @@
           ],
           "pixelCount": 168244,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_008/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_008/level_08.521ce0104392f448.webp"
         },
         "07": {
           "level": 7,
@@ -2113,7 +2113,7 @@
           ],
           "pixelCount": 168540,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_008/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_008/level_07.d14576ae1a636039.webp"
         },
         "06": {
           "level": 6,
@@ -2129,7 +2129,7 @@
           ],
           "pixelCount": 168622,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_008/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_008/level_06.c40f0a2453d37e5e.webp"
         },
         "05": {
           "level": 5,
@@ -2145,7 +2145,7 @@
           ],
           "pixelCount": 168473,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_008/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_008/level_05.2754aea2c97448d2.webp"
         },
         "04": {
           "level": 4,
@@ -2161,7 +2161,7 @@
           ],
           "pixelCount": 158412,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_008/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_008/level_04.37672b075b3bb7b0.webp"
         },
         "03": {
           "level": 3,
@@ -2177,7 +2177,7 @@
           ],
           "pixelCount": 108816,
           "componentCount": 2,
-          "alphaMask": "/generated/masks/frame_008/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_008/level_03.11595e1dde44b3e7.webp"
         }
       },
       "detectedBandCount": 14,
@@ -2186,14 +2186,14 @@
     {
       "id": 9,
       "angle": -24,
-      "beautySmall": "/generated/beauty/mobile/frame_009.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_009.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_009.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_009.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_009.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_009.4e3f36ff3867a9dd.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_009.73b4bcb88448c1a4.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_009.93aaad6eab2ea178.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_009.39f181916799d48e.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_009.7ab49ae82d952eb1.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_009/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_009/hit-map.72475876300f66b2.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -2211,7 +2211,7 @@
           ],
           "pixelCount": 168434,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_009/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_009/level_10.4152ca5f34da6fb2.webp"
         },
         "11": {
           "level": 11,
@@ -2227,7 +2227,7 @@
           ],
           "pixelCount": 168237,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_009/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_009/level_11.4b75aae19423d6cc.webp"
         },
         "12": {
           "level": 12,
@@ -2243,7 +2243,7 @@
           ],
           "pixelCount": 168453,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_009/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_009/level_12.c9981e4d8b4248b8.webp"
         },
         "13": {
           "level": 13,
@@ -2259,7 +2259,7 @@
           ],
           "pixelCount": 168044,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_009/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_009/level_13.a387bba8c8edd838.webp"
         },
         "14": {
           "level": 14,
@@ -2275,7 +2275,7 @@
           ],
           "pixelCount": 168213,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_009/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_009/level_14.c0b88ef3da4404ca.webp"
         },
         "15": {
           "level": 15,
@@ -2291,7 +2291,7 @@
           ],
           "pixelCount": 169923,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_009/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_009/level_15.53ffc1f501a41cde.webp"
         },
         "16": {
           "level": 16,
@@ -2307,7 +2307,7 @@
           ],
           "pixelCount": 287014,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_009/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_009/level_16.d103f98fd2426e1d.webp"
         },
         "09": {
           "level": 9,
@@ -2323,7 +2323,7 @@
           ],
           "pixelCount": 168209,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_009/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_009/level_09.97a32bc5474872c7.webp"
         },
         "08": {
           "level": 8,
@@ -2339,7 +2339,7 @@
           ],
           "pixelCount": 168240,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_009/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_009/level_08.98f762f429cacedd.webp"
         },
         "07": {
           "level": 7,
@@ -2355,7 +2355,7 @@
           ],
           "pixelCount": 168475,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_009/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_009/level_07.a91433c5f5b1a939.webp"
         },
         "06": {
           "level": 6,
@@ -2371,7 +2371,7 @@
           ],
           "pixelCount": 168585,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_009/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_009/level_06.9a31bd8faf41872e.webp"
         },
         "05": {
           "level": 5,
@@ -2387,7 +2387,7 @@
           ],
           "pixelCount": 168495,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_009/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_009/level_05.510cf84fc8b5ac1f.webp"
         },
         "04": {
           "level": 4,
@@ -2403,7 +2403,7 @@
           ],
           "pixelCount": 158004,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_009/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_009/level_04.07c095908ca18703.webp"
         },
         "03": {
           "level": 3,
@@ -2419,7 +2419,7 @@
           ],
           "pixelCount": 108299,
           "componentCount": 2,
-          "alphaMask": "/generated/masks/frame_009/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_009/level_03.0c1a6cc7cf63cc3f.webp"
         }
       },
       "detectedBandCount": 14,
@@ -2428,14 +2428,14 @@
     {
       "id": 10,
       "angle": -20,
-      "beautySmall": "/generated/beauty/mobile/frame_010.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_010.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_010.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_010.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_010.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_010.288aa45897a49b1d.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_010.2a720df208c687e4.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_010.310215acc3931f17.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_010.5a31ef53012148db.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_010.23da5f84cbdc762f.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_010/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_010/hit-map.f8349cec5f34fe26.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -2453,7 +2453,7 @@
           ],
           "pixelCount": 168181,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_010/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_010/level_10.e760a65845f3c9eb.webp"
         },
         "11": {
           "level": 11,
@@ -2469,7 +2469,7 @@
           ],
           "pixelCount": 167985,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_010/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_010/level_11.9881367585081d62.webp"
         },
         "12": {
           "level": 12,
@@ -2485,7 +2485,7 @@
           ],
           "pixelCount": 168102,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_010/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_010/level_12.f956f34deeeede39.webp"
         },
         "13": {
           "level": 13,
@@ -2501,7 +2501,7 @@
           ],
           "pixelCount": 167813,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_010/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_010/level_13.11edc2a2fb1490ba.webp"
         },
         "14": {
           "level": 14,
@@ -2517,7 +2517,7 @@
           ],
           "pixelCount": 167935,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_010/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_010/level_14.99eb610881ceec3d.webp"
         },
         "15": {
           "level": 15,
@@ -2533,7 +2533,7 @@
           ],
           "pixelCount": 169655,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_010/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_010/level_15.c898e7aab255962c.webp"
         },
         "16": {
           "level": 16,
@@ -2549,7 +2549,7 @@
           ],
           "pixelCount": 286539,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_010/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_010/level_16.63408b1a9f036a39.webp"
         },
         "09": {
           "level": 9,
@@ -2565,7 +2565,7 @@
           ],
           "pixelCount": 168002,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_010/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_010/level_09.ede8b50165c6df4e.webp"
         },
         "08": {
           "level": 8,
@@ -2581,7 +2581,7 @@
           ],
           "pixelCount": 167924,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_010/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_010/level_08.63e010571b55d23c.webp"
         },
         "07": {
           "level": 7,
@@ -2597,7 +2597,7 @@
           ],
           "pixelCount": 168185,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_010/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_010/level_07.e32a9b8fec8a8082.webp"
         },
         "06": {
           "level": 6,
@@ -2613,7 +2613,7 @@
           ],
           "pixelCount": 168285,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_010/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_010/level_06.050f52d7c367fab8.webp"
         },
         "05": {
           "level": 5,
@@ -2629,7 +2629,7 @@
           ],
           "pixelCount": 168194,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_010/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_010/level_05.5b3d74f7a50b4c35.webp"
         },
         "04": {
           "level": 4,
@@ -2645,7 +2645,7 @@
           ],
           "pixelCount": 157636,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_010/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_010/level_04.e5e8b28e56ed398a.webp"
         },
         "03": {
           "level": 3,
@@ -2661,7 +2661,7 @@
           ],
           "pixelCount": 107440,
           "componentCount": 2,
-          "alphaMask": "/generated/masks/frame_010/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_010/level_03.500fd0372d2256d1.webp"
         }
       },
       "detectedBandCount": 14,
@@ -2670,14 +2670,14 @@
     {
       "id": 11,
       "angle": -16,
-      "beautySmall": "/generated/beauty/mobile/frame_011.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_011.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_011.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_011.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_011.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_011.9aa8f4771fddcbfb.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_011.6645d8478fa33317.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_011.c8add387c967cf37.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_011.2353c350bb6460cd.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_011.759810e33834a917.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_011/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_011/hit-map.29998728a82b1112.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -2695,7 +2695,7 @@
           ],
           "pixelCount": 167578,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_011/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_011/level_10.63ea6917bd4cc40b.webp"
         },
         "11": {
           "level": 11,
@@ -2711,7 +2711,7 @@
           ],
           "pixelCount": 167403,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_011/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_011/level_11.dae56d97050d26a6.webp"
         },
         "12": {
           "level": 12,
@@ -2727,7 +2727,7 @@
           ],
           "pixelCount": 167525,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_011/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_011/level_12.fdb9f79a9688d4f6.webp"
         },
         "13": {
           "level": 13,
@@ -2743,7 +2743,7 @@
           ],
           "pixelCount": 167247,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_011/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_011/level_13.b074cd51212414eb.webp"
         },
         "14": {
           "level": 14,
@@ -2759,7 +2759,7 @@
           ],
           "pixelCount": 167359,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_011/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_011/level_14.f81940491e932656.webp"
         },
         "15": {
           "level": 15,
@@ -2775,7 +2775,7 @@
           ],
           "pixelCount": 169065,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_011/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_011/level_15.921bebf2dccb3ef8.webp"
         },
         "16": {
           "level": 16,
@@ -2791,7 +2791,7 @@
           ],
           "pixelCount": 285499,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_011/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_011/level_16.22f5fb7cf1c6f819.webp"
         },
         "09": {
           "level": 9,
@@ -2807,7 +2807,7 @@
           ],
           "pixelCount": 167388,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_011/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_011/level_09.7e8c75c73e45e30d.webp"
         },
         "08": {
           "level": 8,
@@ -2823,7 +2823,7 @@
           ],
           "pixelCount": 167232,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_011/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_011/level_08.62888e385c406271.webp"
         },
         "07": {
           "level": 7,
@@ -2839,7 +2839,7 @@
           ],
           "pixelCount": 167584,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_011/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_011/level_07.cb860075eb513253.webp"
         },
         "06": {
           "level": 6,
@@ -2855,7 +2855,7 @@
           ],
           "pixelCount": 167654,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_011/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_011/level_06.855c3f2c264100d0.webp"
         },
         "05": {
           "level": 5,
@@ -2871,7 +2871,7 @@
           ],
           "pixelCount": 167490,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_011/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_011/level_05.b43d737a03db3248.webp"
         },
         "04": {
           "level": 4,
@@ -2887,7 +2887,7 @@
           ],
           "pixelCount": 157159,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_011/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_011/level_04.68509c98e00bbe63.webp"
         },
         "03": {
           "level": 3,
@@ -2903,7 +2903,7 @@
           ],
           "pixelCount": 105655,
           "componentCount": 2,
-          "alphaMask": "/generated/masks/frame_011/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_011/level_03.921b78bd2b6b9563.webp"
         }
       },
       "detectedBandCount": 14,
@@ -2912,14 +2912,14 @@
     {
       "id": 12,
       "angle": -12,
-      "beautySmall": "/generated/beauty/mobile/frame_012.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_012.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_012.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_012.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_012.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_012.aa2e2ee7244b17a6.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_012.5086cc74429052d6.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_012.ef1598322457fdda.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_012.258c76c5b407b329.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_012.52a0790ee2c260a0.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_012/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_012/hit-map.1554381b270d83d9.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -2937,7 +2937,7 @@
           ],
           "pixelCount": 166644,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_012/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_012/level_10.4d07cd7dae255e1b.webp"
         },
         "11": {
           "level": 11,
@@ -2953,7 +2953,7 @@
           ],
           "pixelCount": 166487,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_012/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_012/level_11.ec2f605e1228c5e4.webp"
         },
         "12": {
           "level": 12,
@@ -2969,7 +2969,7 @@
           ],
           "pixelCount": 166625,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_012/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_012/level_12.fc9ebe01d2bcc131.webp"
         },
         "13": {
           "level": 13,
@@ -2985,7 +2985,7 @@
           ],
           "pixelCount": 166348,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_012/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_012/level_13.be1c589ddc0ba9e1.webp"
         },
         "14": {
           "level": 14,
@@ -3001,7 +3001,7 @@
           ],
           "pixelCount": 166414,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_012/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_012/level_14.191aa347e0d1a443.webp"
         },
         "15": {
           "level": 15,
@@ -3017,7 +3017,7 @@
           ],
           "pixelCount": 168163,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_012/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_012/level_15.3f45f1829ed83032.webp"
         },
         "16": {
           "level": 16,
@@ -3033,7 +3033,7 @@
           ],
           "pixelCount": 284130,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_012/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_012/level_16.b3a08f7f30f80cdd.webp"
         },
         "09": {
           "level": 9,
@@ -3049,7 +3049,7 @@
           ],
           "pixelCount": 166538,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_012/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_012/level_09.f752e743997fb3b3.webp"
         },
         "08": {
           "level": 8,
@@ -3065,7 +3065,7 @@
           ],
           "pixelCount": 166449,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_012/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_012/level_08.1c6ddd531782685e.webp"
         },
         "07": {
           "level": 7,
@@ -3081,7 +3081,7 @@
           ],
           "pixelCount": 166709,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_012/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_012/level_07.25150b37a6699768.webp"
         },
         "06": {
           "level": 6,
@@ -3097,7 +3097,7 @@
           ],
           "pixelCount": 166827,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_012/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_012/level_06.e222fd72faa822c1.webp"
         },
         "05": {
           "level": 5,
@@ -3113,7 +3113,7 @@
           ],
           "pixelCount": 166652,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_012/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_012/level_05.c1f26ddbbbf487b4.webp"
         },
         "04": {
           "level": 4,
@@ -3129,7 +3129,7 @@
           ],
           "pixelCount": 155674,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_012/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_012/level_04.fda7045e6cefd1e3.webp"
         },
         "03": {
           "level": 3,
@@ -3145,7 +3145,7 @@
           ],
           "pixelCount": 105875,
           "componentCount": 2,
-          "alphaMask": "/generated/masks/frame_012/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_012/level_03.8f4e4aa775d8b865.webp"
         }
       },
       "detectedBandCount": 14,
@@ -3154,14 +3154,14 @@
     {
       "id": 13,
       "angle": -8,
-      "beautySmall": "/generated/beauty/mobile/frame_013.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_013.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_013.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_013.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_013.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_013.15581952cc2cf982.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_013.60ff3d5f09ecdfa9.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_013.1aef250ff4d628a7.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_013.8ea8f39ac025742d.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_013.50cd3db5588222be.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_013/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_013/hit-map.54b3c992e12cf30c.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -3179,7 +3179,7 @@
           ],
           "pixelCount": 165522,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_013/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_013/level_10.1a9efab13527d0ff.webp"
         },
         "11": {
           "level": 11,
@@ -3195,7 +3195,7 @@
           ],
           "pixelCount": 165282,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_013/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_013/level_11.745c1a772754a857.webp"
         },
         "12": {
           "level": 12,
@@ -3211,7 +3211,7 @@
           ],
           "pixelCount": 165473,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_013/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_013/level_12.6bc83691a0e6d894.webp"
         },
         "13": {
           "level": 13,
@@ -3227,7 +3227,7 @@
           ],
           "pixelCount": 165170,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_013/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_013/level_13.e8e625840822091d.webp"
         },
         "14": {
           "level": 14,
@@ -3243,7 +3243,7 @@
           ],
           "pixelCount": 165313,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_013/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_013/level_14.3fa85de3c2a7401d.webp"
         },
         "15": {
           "level": 15,
@@ -3259,7 +3259,7 @@
           ],
           "pixelCount": 167027,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_013/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_013/level_15.298c8fa4da876daf.webp"
         },
         "16": {
           "level": 16,
@@ -3275,7 +3275,7 @@
           ],
           "pixelCount": 282043,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_013/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_013/level_16.ba37755acf13349b.webp"
         },
         "09": {
           "level": 9,
@@ -3291,7 +3291,7 @@
           ],
           "pixelCount": 165351,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_013/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_013/level_09.2c201cd54f8d581d.webp"
         },
         "08": {
           "level": 8,
@@ -3307,7 +3307,7 @@
           ],
           "pixelCount": 165284,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_013/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_013/level_08.e56ad582d1ba06e1.webp"
         },
         "07": {
           "level": 7,
@@ -3323,7 +3323,7 @@
           ],
           "pixelCount": 165549,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_013/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_013/level_07.7eaaae6ed2346952.webp"
         },
         "06": {
           "level": 6,
@@ -3339,7 +3339,7 @@
           ],
           "pixelCount": 165652,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_013/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_013/level_06.b39f4ed2ed4e6d51.webp"
         },
         "05": {
           "level": 5,
@@ -3355,7 +3355,7 @@
           ],
           "pixelCount": 165411,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_013/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_013/level_05.d1f1c4f9dc495a85.webp"
         },
         "04": {
           "level": 4,
@@ -3371,7 +3371,7 @@
           ],
           "pixelCount": 154335,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_013/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_013/level_04.77ea6092a7490602.webp"
         },
         "03": {
           "level": 3,
@@ -3387,7 +3387,7 @@
           ],
           "pixelCount": 103188,
           "componentCount": 2,
-          "alphaMask": "/generated/masks/frame_013/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_013/level_03.be11f83bc7d8fd21.webp"
         }
       },
       "detectedBandCount": 14,
@@ -3396,14 +3396,14 @@
     {
       "id": 14,
       "angle": -4,
-      "beautySmall": "/generated/beauty/mobile/frame_014.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_014.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_014.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_014.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_014.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_014.17c823b573375dea.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_014.92ceb73695d7483c.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_014.5951da597fe38e35.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_014.f05bf5790073ca0a.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_014.5b14b45ffc083e6d.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_014/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_014/hit-map.af2575604d361e67.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -3421,7 +3421,7 @@
           ],
           "pixelCount": 164073,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_014/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_014/level_10.3107c5e4b4c73e6e.webp"
         },
         "11": {
           "level": 11,
@@ -3437,7 +3437,7 @@
           ],
           "pixelCount": 163928,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_014/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_014/level_11.b3135118dd02c901.webp"
         },
         "12": {
           "level": 12,
@@ -3453,7 +3453,7 @@
           ],
           "pixelCount": 164029,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_014/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_014/level_12.af0053a4215cc3c8.webp"
         },
         "13": {
           "level": 13,
@@ -3469,7 +3469,7 @@
           ],
           "pixelCount": 163850,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_014/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_014/level_13.125a2267fd68cb1e.webp"
         },
         "14": {
           "level": 14,
@@ -3485,7 +3485,7 @@
           ],
           "pixelCount": 163869,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_014/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_014/level_14.eefcdfbb5c2b7d59.webp"
         },
         "15": {
           "level": 15,
@@ -3501,7 +3501,7 @@
           ],
           "pixelCount": 165586,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_014/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_014/level_15.e2404007207122cc.webp"
         },
         "16": {
           "level": 16,
@@ -3517,7 +3517,7 @@
           ],
           "pixelCount": 279490,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_014/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_014/level_16.0aa258dba79c16b8.webp"
         },
         "09": {
           "level": 9,
@@ -3533,7 +3533,7 @@
           ],
           "pixelCount": 163927,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_014/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_014/level_09.9c1c292dc52be782.webp"
         },
         "08": {
           "level": 8,
@@ -3549,7 +3549,7 @@
           ],
           "pixelCount": 163849,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_014/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_014/level_08.6a3a8aadf87ac536.webp"
         },
         "07": {
           "level": 7,
@@ -3565,7 +3565,7 @@
           ],
           "pixelCount": 164123,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_014/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_014/level_07.55453c743feaf4cd.webp"
         },
         "06": {
           "level": 6,
@@ -3581,7 +3581,7 @@
           ],
           "pixelCount": 164264,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_014/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_014/level_06.f636802869b50782.webp"
         },
         "05": {
           "level": 5,
@@ -3597,7 +3597,7 @@
           ],
           "pixelCount": 164020,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_014/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_014/level_05.8c3107046fd8c323.webp"
         },
         "04": {
           "level": 4,
@@ -3613,7 +3613,7 @@
           ],
           "pixelCount": 152676,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_014/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_014/level_04.52ac2520f2aa82ea.webp"
         },
         "03": {
           "level": 3,
@@ -3629,7 +3629,7 @@
           ],
           "pixelCount": 101591,
           "componentCount": 2,
-          "alphaMask": "/generated/masks/frame_014/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_014/level_03.7410ea6525ef9e28.webp"
         }
       },
       "detectedBandCount": 14,
@@ -3638,14 +3638,14 @@
     {
       "id": 15,
       "angle": 0,
-      "beautySmall": "/generated/beauty/mobile/frame_015.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_015.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_015.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_015.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_015.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_015.47544919f9383121.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_015.49c6cf7d55092701.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_015.0dbc9c5ccb834b91.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_015.9b49e8a7ff5ea369.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_015.3d36d9b88c400ff9.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_015/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_015/hit-map.116e09d44aeba074.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -3663,7 +3663,7 @@
           ],
           "pixelCount": 162462,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_015/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_015/level_10.a95b9f325fabd20f.webp"
         },
         "11": {
           "level": 11,
@@ -3679,7 +3679,7 @@
           ],
           "pixelCount": 162273,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_015/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_015/level_11.60a941205cc371ef.webp"
         },
         "12": {
           "level": 12,
@@ -3695,7 +3695,7 @@
           ],
           "pixelCount": 162431,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_015/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_015/level_12.36768046905a1283.webp"
         },
         "13": {
           "level": 13,
@@ -3711,7 +3711,7 @@
           ],
           "pixelCount": 162002,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_015/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_015/level_13.073a92ab550995b5.webp"
         },
         "14": {
           "level": 14,
@@ -3727,7 +3727,7 @@
           ],
           "pixelCount": 162294,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_015/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_015/level_14.f87302a35e39f638.webp"
         },
         "15": {
           "level": 15,
@@ -3743,7 +3743,7 @@
           ],
           "pixelCount": 163989,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_015/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_015/level_15.b8310a9b614f801b.webp"
         },
         "16": {
           "level": 16,
@@ -3759,7 +3759,7 @@
           ],
           "pixelCount": 276720,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_015/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_015/level_16.8273ec3c603cf4c4.webp"
         },
         "09": {
           "level": 9,
@@ -3775,7 +3775,7 @@
           ],
           "pixelCount": 162369,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_015/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_015/level_09.06d06e185ee387a1.webp"
         },
         "08": {
           "level": 8,
@@ -3791,7 +3791,7 @@
           ],
           "pixelCount": 162150,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_015/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_015/level_08.4eef8d82cf68bc47.webp"
         },
         "07": {
           "level": 7,
@@ -3807,7 +3807,7 @@
           ],
           "pixelCount": 162694,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_015/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_015/level_07.4bd496a0034a10d9.webp"
         },
         "06": {
           "level": 6,
@@ -3823,7 +3823,7 @@
           ],
           "pixelCount": 162201,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_015/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_015/level_06.1db067e8722d5965.webp"
         },
         "05": {
           "level": 5,
@@ -3839,7 +3839,7 @@
           ],
           "pixelCount": 162342,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_015/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_015/level_05.13affc535bf72c79.webp"
         },
         "04": {
           "level": 4,
@@ -3855,7 +3855,7 @@
           ],
           "pixelCount": 150595,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_015/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_015/level_04.b0517387181f6619.webp"
         },
         "03": {
           "level": 3,
@@ -3871,7 +3871,7 @@
           ],
           "pixelCount": 97022,
           "componentCount": 2,
-          "alphaMask": "/generated/masks/frame_015/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_015/level_03.0cb70ebc3dddc0c1.webp"
         }
       },
       "detectedBandCount": 14,
@@ -3880,14 +3880,14 @@
     {
       "id": 16,
       "angle": 4,
-      "beautySmall": "/generated/beauty/mobile/frame_016.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_016.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_016.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_016.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_016.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_016.6ca454c609d3e401.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_016.b0ea6f0f94b9ba7d.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_016.14cfd438357150cd.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_016.9cbb322c18a50632.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_016.a62145c17f44feb5.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_016/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_016/hit-map.642aa0c28bc7e675.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -3905,7 +3905,7 @@
           ],
           "pixelCount": 164359,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_016/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_016/level_10.566e416977516d9d.webp"
         },
         "11": {
           "level": 11,
@@ -3921,7 +3921,7 @@
           ],
           "pixelCount": 164055,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_016/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_016/level_11.8559f4874703239c.webp"
         },
         "12": {
           "level": 12,
@@ -3937,7 +3937,7 @@
           ],
           "pixelCount": 164230,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_016/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_016/level_12.e7bafb0b6a3e0512.webp"
         },
         "13": {
           "level": 13,
@@ -3953,7 +3953,7 @@
           ],
           "pixelCount": 163986,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_016/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_016/level_13.a02ef6c4a7354499.webp"
         },
         "14": {
           "level": 14,
@@ -3969,7 +3969,7 @@
           ],
           "pixelCount": 164046,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_016/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_016/level_14.9c8ea223a8c69ae0.webp"
         },
         "15": {
           "level": 15,
@@ -3985,7 +3985,7 @@
           ],
           "pixelCount": 165812,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_016/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_016/level_15.b4c09c01f2697c7d.webp"
         },
         "16": {
           "level": 16,
@@ -4001,7 +4001,7 @@
           ],
           "pixelCount": 280105,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_016/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_016/level_16.fd88d032f1668405.webp"
         },
         "09": {
           "level": 9,
@@ -4017,7 +4017,7 @@
           ],
           "pixelCount": 164133,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_016/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_016/level_09.525a45493496e0f1.webp"
         },
         "08": {
           "level": 8,
@@ -4033,7 +4033,7 @@
           ],
           "pixelCount": 164043,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_016/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_016/level_08.529fe2f2dcc03e3f.webp"
         },
         "07": {
           "level": 7,
@@ -4049,7 +4049,7 @@
           ],
           "pixelCount": 164292,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_016/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_016/level_07.7453a80be612acb4.webp"
         },
         "06": {
           "level": 6,
@@ -4065,7 +4065,7 @@
           ],
           "pixelCount": 164408,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_016/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_016/level_06.bc6492dba1b7ddba.webp"
         },
         "05": {
           "level": 5,
@@ -4081,7 +4081,7 @@
           ],
           "pixelCount": 164176,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_016/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_016/level_05.6a56e4c77b18d31f.webp"
         },
         "04": {
           "level": 4,
@@ -4097,7 +4097,7 @@
           ],
           "pixelCount": 151725,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_016/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_016/level_04.5ca44aca10fccd27.webp"
         },
         "03": {
           "level": 3,
@@ -4113,7 +4113,7 @@
           ],
           "pixelCount": 96159,
           "componentCount": 2,
-          "alphaMask": "/generated/masks/frame_016/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_016/level_03.71bf2fc2f11181c6.webp"
         }
       },
       "detectedBandCount": 14,
@@ -4122,14 +4122,14 @@
     {
       "id": 17,
       "angle": 8,
-      "beautySmall": "/generated/beauty/mobile/frame_017.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_017.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_017.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_017.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_017.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_017.a057029f3da5db14.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_017.eda29e2386419947.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_017.d47714c443502d8c.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_017.07d98f54f1dfb638.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_017.2473667971fc59d4.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_017/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_017/hit-map.65cb4c0a7806bca2.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -4147,7 +4147,7 @@
           ],
           "pixelCount": 165877,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_017/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_017/level_10.6e449f8179f5370b.webp"
         },
         "11": {
           "level": 11,
@@ -4163,7 +4163,7 @@
           ],
           "pixelCount": 165672,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_017/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_017/level_11.4336b621efc4f3f3.webp"
         },
         "12": {
           "level": 12,
@@ -4179,7 +4179,7 @@
           ],
           "pixelCount": 165824,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_017/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_017/level_12.49939dc89aa114cb.webp"
         },
         "13": {
           "level": 13,
@@ -4195,7 +4195,7 @@
           ],
           "pixelCount": 165535,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_017/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_017/level_13.c56a22c68e39c0f5.webp"
         },
         "14": {
           "level": 14,
@@ -4211,7 +4211,7 @@
           ],
           "pixelCount": 165659,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_017/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_017/level_14.a5e0c29acaab7180.webp"
         },
         "15": {
           "level": 15,
@@ -4227,7 +4227,7 @@
           ],
           "pixelCount": 167418,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_017/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_017/level_15.613ea30aa1b905b9.webp"
         },
         "16": {
           "level": 16,
@@ -4243,7 +4243,7 @@
           ],
           "pixelCount": 282647,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_017/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_017/level_16.431497372bd0b524.webp"
         },
         "09": {
           "level": 9,
@@ -4259,7 +4259,7 @@
           ],
           "pixelCount": 165759,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_017/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_017/level_09.594748c8f9b5ab09.webp"
         },
         "08": {
           "level": 8,
@@ -4275,7 +4275,7 @@
           ],
           "pixelCount": 165626,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_017/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_017/level_08.74d4e98172a2e4b5.webp"
         },
         "07": {
           "level": 7,
@@ -4291,7 +4291,7 @@
           ],
           "pixelCount": 165930,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_017/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_017/level_07.0db7db0eed498530.webp"
         },
         "06": {
           "level": 6,
@@ -4307,7 +4307,7 @@
           ],
           "pixelCount": 166044,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_017/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_017/level_06.4f655a1dc7600303.webp"
         },
         "05": {
           "level": 5,
@@ -4323,7 +4323,7 @@
           ],
           "pixelCount": 165821,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_017/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_017/level_05.65bb28902251d6c3.webp"
         },
         "04": {
           "level": 4,
@@ -4339,7 +4339,7 @@
           ],
           "pixelCount": 152400,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_017/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_017/level_04.14f5bc4fa2bc54ee.webp"
         },
         "03": {
           "level": 3,
@@ -4355,7 +4355,7 @@
           ],
           "pixelCount": 94952,
           "componentCount": 2,
-          "alphaMask": "/generated/masks/frame_017/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_017/level_03.8410482ae5e9b485.webp"
         }
       },
       "detectedBandCount": 14,
@@ -4364,14 +4364,14 @@
     {
       "id": 18,
       "angle": 12,
-      "beautySmall": "/generated/beauty/mobile/frame_018.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_018.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_018.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_018.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_018.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_018.eb992af949a9c62f.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_018.aa5e1dba947082d8.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_018.ed5bcf92a4d991fa.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_018.55eb0487525f975a.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_018.5748537a81e50bfc.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_018/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_018/hit-map.00f42466eb5ea5e4.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -4389,7 +4389,7 @@
           ],
           "pixelCount": 167162,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_018/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_018/level_10.65e0fb4a8d2f7dfa.webp"
         },
         "11": {
           "level": 11,
@@ -4405,7 +4405,7 @@
           ],
           "pixelCount": 167060,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_018/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_018/level_11.33649626ca066719.webp"
         },
         "12": {
           "level": 12,
@@ -4421,7 +4421,7 @@
           ],
           "pixelCount": 167094,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_018/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_018/level_12.004820232bc03ede.webp"
         },
         "13": {
           "level": 13,
@@ -4437,7 +4437,7 @@
           ],
           "pixelCount": 166886,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_018/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_018/level_13.a6ecd5fdc4c2287c.webp"
         },
         "14": {
           "level": 14,
@@ -4453,7 +4453,7 @@
           ],
           "pixelCount": 166958,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_018/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_018/level_14.99434cf25a745490.webp"
         },
         "15": {
           "level": 15,
@@ -4469,7 +4469,7 @@
           ],
           "pixelCount": 168698,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_018/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_018/level_15.cfeafc6ac748b470.webp"
         },
         "16": {
           "level": 16,
@@ -4485,7 +4485,7 @@
           ],
           "pixelCount": 284940,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_018/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_018/level_16.6c2efb9211af3703.webp"
         },
         "09": {
           "level": 9,
@@ -4501,7 +4501,7 @@
           ],
           "pixelCount": 167071,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_018/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_018/level_09.87fb60f7d3a2edde.webp"
         },
         "08": {
           "level": 8,
@@ -4517,7 +4517,7 @@
           ],
           "pixelCount": 166944,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_018/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_018/level_08.e6f79609726a56d9.webp"
         },
         "07": {
           "level": 7,
@@ -4533,7 +4533,7 @@
           ],
           "pixelCount": 167211,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_018/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_018/level_07.565959a5ab8e8612.webp"
         },
         "06": {
           "level": 6,
@@ -4549,7 +4549,7 @@
           ],
           "pixelCount": 167391,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_018/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_018/level_06.8ecde1feb842c38b.webp"
         },
         "05": {
           "level": 5,
@@ -4565,7 +4565,7 @@
           ],
           "pixelCount": 167147,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_018/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_018/level_05.daa4f43b488454b1.webp"
         },
         "04": {
           "level": 4,
@@ -4581,7 +4581,7 @@
           ],
           "pixelCount": 152400,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_018/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_018/level_04.8b097e40e9d0c8d7.webp"
         },
         "03": {
           "level": 3,
@@ -4597,7 +4597,7 @@
           ],
           "pixelCount": 94906,
           "componentCount": 2,
-          "alphaMask": "/generated/masks/frame_018/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_018/level_03.2415e33885f375f6.webp"
         }
       },
       "detectedBandCount": 14,
@@ -4606,14 +4606,14 @@
     {
       "id": 19,
       "angle": 16,
-      "beautySmall": "/generated/beauty/mobile/frame_019.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_019.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_019.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_019.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_019.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_019.9402fc5497b66ed1.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_019.18f56a75716e344d.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_019.a25eb2358f64aa91.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_019.57ae471efb3f3adb.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_019.aa52498cfde0846e.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_019/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_019/hit-map.c2a56566d87c5300.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -4631,7 +4631,7 @@
           ],
           "pixelCount": 168220,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_019/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_019/level_10.bd80cb6d845e76cd.webp"
         },
         "11": {
           "level": 11,
@@ -4647,7 +4647,7 @@
           ],
           "pixelCount": 168027,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_019/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_019/level_11.816cd6d709933f8c.webp"
         },
         "12": {
           "level": 12,
@@ -4663,7 +4663,7 @@
           ],
           "pixelCount": 168227,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_019/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_019/level_12.7ce15ff887935116.webp"
         },
         "13": {
           "level": 13,
@@ -4679,7 +4679,7 @@
           ],
           "pixelCount": 167895,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_019/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_019/level_13.2f53ac77bafb1776.webp"
         },
         "14": {
           "level": 14,
@@ -4695,7 +4695,7 @@
           ],
           "pixelCount": 167982,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_019/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_019/level_14.4e7cdb3d3424605f.webp"
         },
         "15": {
           "level": 15,
@@ -4711,7 +4711,7 @@
           ],
           "pixelCount": 169741,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_019/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_019/level_15.2009c7eed63efd3c.webp"
         },
         "16": {
           "level": 16,
@@ -4727,7 +4727,7 @@
           ],
           "pixelCount": 286856,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_019/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_019/level_16.491055c549757df6.webp"
         },
         "09": {
           "level": 9,
@@ -4743,7 +4743,7 @@
           ],
           "pixelCount": 168042,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_019/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_019/level_09.d1aeb1e4f29fd99c.webp"
         },
         "08": {
           "level": 8,
@@ -4759,7 +4759,7 @@
           ],
           "pixelCount": 167989,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_019/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_019/level_08.c146cae6eb076914.webp"
         },
         "07": {
           "level": 7,
@@ -4775,7 +4775,7 @@
           ],
           "pixelCount": 168265,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_019/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_019/level_07.70cfdfcad5ae042f.webp"
         },
         "06": {
           "level": 6,
@@ -4791,7 +4791,7 @@
           ],
           "pixelCount": 168353,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_019/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_019/level_06.8534eec7c4caa5c2.webp"
         },
         "05": {
           "level": 5,
@@ -4807,7 +4807,7 @@
           ],
           "pixelCount": 168205,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_019/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_019/level_05.8433b797e96ee80b.webp"
         },
         "04": {
           "level": 4,
@@ -4823,7 +4823,7 @@
           ],
           "pixelCount": 153857,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_019/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_019/level_04.d304226c0b21b81e.webp"
         },
         "03": {
           "level": 3,
@@ -4839,7 +4839,7 @@
           ],
           "pixelCount": 91887,
           "componentCount": 2,
-          "alphaMask": "/generated/masks/frame_019/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_019/level_03.9a4530292b45642c.webp"
         }
       },
       "detectedBandCount": 14,
@@ -4848,14 +4848,14 @@
     {
       "id": 20,
       "angle": 20,
-      "beautySmall": "/generated/beauty/mobile/frame_020.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_020.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_020.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_020.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_020.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_020.d946c987ae89477f.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_020.b5b48e37dd91c90b.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_020.57f4a133e9859a4e.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_020.50ba661c55c58973.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_020.26272b0b4e55aeb9.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_020/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_020/hit-map.f90c2c038f592273.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -4873,7 +4873,7 @@
           ],
           "pixelCount": 169182,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_020/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_020/level_10.12d1a5d00861d5a0.webp"
         },
         "11": {
           "level": 11,
@@ -4889,7 +4889,7 @@
           ],
           "pixelCount": 168924,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_020/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_020/level_11.3245af5f81d20762.webp"
         },
         "12": {
           "level": 12,
@@ -4905,7 +4905,7 @@
           ],
           "pixelCount": 169120,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_020/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_020/level_12.6b663f04e1b0d80f.webp"
         },
         "13": {
           "level": 13,
@@ -4921,7 +4921,7 @@
           ],
           "pixelCount": 168801,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_020/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_020/level_13.e1b05af676f8b387.webp"
         },
         "14": {
           "level": 14,
@@ -4937,7 +4937,7 @@
           ],
           "pixelCount": 168906,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_020/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_020/level_14.94a962caab9d4367.webp"
         },
         "15": {
           "level": 15,
@@ -4953,7 +4953,7 @@
           ],
           "pixelCount": 170647,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_020/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_020/level_15.56d3420efdf38d24.webp"
         },
         "16": {
           "level": 16,
@@ -4969,7 +4969,7 @@
           ],
           "pixelCount": 288209,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_020/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_020/level_16.dabb4696436d0b48.webp"
         },
         "09": {
           "level": 9,
@@ -4985,7 +4985,7 @@
           ],
           "pixelCount": 169010,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_020/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_020/level_09.ae32d7eea6b952fd.webp"
         },
         "08": {
           "level": 8,
@@ -5001,7 +5001,7 @@
           ],
           "pixelCount": 168917,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_020/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_020/level_08.bef9c06daa8a0b37.webp"
         },
         "07": {
           "level": 7,
@@ -5017,7 +5017,7 @@
           ],
           "pixelCount": 169173,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_020/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_020/level_07.84c81df78fca8f4d.webp"
         },
         "06": {
           "level": 6,
@@ -5033,7 +5033,7 @@
           ],
           "pixelCount": 169236,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_020/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_020/level_06.519d356cbc519c77.webp"
         },
         "05": {
           "level": 5,
@@ -5049,7 +5049,7 @@
           ],
           "pixelCount": 169159,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_020/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_020/level_05.871a0a33348c8218.webp"
         },
         "04": {
           "level": 4,
@@ -5065,7 +5065,7 @@
           ],
           "pixelCount": 154798,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_020/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_020/level_04.c13e5e7b2216a9b1.webp"
         },
         "03": {
           "level": 3,
@@ -5081,7 +5081,7 @@
           ],
           "pixelCount": 94006,
           "componentCount": 3,
-          "alphaMask": "/generated/masks/frame_020/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_020/level_03.9beade1a81ea8b11.webp"
         }
       },
       "detectedBandCount": 14,
@@ -5090,14 +5090,14 @@
     {
       "id": 21,
       "angle": 24,
-      "beautySmall": "/generated/beauty/mobile/frame_021.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_021.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_021.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_021.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_021.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_021.3392f16a7eadc26a.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_021.905d91fbd5c9e0e1.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_021.094c6ab6d675501e.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_021.8cfdb2b762ca01f0.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_021.e99d548ac7f52a14.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_021/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_021/hit-map.a20c3c02cd895c5a.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -5115,7 +5115,7 @@
           ],
           "pixelCount": 169548,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_021/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_021/level_10.fdfb55c29b3b4d73.webp"
         },
         "11": {
           "level": 11,
@@ -5131,7 +5131,7 @@
           ],
           "pixelCount": 169466,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_021/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_021/level_11.386be4663f48a3eb.webp"
         },
         "12": {
           "level": 12,
@@ -5147,7 +5147,7 @@
           ],
           "pixelCount": 169500,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_021/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_021/level_12.bfc63f368ce91d9a.webp"
         },
         "13": {
           "level": 13,
@@ -5163,7 +5163,7 @@
           ],
           "pixelCount": 169223,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_021/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_021/level_13.ce28e54f71d3f4a1.webp"
         },
         "14": {
           "level": 14,
@@ -5179,7 +5179,7 @@
           ],
           "pixelCount": 169410,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_021/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_021/level_14.2e8e12e9ff06468f.webp"
         },
         "15": {
           "level": 15,
@@ -5195,7 +5195,7 @@
           ],
           "pixelCount": 171076,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_021/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_021/level_15.507191730275e80f.webp"
         },
         "16": {
           "level": 16,
@@ -5211,7 +5211,7 @@
           ],
           "pixelCount": 288975,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_021/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_021/level_16.20c9647bdbd2fe55.webp"
         },
         "09": {
           "level": 9,
@@ -5227,7 +5227,7 @@
           ],
           "pixelCount": 169501,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_021/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_021/level_09.5440e198854bdbb9.webp"
         },
         "08": {
           "level": 8,
@@ -5243,7 +5243,7 @@
           ],
           "pixelCount": 169339,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_021/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_021/level_08.c724e8bf7fe4fbfd.webp"
         },
         "07": {
           "level": 7,
@@ -5259,7 +5259,7 @@
           ],
           "pixelCount": 169603,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_021/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_021/level_07.ead4f6fd872a53a8.webp"
         },
         "06": {
           "level": 6,
@@ -5275,7 +5275,7 @@
           ],
           "pixelCount": 169752,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_021/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_021/level_06.ce810ec0febe8236.webp"
         },
         "05": {
           "level": 5,
@@ -5291,7 +5291,7 @@
           ],
           "pixelCount": 169631,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_021/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_021/level_05.9084a47048828a41.webp"
         },
         "04": {
           "level": 4,
@@ -5307,7 +5307,7 @@
           ],
           "pixelCount": 155106,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_021/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_021/level_04.c570d3a3026cf307.webp"
         },
         "03": {
           "level": 3,
@@ -5323,7 +5323,7 @@
           ],
           "pixelCount": 94615,
           "componentCount": 3,
-          "alphaMask": "/generated/masks/frame_021/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_021/level_03.6b379c53bd622724.webp"
         }
       },
       "detectedBandCount": 14,
@@ -5332,14 +5332,14 @@
     {
       "id": 22,
       "angle": 28,
-      "beautySmall": "/generated/beauty/mobile/frame_022.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_022.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_022.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_022.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_022.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_022.661d3393d7f66ebf.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_022.c3fd9e2cf313f135.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_022.0d5cf5a50a85b70a.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_022.216b5b49c5888b16.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_022.0676b14ddf57814d.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_022/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_022/hit-map.f0fde6073eccd918.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -5357,7 +5357,7 @@
           ],
           "pixelCount": 169857,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_022/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_022/level_10.aaab46e4682e8953.webp"
         },
         "11": {
           "level": 11,
@@ -5373,7 +5373,7 @@
           ],
           "pixelCount": 169646,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_022/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_022/level_11.2af093569225999d.webp"
         },
         "12": {
           "level": 12,
@@ -5389,7 +5389,7 @@
           ],
           "pixelCount": 169840,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_022/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_022/level_12.253037b8beba5d84.webp"
         },
         "13": {
           "level": 13,
@@ -5405,7 +5405,7 @@
           ],
           "pixelCount": 169438,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_022/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_022/level_13.8906cb325f0754a3.webp"
         },
         "14": {
           "level": 14,
@@ -5421,7 +5421,7 @@
           ],
           "pixelCount": 169651,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_022/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_022/level_14.3ab2bfb997dcdf66.webp"
         },
         "15": {
           "level": 15,
@@ -5437,7 +5437,7 @@
           ],
           "pixelCount": 171305,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_022/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_022/level_15.9545273643f5ce5e.webp"
         },
         "16": {
           "level": 16,
@@ -5453,7 +5453,7 @@
           ],
           "pixelCount": 289541,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_022/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_022/level_16.17c063b695cdeb39.webp"
         },
         "09": {
           "level": 9,
@@ -5469,7 +5469,7 @@
           ],
           "pixelCount": 169687,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_022/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_022/level_09.06e2334b880836b6.webp"
         },
         "08": {
           "level": 8,
@@ -5485,7 +5485,7 @@
           ],
           "pixelCount": 169609,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_022/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_022/level_08.65294d540d8c7877.webp"
         },
         "07": {
           "level": 7,
@@ -5501,7 +5501,7 @@
           ],
           "pixelCount": 169925,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_022/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_022/level_07.8578927927352619.webp"
         },
         "06": {
           "level": 6,
@@ -5517,7 +5517,7 @@
           ],
           "pixelCount": 170007,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_022/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_022/level_06.6cf296383f954367.webp"
         },
         "05": {
           "level": 5,
@@ -5533,7 +5533,7 @@
           ],
           "pixelCount": 169858,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_022/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_022/level_05.8809d4d858ace764.webp"
         },
         "04": {
           "level": 4,
@@ -5549,7 +5549,7 @@
           ],
           "pixelCount": 155400,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_022/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_022/level_04.423030a5b5c44678.webp"
         },
         "03": {
           "level": 3,
@@ -5565,7 +5565,7 @@
           ],
           "pixelCount": 94420,
           "componentCount": 3,
-          "alphaMask": "/generated/masks/frame_022/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_022/level_03.7c3a35464f34cbfb.webp"
         }
       },
       "detectedBandCount": 14,
@@ -5574,14 +5574,14 @@
     {
       "id": 23,
       "angle": 32,
-      "beautySmall": "/generated/beauty/mobile/frame_023.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_023.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_023.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_023.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_023.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_023.a8830b7457019421.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_023.01f67edbce1ae5e3.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_023.2cf417f1ed89177b.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_023.7f10c65ef8c0e980.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_023.75e670455aa44690.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_023/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_023/hit-map.32f2c697e74486d5.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -5599,7 +5599,7 @@
           ],
           "pixelCount": 169755,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_023/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_023/level_10.79aa39ce1470743d.webp"
         },
         "11": {
           "level": 11,
@@ -5615,7 +5615,7 @@
           ],
           "pixelCount": 169542,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_023/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_023/level_11.c2bf810be45be9d8.webp"
         },
         "12": {
           "level": 12,
@@ -5631,7 +5631,7 @@
           ],
           "pixelCount": 169749,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_023/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_023/level_12.64dc56a87a9b2c5b.webp"
         },
         "13": {
           "level": 13,
@@ -5647,7 +5647,7 @@
           ],
           "pixelCount": 169419,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_023/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_023/level_13.bc3e1c745eccc0d7.webp"
         },
         "14": {
           "level": 14,
@@ -5663,7 +5663,7 @@
           ],
           "pixelCount": 169464,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_023/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_023/level_14.48de50ddd007f21e.webp"
         },
         "15": {
           "level": 15,
@@ -5679,7 +5679,7 @@
           ],
           "pixelCount": 171196,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_023/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_023/level_15.474941713471047a.webp"
         },
         "16": {
           "level": 16,
@@ -5695,7 +5695,7 @@
           ],
           "pixelCount": 289325,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_023/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_023/level_16.aeb272fcea7cd974.webp"
         },
         "09": {
           "level": 9,
@@ -5711,7 +5711,7 @@
           ],
           "pixelCount": 169570,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_023/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_023/level_09.c64b13d4a9fad40d.webp"
         },
         "08": {
           "level": 8,
@@ -5727,7 +5727,7 @@
           ],
           "pixelCount": 169550,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_023/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_023/level_08.9f4e8ba55ca7d850.webp"
         },
         "07": {
           "level": 7,
@@ -5743,7 +5743,7 @@
           ],
           "pixelCount": 169805,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_023/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_023/level_07.819d0adc92712547.webp"
         },
         "06": {
           "level": 6,
@@ -5759,7 +5759,7 @@
           ],
           "pixelCount": 169930,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_023/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_023/level_06.c4f5214adae8af1e.webp"
         },
         "05": {
           "level": 5,
@@ -5775,7 +5775,7 @@
           ],
           "pixelCount": 169699,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_023/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_023/level_05.5087840b154b3c05.webp"
         },
         "04": {
           "level": 4,
@@ -5791,7 +5791,7 @@
           ],
           "pixelCount": 155365,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_023/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_023/level_04.6fda1f878c86de52.webp"
         },
         "03": {
           "level": 3,
@@ -5807,7 +5807,7 @@
           ],
           "pixelCount": 92242,
           "componentCount": 3,
-          "alphaMask": "/generated/masks/frame_023/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_023/level_03.c4ca80b9593e8a45.webp"
         }
       },
       "detectedBandCount": 14,
@@ -5816,14 +5816,14 @@
     {
       "id": 24,
       "angle": 36,
-      "beautySmall": "/generated/beauty/mobile/frame_024.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_024.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_024.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_024.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_024.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_024.718597c07afefa29.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_024.7c428895429f0bfc.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_024.31a17f3905c8d6fc.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_024.9e805a744d2c1d90.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_024.afc6ca6e8ffaf990.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_024/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_024/hit-map.3c62ddcdb31a7b8a.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -5841,7 +5841,7 @@
           ],
           "pixelCount": 169410,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_024/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_024/level_10.04d9f11f21deaf13.webp"
         },
         "11": {
           "level": 11,
@@ -5857,7 +5857,7 @@
           ],
           "pixelCount": 169265,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_024/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_024/level_11.dbd78e035a1ad57f.webp"
         },
         "12": {
           "level": 12,
@@ -5873,7 +5873,7 @@
           ],
           "pixelCount": 169382,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_024/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_024/level_12.e03633ca6e77a1c3.webp"
         },
         "13": {
           "level": 13,
@@ -5889,7 +5889,7 @@
           ],
           "pixelCount": 169109,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_024/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_024/level_13.301bfd7948689ab5.webp"
         },
         "14": {
           "level": 14,
@@ -5905,7 +5905,7 @@
           ],
           "pixelCount": 169197,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_024/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_024/level_14.9162edfb033734f3.webp"
         },
         "15": {
           "level": 15,
@@ -5921,7 +5921,7 @@
           ],
           "pixelCount": 170857,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_024/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_024/level_15.eeacc2ec5e59cd3d.webp"
         },
         "16": {
           "level": 16,
@@ -5937,7 +5937,7 @@
           ],
           "pixelCount": 288795,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_024/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_024/level_16.e4982c34d4857da9.webp"
         },
         "09": {
           "level": 9,
@@ -5953,7 +5953,7 @@
           ],
           "pixelCount": 169309,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_024/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_024/level_09.aa80915b9637f7c5.webp"
         },
         "08": {
           "level": 8,
@@ -5969,7 +5969,7 @@
           ],
           "pixelCount": 169200,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_024/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_024/level_08.b3bb362ffce097aa.webp"
         },
         "07": {
           "level": 7,
@@ -5985,7 +5985,7 @@
           ],
           "pixelCount": 169461,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_024/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_024/level_07.3e73edab0b4881c6.webp"
         },
         "06": {
           "level": 6,
@@ -6001,7 +6001,7 @@
           ],
           "pixelCount": 169601,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_024/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_024/level_06.ea0b0c04c7912454.webp"
         },
         "05": {
           "level": 5,
@@ -6017,7 +6017,7 @@
           ],
           "pixelCount": 169443,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_024/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_024/level_05.941e0f8b518e164c.webp"
         },
         "04": {
           "level": 4,
@@ -6033,7 +6033,7 @@
           ],
           "pixelCount": 155072,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_024/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_024/level_04.90564b2bc7f79ceb.webp"
         },
         "03": {
           "level": 3,
@@ -6049,7 +6049,7 @@
           ],
           "pixelCount": 91699,
           "componentCount": 3,
-          "alphaMask": "/generated/masks/frame_024/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_024/level_03.a3bd6177fa9dec26.webp"
         }
       },
       "detectedBandCount": 14,
@@ -6058,14 +6058,14 @@
     {
       "id": 25,
       "angle": 40,
-      "beautySmall": "/generated/beauty/mobile/frame_025.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_025.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_025.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_025.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_025.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_025.1a173dd0d53802d2.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_025.e897dc890027d004.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_025.a45bdbb54a3af992.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_025.8cc99af9454b0ffc.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_025.a0e4ec32fc1c6c24.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_025/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_025/hit-map.db70e5bed521e941.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -6083,7 +6083,7 @@
           ],
           "pixelCount": 168674,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_025/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_025/level_10.3062191d80ba73e3.webp"
         },
         "11": {
           "level": 11,
@@ -6099,7 +6099,7 @@
           ],
           "pixelCount": 168526,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_025/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_025/level_11.4bf2eded9464c427.webp"
         },
         "12": {
           "level": 12,
@@ -6115,7 +6115,7 @@
           ],
           "pixelCount": 168666,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_025/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_025/level_12.ab74963ddfa72fb6.webp"
         },
         "13": {
           "level": 13,
@@ -6131,7 +6131,7 @@
           ],
           "pixelCount": 168349,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_025/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_025/level_13.40b4f45f7eb65093.webp"
         },
         "14": {
           "level": 14,
@@ -6147,7 +6147,7 @@
           ],
           "pixelCount": 168468,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_025/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_025/level_14.5f14ba878ec9716a.webp"
         },
         "15": {
           "level": 15,
@@ -6163,7 +6163,7 @@
           ],
           "pixelCount": 170087,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_025/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_025/level_15.5ef2f936ae6e0249.webp"
         },
         "16": {
           "level": 16,
@@ -6179,7 +6179,7 @@
           ],
           "pixelCount": 287460,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_025/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_025/level_16.430e9a3bbc22a5dd.webp"
         },
         "09": {
           "level": 9,
@@ -6195,7 +6195,7 @@
           ],
           "pixelCount": 168508,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_025/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_025/level_09.bc8642bf4f7503cd.webp"
         },
         "08": {
           "level": 8,
@@ -6211,7 +6211,7 @@
           ],
           "pixelCount": 168463,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_025/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_025/level_08.8e38531cd7728713.webp"
         },
         "07": {
           "level": 7,
@@ -6227,7 +6227,7 @@
           ],
           "pixelCount": 168706,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_025/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_025/level_07.2e29785ed56379bc.webp"
         },
         "06": {
           "level": 6,
@@ -6243,7 +6243,7 @@
           ],
           "pixelCount": 168805,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_025/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_025/level_06.687baef1bf0c2f06.webp"
         },
         "05": {
           "level": 5,
@@ -6259,7 +6259,7 @@
           ],
           "pixelCount": 168627,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_025/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_025/level_05.0284496bcabfcc56.webp"
         },
         "04": {
           "level": 4,
@@ -6275,7 +6275,7 @@
           ],
           "pixelCount": 154307,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_025/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_025/level_04.e37c36cc6c235072.webp"
         },
         "03": {
           "level": 3,
@@ -6291,7 +6291,7 @@
           ],
           "pixelCount": 92497,
           "componentCount": 3,
-          "alphaMask": "/generated/masks/frame_025/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_025/level_03.cad32ed6ba7f699d.webp"
         }
       },
       "detectedBandCount": 14,
@@ -6300,14 +6300,14 @@
     {
       "id": 26,
       "angle": 44,
-      "beautySmall": "/generated/beauty/mobile/frame_026.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_026.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_026.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_026.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_026.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_026.19fe649db2086ccf.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_026.386469fda21bf8f0.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_026.ae8f7740bbcc0266.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_026.0b15a2d09157a497.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_026.8b1c6ec893fcf863.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_026/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_026/hit-map.249655b5ea965733.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -6325,7 +6325,7 @@
           ],
           "pixelCount": 167685,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_026/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_026/level_10.873dc6097183fd84.webp"
         },
         "11": {
           "level": 11,
@@ -6341,7 +6341,7 @@
           ],
           "pixelCount": 167524,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_026/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_026/level_11.2a1b8023595e7814.webp"
         },
         "12": {
           "level": 12,
@@ -6357,7 +6357,7 @@
           ],
           "pixelCount": 167659,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_026/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_026/level_12.9a9399be49d219f1.webp"
         },
         "13": {
           "level": 13,
@@ -6373,7 +6373,7 @@
           ],
           "pixelCount": 167336,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_026/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_026/level_13.dc8b7423c5c1bff5.webp"
         },
         "14": {
           "level": 14,
@@ -6389,7 +6389,7 @@
           ],
           "pixelCount": 167513,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_026/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_026/level_14.5bd713bddcc18ac3.webp"
         },
         "15": {
           "level": 15,
@@ -6405,7 +6405,7 @@
           ],
           "pixelCount": 169087,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_026/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_026/level_15.2abe141890fe03a6.webp"
         },
         "16": {
           "level": 16,
@@ -6421,7 +6421,7 @@
           ],
           "pixelCount": 285742,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_026/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_026/level_16.643a9fa894708539.webp"
         },
         "09": {
           "level": 9,
@@ -6437,7 +6437,7 @@
           ],
           "pixelCount": 167542,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_026/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_026/level_09.bac83f692cc75dab.webp"
         },
         "08": {
           "level": 8,
@@ -6453,7 +6453,7 @@
           ],
           "pixelCount": 167444,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_026/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_026/level_08.544b88547f349ede.webp"
         },
         "07": {
           "level": 7,
@@ -6469,7 +6469,7 @@
           ],
           "pixelCount": 167750,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_026/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_026/level_07.e97d701dbae9a608.webp"
         },
         "06": {
           "level": 6,
@@ -6485,7 +6485,7 @@
           ],
           "pixelCount": 167816,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_026/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_026/level_06.20da73c653dbeec4.webp"
         },
         "05": {
           "level": 5,
@@ -6501,7 +6501,7 @@
           ],
           "pixelCount": 167666,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_026/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_026/level_05.552046e592e567b1.webp"
         },
         "04": {
           "level": 4,
@@ -6517,7 +6517,7 @@
           ],
           "pixelCount": 153359,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_026/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_026/level_04.92c3738a438da6b9.webp"
         },
         "03": {
           "level": 3,
@@ -6533,7 +6533,7 @@
           ],
           "pixelCount": 91255,
           "componentCount": 3,
-          "alphaMask": "/generated/masks/frame_026/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_026/level_03.fb297f3050349176.webp"
         }
       },
       "detectedBandCount": 14,
@@ -6542,14 +6542,14 @@
     {
       "id": 27,
       "angle": 48,
-      "beautySmall": "/generated/beauty/mobile/frame_027.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_027.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_027.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_027.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_027.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_027.2fcdbbc22bbbdd85.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_027.7a3971913f7d51e9.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_027.d6e961717304005b.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_027.fda32961d3f97a6d.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_027.ed8d3dc7e5ed321d.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_027/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_027/hit-map.47be24e767f7ca05.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -6567,7 +6567,7 @@
           ],
           "pixelCount": 166313,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_027/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_027/level_10.edb52954d0ca62ac.webp"
         },
         "11": {
           "level": 11,
@@ -6583,7 +6583,7 @@
           ],
           "pixelCount": 166125,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_027/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_027/level_11.2549b63989848070.webp"
         },
         "12": {
           "level": 12,
@@ -6599,7 +6599,7 @@
           ],
           "pixelCount": 166235,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_027/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_027/level_12.f49f9d661250f553.webp"
         },
         "13": {
           "level": 13,
@@ -6615,7 +6615,7 @@
           ],
           "pixelCount": 166007,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_027/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_027/level_13.315831d8202854ab.webp"
         },
         "14": {
           "level": 14,
@@ -6631,7 +6631,7 @@
           ],
           "pixelCount": 166085,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_027/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_027/level_14.9e72a57d22d87fbe.webp"
         },
         "15": {
           "level": 15,
@@ -6647,7 +6647,7 @@
           ],
           "pixelCount": 167620,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_027/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_027/level_15.3ed0bab3e4da491d.webp"
         },
         "16": {
           "level": 16,
@@ -6663,7 +6663,7 @@
           ],
           "pixelCount": 283483,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_027/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_027/level_16.90cda92e606ec646.webp"
         },
         "09": {
           "level": 9,
@@ -6679,7 +6679,7 @@
           ],
           "pixelCount": 166174,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_027/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_027/level_09.c2a12d0b7582202c.webp"
         },
         "08": {
           "level": 8,
@@ -6695,7 +6695,7 @@
           ],
           "pixelCount": 166078,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_027/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_027/level_08.ae336dbb7fbd009c.webp"
         },
         "07": {
           "level": 7,
@@ -6711,7 +6711,7 @@
           ],
           "pixelCount": 166297,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_027/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_027/level_07.dd566d093a7a32c9.webp"
         },
         "06": {
           "level": 6,
@@ -6727,7 +6727,7 @@
           ],
           "pixelCount": 166461,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_027/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_027/level_06.7de8b8899be8474e.webp"
         },
         "05": {
           "level": 5,
@@ -6743,7 +6743,7 @@
           ],
           "pixelCount": 166330,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_027/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_027/level_05.0055c97000194397.webp"
         },
         "04": {
           "level": 4,
@@ -6759,7 +6759,7 @@
           ],
           "pixelCount": 152508,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_027/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_027/level_04.32639ca6b8404631.webp"
         },
         "03": {
           "level": 3,
@@ -6775,7 +6775,7 @@
           ],
           "pixelCount": 93648,
           "componentCount": 3,
-          "alphaMask": "/generated/masks/frame_027/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_027/level_03.c02cbe724d3850d7.webp"
         }
       },
       "detectedBandCount": 14,
@@ -6784,14 +6784,14 @@
     {
       "id": 28,
       "angle": 52,
-      "beautySmall": "/generated/beauty/mobile/frame_028.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_028.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_028.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_028.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_028.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_028.68cc167a56bb0028.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_028.c327496e87fc06ab.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_028.036e0304a8da2010.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_028.8e95b9f6156845ce.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_028.817838b00cc8c713.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_028/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_028/hit-map.4a9612935c985ac2.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -6809,7 +6809,7 @@
           ],
           "pixelCount": 164766,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_028/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_028/level_10.de761b873c126d79.webp"
         },
         "11": {
           "level": 11,
@@ -6825,7 +6825,7 @@
           ],
           "pixelCount": 164542,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_028/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_028/level_11.426494a101bd37cd.webp"
         },
         "12": {
           "level": 12,
@@ -6841,7 +6841,7 @@
           ],
           "pixelCount": 164695,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_028/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_028/level_12.e3fb2247f9e3e887.webp"
         },
         "13": {
           "level": 13,
@@ -6857,7 +6857,7 @@
           ],
           "pixelCount": 164454,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_028/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_028/level_13.8680e364476ed3a1.webp"
         },
         "14": {
           "level": 14,
@@ -6873,7 +6873,7 @@
           ],
           "pixelCount": 164519,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_028/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_028/level_14.28d95d9278a8b6c6.webp"
         },
         "15": {
           "level": 15,
@@ -6889,7 +6889,7 @@
           ],
           "pixelCount": 166065,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_028/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_028/level_15.b5cc9e71b239dcab.webp"
         },
         "16": {
           "level": 16,
@@ -6905,7 +6905,7 @@
           ],
           "pixelCount": 280874,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_028/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_028/level_16.038184bf3d95dcfa.webp"
         },
         "09": {
           "level": 9,
@@ -6921,7 +6921,7 @@
           ],
           "pixelCount": 164609,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_028/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_028/level_09.0acc1c6472bb50be.webp"
         },
         "08": {
           "level": 8,
@@ -6937,7 +6937,7 @@
           ],
           "pixelCount": 164533,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_028/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_028/level_08.bfd1f0180ceb43cc.webp"
         },
         "07": {
           "level": 7,
@@ -6953,7 +6953,7 @@
           ],
           "pixelCount": 164769,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_028/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_028/level_07.e77b0e914759c08f.webp"
         },
         "06": {
           "level": 6,
@@ -6969,7 +6969,7 @@
           ],
           "pixelCount": 164901,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_028/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_028/level_06.866b247b238402b0.webp"
         },
         "05": {
           "level": 5,
@@ -6985,7 +6985,7 @@
           ],
           "pixelCount": 164720,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_028/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_028/level_05.98aa0b72e31c30ea.webp"
         },
         "04": {
           "level": 4,
@@ -7001,7 +7001,7 @@
           ],
           "pixelCount": 151129,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_028/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_028/level_04.8fe8cca9da65cae6.webp"
         },
         "03": {
           "level": 3,
@@ -7017,7 +7017,7 @@
           ],
           "pixelCount": 92943,
           "componentCount": 3,
-          "alphaMask": "/generated/masks/frame_028/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_028/level_03.1b8ea25cb88f324f.webp"
         }
       },
       "detectedBandCount": 14,
@@ -7026,14 +7026,14 @@
     {
       "id": 29,
       "angle": 56,
-      "beautySmall": "/generated/beauty/mobile/frame_029.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_029.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_029.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_029.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_029.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_029.78b7f37cd7354cb6.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_029.d7e8366ac7cff3b0.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_029.e4d8c7658274b781.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_029.25a3c81f69c526eb.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_029.7a33ba1c45c8f573.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_029/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_029/hit-map.dcaf5a4a63892316.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -7051,7 +7051,7 @@
           ],
           "pixelCount": 162767,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_029/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_029/level_10.fc0061d9427aa489.webp"
         },
         "11": {
           "level": 11,
@@ -7067,7 +7067,7 @@
           ],
           "pixelCount": 162616,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_029/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_029/level_11.8b0102a81a5b9ab3.webp"
         },
         "12": {
           "level": 12,
@@ -7083,7 +7083,7 @@
           ],
           "pixelCount": 162761,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_029/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_029/level_12.5c7eef36d19365d9.webp"
         },
         "13": {
           "level": 13,
@@ -7099,7 +7099,7 @@
           ],
           "pixelCount": 162449,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_029/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_029/level_13.279b455f55de52cd.webp"
         },
         "14": {
           "level": 14,
@@ -7115,7 +7115,7 @@
           ],
           "pixelCount": 162565,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_029/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_029/level_14.2fb81e8b94b3c1fe.webp"
         },
         "15": {
           "level": 15,
@@ -7131,7 +7131,7 @@
           ],
           "pixelCount": 164105,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_029/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_029/level_15.5c5058133e8d25a3.webp"
         },
         "16": {
           "level": 16,
@@ -7147,7 +7147,7 @@
           ],
           "pixelCount": 277382,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_029/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_029/level_16.2072a1fd692b3a7e.webp"
         },
         "09": {
           "level": 9,
@@ -7163,7 +7163,7 @@
           ],
           "pixelCount": 162639,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_029/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_029/level_09.7a37e4cd6c9be410.webp"
         },
         "08": {
           "level": 8,
@@ -7179,7 +7179,7 @@
           ],
           "pixelCount": 162572,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_029/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_029/level_08.6b1feebb1e30f653.webp"
         },
         "07": {
           "level": 7,
@@ -7195,7 +7195,7 @@
           ],
           "pixelCount": 162810,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_029/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_029/level_07.b9bbfbd69bf786aa.webp"
         },
         "06": {
           "level": 6,
@@ -7211,7 +7211,7 @@
           ],
           "pixelCount": 162935,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_029/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_029/level_06.06b057db3fb703f8.webp"
         },
         "05": {
           "level": 5,
@@ -7227,7 +7227,7 @@
           ],
           "pixelCount": 162791,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_029/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_029/level_05.51be913c31ec1f8a.webp"
         },
         "04": {
           "level": 4,
@@ -7243,7 +7243,7 @@
           ],
           "pixelCount": 149383,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_029/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_029/level_04.254cf8dec568f5e4.webp"
         },
         "03": {
           "level": 3,
@@ -7259,7 +7259,7 @@
           ],
           "pixelCount": 90053,
           "componentCount": 3,
-          "alphaMask": "/generated/masks/frame_029/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_029/level_03.09799e31a772f4fc.webp"
         }
       },
       "detectedBandCount": 14,
@@ -7268,14 +7268,14 @@
     {
       "id": 30,
       "angle": 60,
-      "beautySmall": "/generated/beauty/mobile/frame_030.webp",
-      "beautySmallFallback": "/generated/beauty/mobile/frame_030.jpg",
-      "beautyMedium": "/generated/beauty/desktop/frame_030.webp",
-      "beautyMediumFallback": "/generated/beauty/desktop/frame_030.jpg",
-      "beautyHi": "/generated/beauty/hi/frame_030.webp",
+      "beautySmall": "/generated/beauty/mobile/frame_030.656b899c56968f93.webp",
+      "beautySmallFallback": "/generated/beauty/mobile/frame_030.2035b32bbd3582a9.jpg",
+      "beautyMedium": "/generated/beauty/desktop/frame_030.50efdafbcc110ef4.webp",
+      "beautyMediumFallback": "/generated/beauty/desktop/frame_030.6e0cea32c3b3dfda.jpg",
+      "beautyHi": "/generated/beauty/hi/frame_030.09acef5f5ef74455.webp",
       "sourceWidth": 2400,
       "sourceHeight": 3000,
-      "hitMap": "/generated/masks/frame_030/hit-map.webp?v=mtswrf4m",
+      "hitMap": "/generated/masks/frame_030/hit-map.693049b88bda60cd.webp",
       "hitMapWidth": 240,
       "hitMapHeight": 300,
       "regions": {
@@ -7293,7 +7293,7 @@
           ],
           "pixelCount": 160450,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_030/level_10.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_030/level_10.d06cd740543505d1.webp"
         },
         "11": {
           "level": 11,
@@ -7309,7 +7309,7 @@
           ],
           "pixelCount": 160330,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_030/level_11.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_030/level_11.e92762261e2797ca.webp"
         },
         "12": {
           "level": 12,
@@ -7325,7 +7325,7 @@
           ],
           "pixelCount": 160432,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_030/level_12.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_030/level_12.817ecf7c557dde06.webp"
         },
         "13": {
           "level": 13,
@@ -7341,7 +7341,7 @@
           ],
           "pixelCount": 160189,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_030/level_13.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_030/level_13.c0b22ccdcf9090c6.webp"
         },
         "14": {
           "level": 14,
@@ -7357,7 +7357,7 @@
           ],
           "pixelCount": 160319,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_030/level_14.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_030/level_14.9af6a3766af894bc.webp"
         },
         "15": {
           "level": 15,
@@ -7373,7 +7373,7 @@
           ],
           "pixelCount": 161715,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_030/level_15.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_030/level_15.be85f825ce6eadfe.webp"
         },
         "16": {
           "level": 16,
@@ -7389,7 +7389,7 @@
           ],
           "pixelCount": 273747,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_030/level_16.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_030/level_16.589dd24488395961.webp"
         },
         "09": {
           "level": 9,
@@ -7405,7 +7405,7 @@
           ],
           "pixelCount": 160387,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_030/level_09.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_030/level_09.ba65f6095d40e0e4.webp"
         },
         "08": {
           "level": 8,
@@ -7421,7 +7421,7 @@
           ],
           "pixelCount": 160249,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_030/level_08.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_030/level_08.e48cd36b5d034f99.webp"
         },
         "07": {
           "level": 7,
@@ -7437,7 +7437,7 @@
           ],
           "pixelCount": 160528,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_030/level_07.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_030/level_07.a80064a4138b41e8.webp"
         },
         "06": {
           "level": 6,
@@ -7453,7 +7453,7 @@
           ],
           "pixelCount": 160639,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_030/level_06.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_030/level_06.6e4433d55decb6f8.webp"
         },
         "05": {
           "level": 5,
@@ -7469,7 +7469,7 @@
           ],
           "pixelCount": 160500,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_030/level_05.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_030/level_05.39552d3015b63be1.webp"
         },
         "04": {
           "level": 4,
@@ -7485,7 +7485,7 @@
           ],
           "pixelCount": 147283,
           "componentCount": 1,
-          "alphaMask": "/generated/masks/frame_030/level_04.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_030/level_04.44d69208602eebf1.webp"
         },
         "03": {
           "level": 3,
@@ -7501,7 +7501,7 @@
           ],
           "pixelCount": 91177,
           "componentCount": 3,
-          "alphaMask": "/generated/masks/frame_030/level_03.webp?v=mtswrf4m"
+          "alphaMask": "/generated/masks/frame_030/level_03.4c0d9336ac93c555.webp"
         }
       },
       "detectedBandCount": 14,

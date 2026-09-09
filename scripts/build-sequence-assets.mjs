@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
+import { createHash } from 'node:crypto';
 
 const root = process.cwd();
 const sourceDir = path.join(root, 'images');
@@ -9,13 +10,19 @@ const manifestPath = path.join(root, 'src', 'generated', 'sequence-manifest.json
 const reportPath = path.join(root, 'asset-report.json');
 const selectableLevels = Array.from({ length: 14 }, (_, index) => 16 - index);
 const warnings = [];
-const assetVersion = Date.now().toString(36);
 
 const sequenceNumber = (name) => Number(name.match(/\((\d+)\)\.[^.]+$/i)?.[1] ?? 0);
 const fileSize = async (file) => (await fs.stat(file)).size;
 const prettyBytes = (bytes) => `${(bytes / 1024 / 1024).toFixed(2)} MB`;
-const assetUrl = (...parts) => `/generated/${parts.join('/')}`;
-const maskAssetUrl = (...parts) => `${assetUrl(...parts)}?v=${assetVersion}`;
+async function assetUrl(...parts) {
+  const filename = parts.pop();
+  const source = path.join(publicRoot, ...parts, filename);
+  const hash = createHash('sha256').update(await fs.readFile(source)).digest('hex').slice(0, 16);
+  const extension = path.extname(filename);
+  const versioned = filename.slice(0, -extension.length) + '.' + hash + extension;
+  await fs.rename(source, path.join(publicRoot, ...parts, versioned));
+  return '/generated/' + [...parts, versioned].join('/');
+}
 
 await fs.mkdir(path.dirname(manifestPath), { recursive: true });
 await fs.rm(publicRoot, { recursive: true, force: true });
@@ -243,7 +250,7 @@ async function processMask(frameIndex, maskName) {
       centroid: region.centroid,
       pixelCount: region.pixelCount,
       componentCount: region.componentIds.length,
-      alphaMask: maskAssetUrl('masks', frameFolder, filename),
+      alphaMask: await assetUrl('masks', frameFolder, filename),
     };
   }
 
@@ -279,7 +286,7 @@ async function processMask(frameIndex, maskName) {
   return {
     sourceWidth: info.width,
     sourceHeight: info.height,
-    hitMap: maskAssetUrl('masks', frameFolder, hitName),
+    hitMap: await assetUrl('masks', frameFolder, hitName),
     hitMapWidth: hitWidth,
     hitMapHeight: hitHeight,
     regions: regionManifest,
@@ -305,11 +312,11 @@ async function processBeauty(frameIndex, name) {
     pipeline.clone().resize({ width: 2400, height: 3000, fit: 'inside', withoutEnlargement: true }).webp({ quality: 88, effort: 4 }).toFile(hiWebp),
   ]);
   return {
-    beautySmall: assetUrl('beauty', 'mobile', `frame_${id}.webp`),
-    beautySmallFallback: assetUrl('beauty', 'mobile', `frame_${id}.jpg`),
-    beautyMedium: assetUrl('beauty', 'desktop', `frame_${id}.webp`),
-    beautyMediumFallback: assetUrl('beauty', 'desktop', `frame_${id}.jpg`),
-    beautyHi: assetUrl('beauty', 'hi', `frame_${id}.webp`),
+    beautySmall: await assetUrl('beauty', 'mobile', `frame_${id}.webp`),
+    beautySmallFallback: await assetUrl('beauty', 'mobile', `frame_${id}.jpg`),
+    beautyMedium: await assetUrl('beauty', 'desktop', `frame_${id}.webp`),
+    beautyMediumFallback: await assetUrl('beauty', 'desktop', `frame_${id}.jpg`),
+    beautyHi: await assetUrl('beauty', 'hi', `frame_${id}.webp`),
   };
 }
 
@@ -337,7 +344,7 @@ for (const candidate of planCandidates) {
   const extension = path.extname(candidate).toLowerCase();
   const targetName = `level_${level}${extension}`;
   await fs.copyFile(path.join(sourceDir, candidate), path.join(publicRoot, 'plans', targetName));
-  plans[level] = assetUrl('plans', targetName);
+  plans[level] = await assetUrl('plans', targetName);
 }
 
 const manifest = {

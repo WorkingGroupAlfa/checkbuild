@@ -1,101 +1,102 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import type { SequenceFrame } from '../lib/assetManifest';
-import { FrameCache } from '../lib/frameCache';
+import { ImageAssets, type ImageAsset } from '../lib/imageAssets';
 
-function requestIdle(callback: () => void) {
-  if (typeof window.requestIdleCallback === 'function') {
-    return window.requestIdleCallback(callback, { timeout: 1800 });
-  }
-  return globalThis.setTimeout(callback, 500);
+export function useImageAssets(limit: number, concurrency: number) {
+  const [assets, setAssets] = useState<ImageAssets | null>(null);
+  useEffect(() => {
+    const next = new ImageAssets(limit, concurrency);
+    setAssets(next);
+    return () => next.dispose();
+  }, [limit, concurrency]);
+  return assets;
 }
 
 export function useSequenceLoader(
   frames: SequenceFrame[],
-  frontFrame: number,
-  currentFrame: number,
-  selected: boolean,
+  motionFrame: number,
+  targetFrame: number,
+  settledSelection: boolean,
   fallback: boolean,
 ) {
-  const [ready, setReady] = useState<Set<number>>(() => new Set([frontFrame]));
-  const [hiReady, setHiReady] = useState<Set<number>>(() => new Set());
-  const readyRef = useRef(new Set([frontFrame]));
   const isMobile = useMemo(() => window.matchMedia('(max-width: 720px)').matches, []);
-  const cache = useRef(new FrameCache(isMobile ? 7 : 9));
-  const pending = useRef(new Map<number, Promise<void>>());
+  const assets = useImageAssets(isMobile ? 7 : 9, 3);
   const saveData = navigator.connection?.saveData === true;
-
-  const preload = useCallback((index: number) => {
-    if (!frames[index] || readyRef.current.has(index)) return Promise.resolve();
-    const existing = pending.current.get(index);
-    if (existing) return existing;
-    const promise = new Promise<void>((resolve) => {
-      const image = new Image();
-      image.decoding = 'async';
-      const frame = frames[index];
-      image.onload = async () => {
-        try { await image.decode?.(); } catch { /* onload already confirms a usable fallback */ }
-        cache.current.set(index, image);
-        readyRef.current.add(index);
-        setReady(new Set(readyRef.current));
-        pending.current.delete(index);
-        resolve();
-      };
-      image.onerror = () => {
-        if (!image.src.endsWith('.jpg')) image.src = isMobile ? frame.beautySmallFallback : frame.beautyMediumFallback;
-        else { pending.current.delete(index); resolve(); }
-      };
-      image.src = isMobile ? frame.beautySmall : frame.beautyMedium;
-    });
-    pending.current.set(index, promise);
-    return promise;
-  }, [frames, isMobile]);
+  const latestTarget = useRef(targetFrame);
+  latestTarget.current = targetFrame;
+  const [, setRevision] = useState(0);
+  const [ready, setReady] = useState<{ index: number; asset: ImageAsset } | null>(null);
+  const [hi, setHi] = useState<{ index: number; asset: ImageAsset } | null>(null);
+  const normalSource = (index: number) => isMobile ? frames[index].beautySmall : frames[index].beautyMedium;
+  const fallbackSource = (index: number) => isMobile ? frames[index].beautySmallFallback : frames[index].beautyMediumFallback;
 
   useEffect(() => {
-    if (fallback) return;
-    const radius = isMobile ? 2 : 3;
-    void preload(currentFrame);
-    for (let distance = 1; distance <= radius; distance += 1) {
-      void preload(currentFrame - distance);
-      void preload(currentFrame + distance);
+    if (!assets) return;
+    let active = true;
+    const source = (index: number) => isMobile ? frames[index].beautySmall : frames[index].beautyMedium;
+    const jpeg = (index: number) => isMobile ? frames[index].beautySmallFallback : frames[index].beautyMediumFallback;
+    void assets.load(source(motionFrame), jpeg(motionFrame), -10).then(asset => {
+      if (active) setReady({ index: motionFrame, asset });
+    }).catch(() => { if (active) setRevision(value => value + 1); });
+    if (!fallback) {
+      const direction = Math.sign(targetFrame - motionFrame) || 1;
+      const radius = isMobile || saveData ? 2 : 3;
+      for (let distance = 1; distance <= radius; distance++) {
+        for (const index of [motionFrame + direction * distance, motionFrame - direction * distance]) {
+          if (frames[index]) void assets.load(source(index), jpeg(index), distance).catch(() => undefined);
+        }
+      }
+      // Fetch the latest destination early, but don't decode distant images.
+      void assets.prefetch(source(targetFrame), jpeg(targetFrame), -5).catch(() => undefined);
     }
-  }, [currentFrame, fallback, isMobile, preload]);
+    return () => { active = false; };
+  }, [assets, fallback, frames, isMobile, motionFrame, saveData, targetFrame]);
 
   useEffect(() => {
-    if (fallback) return;
-    const coarse = saveData
-      ? [frontFrame, Math.max(0, frontFrame - 5), Math.min(frames.length - 1, frontFrame + 5)]
-      : [0, 5, 10, frontFrame, 20, 25, frames.length - 1];
-    const coarseTimer = window.setTimeout(() => coarse.forEach((index) => void preload(index)), 120);
-    const idleId = !saveData ? requestIdle(async () => {
-      const order = frames.map((_, index) => index).sort((a, b) => Math.abs(a - currentFrame) - Math.abs(b - currentFrame));
-      for (const index of order) await preload(index);
-    }) : 0;
-    return () => {
-      window.clearTimeout(coarseTimer);
-      if (typeof window.cancelIdleCallback === 'function' && idleId) window.cancelIdleCallback(idleId);
-      else if (idleId) window.clearTimeout(idleId);
+    if (!assets || fallback || saveData) return;
+    let active = true;
+    const loadRemaining = async () => {
+      while (active) {
+        const next = frames.map((_, index) => index)
+          .sort((a, b) => Math.abs(a - latestTarget.current) - Math.abs(b - latestTarget.current))
+          .find(index => {
+            const source = isMobile ? frames[index].beautySmall : frames[index].beautyMedium;
+            return !assets.hasBytes(source) && !assets.hasFailed(source);
+          });
+        if (next === undefined) break;
+        try {
+          await assets.prefetch(isMobile ? frames[next].beautySmall : frames[next].beautyMedium,
+            isMobile ? frames[next].beautySmallFallback : frames[next].beautyMediumFallback, 20);
+        } catch { /* A failed frame must not stop the remaining sequence. */ }
+      }
     };
-  }, [currentFrame, fallback, frames, frontFrame, preload, saveData]);
+    const timer = window.setTimeout(() => { void loadRemaining(); }, 250);
+    return () => { active = false; window.clearTimeout(timer); };
+  }, [assets, fallback, frames, isMobile, saveData]);
 
   useEffect(() => {
-    if (!selected || saveData || fallback || !frames[currentFrame]) return;
+    setHi(null);
+    if (!settledSelection || ready?.index !== targetFrame || saveData || fallback) return;
+    // A separate lifetime makes a new gesture cancel an in-flight hi request.
+    const highResolution = new ImageAssets(1, 1);
+    let active = true;
     const timer = window.setTimeout(() => {
-      const image = new Image();
-      image.decoding = 'async';
-      image.onload = async () => {
-        try { await image.decode?.(); } catch { /* onload remains a safe readiness signal */ }
-        setHiReady((value) => new Set(value).add(currentFrame));
-      };
-      image.src = frames[currentFrame].beautyHi;
+      void highResolution.load(frames[targetFrame].beautyHi).then(asset => {
+        if (active) setHi({ index: targetFrame, asset });
+      }).catch(() => undefined);
     }, 900);
-    return () => window.clearTimeout(timer);
-  }, [currentFrame, fallback, frames, saveData, selected]);
+    return () => { active = false; window.clearTimeout(timer); highResolution.dispose(); };
+  }, [fallback, frames, ready?.index, saveData, settledSelection, targetFrame]);
 
-  useEffect(() => () => cache.current.clear(), []);
-
-  return {
-    frameReady: fallback || ready.has(currentFrame),
-    hiReady: hiReady.has(currentFrame),
-    preload,
+  // Readiness describes a currently held image, not a historical "loaded" flag.
+  const normal = ready?.index === motionFrame ? ready.asset : assets?.peek(normalSource(motionFrame));
+  const failed = assets?.hasFailed(normalSource(motionFrame)) ?? false;
+  const retry = () => {
+    assets?.resetFailures();
+    if (assets) void assets.load(normalSource(motionFrame), fallbackSource(motionFrame), -10)
+      .then(asset => setReady({ index: motionFrame, asset }))
+      .catch(() => setRevision(value => value + 1));
+    setRevision(value => value + 1);
   };
+  return { normal, hi: hi?.index === targetFrame && settledSelection ? hi.asset : undefined, failed, retry };
 }
