@@ -263,20 +263,28 @@ img {
 
 /* Hero */
 .project-video-story {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
   position: relative;
   isolation: isolate;
   background: #c5c4bf;
 }
 
+/* Overlap in one grid cell so the sticky layer keeps its full layout height. */
+.project-video-story__background,
+.project-video-story__content {
+  grid-area: 1 / 1;
+  min-width: 0;
+}
+
 .project-video-story__background {
   position: sticky;
+  align-self: start;
   z-index: 0;
   top: 0;
   width: 100%;
   height: 100vh;
   height: 100svh;
-  margin-bottom: -100vh;
-  margin-bottom: -100svh;
   overflow: hidden;
   background: #c5c4bf;
 }
