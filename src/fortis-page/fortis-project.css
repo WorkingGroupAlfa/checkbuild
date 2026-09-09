@@ -152,7 +152,7 @@ img {
 
 .fortis-header.is-sticky,
 .fortis-header.is-menu-open {
-  border-bottom-color: #d8d8d6;
+  border-bottom-color: #d8d8d8;
   background: rgba(255, 255, 255, 0.98);
 }
 
@@ -236,7 +236,7 @@ img {
   display: grid;
   min-width: 168px;
   visibility: hidden;
-  border: 1px solid #d8d8d6;
+  border: 1px solid #d8d8d8;
   padding: 8px 10px;
   opacity: 0;
   background: #fff;
@@ -267,7 +267,6 @@ img {
   grid-template-columns: minmax(0, 1fr);
   position: relative;
   isolation: isolate;
-  background: #c5c4bf;
 }
 
 /* Overlap in one grid cell so the sticky layer keeps its full layout height. */
@@ -286,12 +285,10 @@ img {
   height: 100vh;
   height: 100svh;
   overflow: hidden;
-  background: #c5c4bf;
 }
 
 .project-video-story__poster,
-.project-video-story__video,
-.project-video-story__scrim {
+.project-video-story__video {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -312,11 +309,6 @@ img {
 
 .project-video-story__video[data-ready="true"] {
   opacity: 1;
-}
-
-.project-video-story__scrim {
-  background: linear-gradient(180deg, rgba(8, 10, 11, 0.1) 0%, rgba(8, 10, 11, 0.015) 48%, rgba(8, 10, 11, 0.08) 100%);
-  pointer-events: none;
 }
 
 .project-video-story__content {
@@ -455,7 +447,7 @@ img {
 .project-media {
   display: block;
   overflow: hidden;
-  background: #f3f3f1;
+  background: #f3f3f3;
 }
 
 .project-media img {
@@ -541,7 +533,6 @@ img {
   position: relative;
   aspect-ratio: 16 / 9;
   overflow: hidden;
-  background: #f5f5f4;
   touch-action: pan-y;
   user-select: none;
 }
@@ -622,7 +613,7 @@ img {
   --paper-light: #fff;
   --ink: #111;
   --quiet: #777;
-  --line: #d8d8d6;
+  --line: #d8d8d8;
   --serif: "Messina Sans", Arial, Helvetica, sans-serif;
   color: #111;
   font-family: "Messina Sans", Arial, Helvetica, sans-serif;
@@ -642,7 +633,7 @@ img {
 
 .project-selector .sequence-viewer {
   max-height: none;
-  background: #f3f3f1;
+  background: #f3f3f3;
 }
 
 .project-selector .section-rule-heading {
@@ -656,7 +647,7 @@ img {
 
 .project-selector .level-row:hover,
 .project-selector .level-row.is-hovered {
-  background: #f3f3f1;
+  background: #f3f3f3;
 }
 
 .project-selector .level-row.is-selected {
@@ -811,7 +802,7 @@ img {
 }
 
 .project-selector .unit-plan-artwork {
-  background: #f3f3f1;
+  background: #f3f3f3;
 }
 
 .project-selector .unit-plan-artwork text {
@@ -834,7 +825,7 @@ img {
 }
 
 .project-selector .plan-core {
-  fill: #d8d8d6;
+  fill: #d8d8d8;
 }
 
 .project-selector .plan-placeholder-note {
@@ -915,7 +906,7 @@ img {
   min-width: 0;
   aspect-ratio: 4 / 3;
   overflow: hidden;
-  background: #f3f3f1;
+  background: #f3f3f3;
   isolation: isolate;
 }
 
@@ -969,11 +960,11 @@ img {
 }
 
 .amenity-map-ground {
-  fill: #f7f7f5;
+  fill: #f7f7f7;
 }
 
 .amenity-map-water {
-  fill: #f0f1ef;
+  fill: #f0f0f0;
 }
 
 .amenity-map-park {
@@ -982,7 +973,7 @@ img {
 
 .amenity-map-road {
   fill: none;
-  stroke: #dcdcd8;
+  stroke: #dcdcdc;
   stroke-linecap: square;
   vector-effect: non-scaling-stroke;
 }
@@ -992,13 +983,13 @@ img {
 }
 
 .amenity-map-road.is-lane {
-  stroke: #e5e5e2;
+  stroke: #e5e5e5;
   stroke-width: 4;
 }
 
 .amenity-map-labels text {
-  fill: #62625e;
-  stroke: #f7f7f5;
+  fill: #626262;
+  stroke: #f7f7f7;
   stroke-width: 5px;
   paint-order: stroke fill;
   font-family: "Messina Sans", Arial, Helvetica, sans-serif;
@@ -1008,7 +999,7 @@ img {
 
 .amenity-map-radius {
   fill: none;
-  stroke: #888884;
+  stroke: #888;
   stroke-width: 1.15;
   vector-effect: non-scaling-stroke;
 }
@@ -1027,10 +1018,10 @@ img {
   width: 34px;
   height: 34px;
   place-items: center;
-  border: 1px solid #696965;
+  border: 1px solid #696969;
   border-radius: 50%;
   padding: 0;
-  color: #3f3f3c;
+  color: #3f3f3f;
   background: rgba(255, 255, 255, 0.98);
   box-shadow: 0 1px 5px rgba(17, 17, 17, 0.08);
   cursor: pointer;
@@ -1086,7 +1077,7 @@ img {
   display: flex;
   align-items: baseline;
   gap: 16px;
-  border-bottom: 1px solid #d8d8d6;
+  border-bottom: 1px solid #d8d8d8;
   padding: 15px 2px 12px;
   font-size: 14px;
 }
@@ -1178,7 +1169,7 @@ img {
   gap: 12px;
   min-height: 56px;
   border: 0;
-  border-bottom: 1px solid #e5e5e2;
+  border-bottom: 1px solid #e5e5e5;
   padding: 8px 2px;
   color: #777;
   background: transparent;
@@ -1190,7 +1181,7 @@ img {
 .project-amenities__list li > button:hover,
 .project-amenities__list li > button:focus-visible {
   color: #111;
-  background: #f6f6f4;
+  background: #f6f6f6;
 }
 
 .project-amenities__list li > button.is-active {
@@ -1240,7 +1231,7 @@ img {
   max-width: none;
   overflow: hidden;
   padding: clamp(70px, 7vw, 108px) var(--enquiry-gutter) clamp(64px, 6vw, 96px);
-  background: #d9d3cc;
+  background: #fff;
   scroll-margin-top: 92px;
 }
 
@@ -1255,14 +1246,14 @@ img {
   z-index: 0;
   inset: -24px;
   background: url("/fortis/470-collins/enquiry-office-bg.webp") center center / cover no-repeat;
-  filter: saturate(0.72) contrast(0.82) brightness(1.03) blur(2px);
+  filter: grayscale(1) contrast(0.82) brightness(1.03) blur(2px);
   transform: scale(1.025);
 }
 
 .project-enquiry::after {
   z-index: 1;
   inset: 0;
-  background: rgba(231, 226, 219, 0.42);
+  background: rgba(255, 255, 255, 0.42);
 }
 
 .project-enquiry__content {
@@ -1273,10 +1264,8 @@ img {
   border-top: 1px solid rgba(17, 17, 17, 0.25);
   border-bottom: 1px solid rgba(17, 17, 17, 0.25);
   padding: clamp(42px, 5vw, 72px) clamp(28px, 5.5vw, 80px) clamp(38px, 4.5vw, 64px);
-  background: rgba(248, 247, 243, 0.89);
-  box-shadow: 0 18px 52px rgba(30, 25, 21, 0.08);
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
+  background: #fff;
+  box-shadow: 0 18px 52px rgba(0, 0, 0, 0.08);
 }
 
 .project-enquiry__intro {
@@ -1332,7 +1321,7 @@ img {
 
 .fortis-form input::placeholder,
 .fortis-footer input::placeholder {
-  color: #615954;
+  color: #616161;
   opacity: 1;
 }
 
@@ -1438,7 +1427,7 @@ img {
   display: block;
   aspect-ratio: 1.25 / 1;
   overflow: hidden;
-  background: #f3f3f1;
+  background: #f3f3f3;
 }
 
 .related-card img {
@@ -1578,7 +1567,7 @@ img {
   grid-template-columns: 1.5fr 1fr;
   gap: 32px;
   align-items: center;
-  border: 1px solid #ececea;
+  border: 1px solid #ececec;
   padding: 24px;
   background: #fff;
   box-shadow: 0 -2px 14px rgba(0, 0, 0, 0.08);
@@ -1728,7 +1717,7 @@ img {
 
   .fortis-mobile-navigation > ul > li {
     display: grid;
-    border-bottom: 1px solid #d6d6d3;
+    border-bottom: 1px solid #d6d6d6;
     padding: 13px 0;
   }
 
@@ -1764,10 +1753,6 @@ img {
   .project-video-story__poster,
   .project-video-story__video {
     object-position: 52% center;
-  }
-
-  .project-video-story__scrim {
-    background: linear-gradient(180deg, rgba(8, 10, 11, 0.1), rgba(8, 10, 11, 0.015) 44%, rgba(8, 10, 11, 0.08));
   }
 
   .fortis-hero__image img {
@@ -1872,12 +1857,8 @@ img {
     padding-bottom: 35px;
   }
 
-  .project-gallery__viewport {
-    aspect-ratio: 1.3 / 1;
-  }
-
   .project-gallery__slide img {
-    padding-inline: 31px;
+    object-fit: cover;
   }
 
   .carousel-button {
@@ -1991,7 +1972,7 @@ img {
 
   .project-amenities__list li > button {
     min-height: 70px;
-    border: 1px solid #d8d8d6;
+    border: 1px solid #d8d8d8;
     padding: 10px 12px;
     touch-action: manipulation;
   }
@@ -2041,15 +2022,13 @@ img {
   }
 
   .project-enquiry::after {
-    background: rgba(231, 226, 219, 0.48);
+    background: rgba(255, 255, 255, 0.48);
   }
 
   .project-enquiry__content {
     padding: 34px 18px 38px;
-    background: rgba(248, 247, 243, 0.91);
-    box-shadow: 0 12px 34px rgba(30, 25, 21, 0.08);
-    -webkit-backdrop-filter: blur(6px);
-    backdrop-filter: blur(6px);
+    background: #fff;
+    box-shadow: 0 12px 34px rgba(0, 0, 0, 0.08);
   }
 
   .project-enquiry__intro {

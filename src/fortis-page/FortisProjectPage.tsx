@@ -232,7 +232,6 @@ function ScrollVideoStory() {
         >
           <source src={`${ASSET_ROOT}/hero-scroll.mp4`} type="video/mp4" />
         </video>
-        <span className="project-video-story__scrim" />
       </div>
       <div className="project-video-story__content">
         <Hero />

@@ -1,14 +1,14 @@
 :root {
-  color: #242320;
-  background: #f1eee7;
+  color: #242424;
+  background: #fff;
   font-family: Arial, Helvetica, sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  --paper: #f1eee7;
-  --paper-light: #f7f4ed;
-  --ink: #242320;
-  --quiet: #74716a;
-  --line: rgba(36, 35, 32, 0.22);
+  --paper: #fff;
+  --paper-light: #fff;
+  --ink: #242424;
+  --quiet: #747474;
+  --line: rgba(36, 36, 36, 0.22);
   --serif: "Iowan Old Style", Baskerville, "Times New Roman", serif;
 }
 
@@ -34,7 +34,7 @@ a:focus-visible,
 [tabindex]:focus-visible,
 input:focus-visible,
 textarea:focus-visible {
-  outline: 2px solid #242320;
+  outline: 2px solid #242424;
   outline-offset: 3px;
 }
 
@@ -108,7 +108,7 @@ textarea:focus-visible {
 .intro-copy {
   margin: 0 0 4px;
   max-width: 420px;
-  color: #56534e;
+  color: #565656;
   font-size: clamp(15px, 1.25vw, 18px);
   line-height: 1.55;
 }
@@ -133,7 +133,7 @@ textarea:focus-visible {
   width: 100%;
   aspect-ratio: 4 / 5;
   overflow: hidden;
-  background: #d6d8d3;
+  background: #d6d6d6;
   cursor: grab;
   touch-action: pan-y;
   user-select: none;
@@ -225,7 +225,7 @@ textarea:focus-visible {
   display: inline-flex;
   align-items: center;
   gap: 9px;
-  border: 1px solid rgba(36, 35, 32, 0.32);
+  border: 1px solid rgba(36, 36, 36, 0.32);
   padding: 0 14px;
   background: var(--paper-light);
   color: var(--ink);
@@ -268,8 +268,8 @@ textarea:focus-visible {
   text-transform: uppercase;
 }
 
-.unit-options-label b { font-weight: 400; color: rgba(247, 244, 237, 0.62); }
-.unit-option-list { border: 1px solid rgba(36, 35, 32, 0.48); border-top: 0; }
+.unit-options-label b { font-weight: 400; color: rgba(255, 255, 255, 0.62); }
+.unit-option-list { border: 1px solid rgba(36, 36, 36, 0.48); border-top: 0; }
 
 .unit-option {
   width: 100%;
@@ -304,7 +304,7 @@ textarea:focus-visible {
 .unit-option-copy { display: grid; gap: 4px; }
 .unit-option-copy b { font: 400 17px/1 var(--serif); }
 .unit-option-copy small { color: var(--quiet); font-size: 8px; letter-spacing: 0.11em; text-transform: uppercase; }
-.unit-option:hover .unit-option-copy small { color: rgba(247, 244, 237, 0.66); }
+.unit-option:hover .unit-option-copy small { color: rgba(255, 255, 255, 0.66); }
 .unit-option-arrow { display: inline-flex; justify-self: end; transition: transform 160ms ease; }
 .unit-option:hover .unit-option-arrow { transform: translate(2px, -2px); }
 
@@ -314,15 +314,15 @@ textarea:focus-visible {
   align-items: center;
   justify-content: center;
   gap: 9px;
-  border: 1px solid rgba(36, 35, 32, 0.38);
+  border: 1px solid rgba(36, 36, 36, 0.38);
   padding: 0 14px;
   background: var(--paper-light);
-  color: #65615b;
+  color: #656565;
   font-size: 8px;
   letter-spacing: 0.13em;
   text-transform: uppercase;
 }
-.unit-options-empty i { width: 5px; height: 5px; border-radius: 50%; background: #8b8880; }
+.unit-options-empty i { width: 5px; height: 5px; border-radius: 50%; background: #888; }
 
 .unit-plan-viewer {
   display: grid;
@@ -356,24 +356,24 @@ textarea:focus-visible {
   display: grid;
   place-items: center;
   overflow: hidden;
-  background: #ebe7de;
+  background: #fff;
 }
 .unit-plan-artwork svg { width: 94%; height: 94%; }
 .unit-plan-artwork svg * { vector-effect: non-scaling-stroke; }
 .plan-outline, .plan-window-line, .plan-wall, .plan-core, .plan-core-line, .plan-desk, .plan-table {
   fill: none;
-  stroke: #393733;
+  stroke: #393939;
   stroke-width: 1.4;
 }
-.plan-window-line { stroke: #9b968c; stroke-dasharray: 5 4; }
-.plan-core { fill: #ddd7cb; }
+.plan-window-line { stroke: #999; stroke-dasharray: 5 4; }
+.plan-core { fill: #ddd; }
 .plan-core-line, .plan-desk, .plan-table { stroke-width: 1; }
-.unit-plan-artwork text { fill: #77736b; font: 9px Arial, sans-serif; letter-spacing: 1.2px; }
+.unit-plan-artwork text { fill: #777; font: 9px Arial, sans-serif; letter-spacing: 1.2px; }
 .plan-placeholder-note {
   position: absolute;
   right: 11px;
   bottom: 9px;
-  color: #817d74;
+  color: #818181;
   font-size: 7px;
   letter-spacing: 0.11em;
   text-transform: uppercase;
@@ -389,7 +389,7 @@ textarea:focus-visible {
 .unit-plan-facts > div:nth-child(even) { border-left: 1px solid var(--line); padding-left: 18px; }
 .unit-plan-facts dt { color: var(--quiet); font-size: 7px; letter-spacing: .12em; text-transform: uppercase; }
 .unit-plan-facts dd { margin: 0; font-size: 9px; letter-spacing: .06em; text-transform: uppercase; }
-.unit-plan-description { margin: 11px 0 0; color: #5d5a54; font: 14px/1.35 var(--serif); }
+.unit-plan-description { margin: 11px 0 0; color: #5d5d5d; font: 14px/1.35 var(--serif); }
 .unit-plan-features { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 10px 0 0; padding: 0; list-style: none; color: var(--quiet); font-size: 7px; letter-spacing: .1em; text-transform: uppercase; }
 .unit-plan-features li::before { content: '•'; margin-right: 6px; color: #657761; }
 .unit-plan-enquire { width: 100%; margin-top: 13px; }
@@ -468,15 +468,15 @@ textarea:focus-visible {
   text-transform: uppercase;
 }
 
-.status-leased:not(.is-selected) { color: #85827b; }
-.is-selected .level-name { color: rgba(247, 244, 237, 0.7); }
+.status-leased:not(.is-selected) { color: #858585; }
+.is-selected .level-name { color: rgba(255, 255, 255, 0.7); }
 .row-arrow { display: inline-flex; opacity: 0; transform: translate(-5px, 4px); transition: opacity 160ms, transform 160ms; }
 .level-row:hover .row-arrow, .level-row.is-selected .row-arrow { opacity: 1; transform: translate(0, 0); }
 
 .availability-summary {
   max-width: 390px;
   margin: 30px 0 0;
-  color: #5f5c56;
+  color: #5f5f5f;
   font: 400 clamp(18px, 1.7vw, 25px)/1.35 var(--serif);
 }
 
@@ -579,7 +579,7 @@ textarea:focus-visible {
 }
 
 .button.primary { background: var(--ink); color: var(--paper-light); }
-.button:hover { background: #3b3935; color: var(--paper-light); }
+.button:hover { background: #3b3b3b; color: var(--paper-light); }
 .button:disabled { cursor: wait; opacity: 0.65; }
 .leased-note { color: var(--quiet); font-size: 12px; line-height: 1.5; }
 
@@ -602,7 +602,7 @@ textarea:focus-visible {
   inset: 0;
   display: flex;
   justify-content: flex-end;
-  background: rgba(28, 27, 25, 0.54);
+  background: rgba(28, 28, 28, 0.54);
 }
 
 .enquiry-panel {
