@@ -156,6 +156,16 @@ img {
   background: rgba(255, 255, 255, 0.98);
 }
 
+.fortis-header:not(.is-sticky):not(.is-menu-open) {
+  color: #fff;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.22);
+}
+
+.fortis-header:not(.is-sticky):not(.is-menu-open) .fortis-navigation__submenu {
+  color: #111;
+  text-shadow: none;
+}
+
 .fortis-header__row {
   position: relative;
   display: flex;
@@ -252,13 +262,55 @@ img {
 }
 
 /* Hero */
+.project-video-story {
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+  background: #c5c4bf;
+}
+
+.project-video-story__background {
+  position: sticky;
+  z-index: 0;
+  top: 0;
+  width: 100%;
+  height: 100svh;
+  margin-bottom: -100svh;
+  overflow: hidden;
+  background: #c5c4bf;
+}
+
+.project-video-story__video,
+.project-video-story__scrim {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.project-video-story__video {
+  object-fit: cover;
+  object-position: center center;
+  image-rendering: auto;
+}
+
+.project-video-story__scrim {
+  background: linear-gradient(180deg, rgba(8, 10, 11, 0.1) 0%, rgba(8, 10, 11, 0.015) 48%, rgba(8, 10, 11, 0.08) 100%);
+  pointer-events: none;
+}
+
+.project-video-story__content {
+  position: relative;
+  z-index: 1;
+}
+
 .fortis-hero {
   position: relative;
   width: 100%;
   height: 100svh;
   min-height: 620px;
   overflow: hidden;
-  background: #d7d9d4;
+  background: transparent;
 }
 
 .fortis-hero__image,
@@ -301,6 +353,32 @@ img {
   scroll-margin-top: 74px;
 }
 
+.project-overview--story {
+  display: flex;
+  min-height: 112svh;
+  align-items: center;
+  padding-top: clamp(110px, 12vw, 172px);
+  padding-bottom: clamp(150px, 18vw, 260px);
+}
+
+.project-overview--story .project-overview__intro {
+  width: 100%;
+  grid-template-columns: minmax(360px, 570px) minmax(0, 1fr);
+}
+
+.project-overview--story .project-overview__copy {
+  padding: clamp(30px, 3.7vw, 54px);
+  background: #fff;
+}
+
+.project-overview--site-only {
+  padding-top: 108px;
+}
+
+.project-overview--site-only .project-overview__site {
+  margin-top: 0;
+}
+
 .project-overview__intro,
 .project-overview__site {
   display: grid;
@@ -333,8 +411,21 @@ img {
   margin: 0 0 16px;
 }
 
-.project-overview__lead a {
-  text-underline-offset: 3px;
+.project-overview__lead a,
+.project-overview__pencil-underline {
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  padding-bottom: 3px;
+  background-image: url("/fortis/470-collins/pencil-underline.svg");
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 96px 5px;
+  text-decoration: none;
+}
+
+.project-overview__lead .project-overview__plain-link {
+  padding-bottom: 0;
+  background-image: none;
 }
 
 .project-overview__copy .outline-button {
@@ -422,6 +513,7 @@ img {
 /* Gallery */
 .project-gallery {
   position: relative;
+  padding-top: 54px;
   padding-bottom: 54px;
 }
 
@@ -431,6 +523,7 @@ img {
   overflow: hidden;
   background: #f5f5f4;
   touch-action: pan-y;
+  user-select: none;
 }
 
 .project-gallery__track {
@@ -456,6 +549,13 @@ img {
 
 .project-gallery__slide img {
   object-fit: contain;
+  pointer-events: none;
+}
+
+@media (min-width: 597px) {
+  .project-gallery__slide img.project-gallery__image--wide {
+    object-fit: cover;
+  }
 }
 
 .carousel-button {
@@ -1636,9 +1736,17 @@ img {
 
   .fortis-hero {
     width: 100%;
-    height: 100vw;
-    min-height: 350px;
-    max-height: 520px;
+    height: calc(100svh - 100px);
+    min-height: 468px;
+    max-height: none;
+  }
+
+  .project-video-story__video {
+    object-position: 52% center;
+  }
+
+  .project-video-story__scrim {
+    background: linear-gradient(180deg, rgba(8, 10, 11, 0.1), rgba(8, 10, 11, 0.015) 44%, rgba(8, 10, 11, 0.08));
   }
 
   .fortis-hero__image img {
@@ -1652,6 +1760,26 @@ img {
   .project-overview {
     padding: 82px clamp(22px, 11.2vw, 60px) 58px;
     scroll-margin-top: 76px;
+  }
+
+  .project-overview--story {
+    align-items: flex-start;
+    min-height: 104svh;
+    padding-top: 0;
+    padding-bottom: 112px;
+  }
+
+  .project-overview--story .project-overview__intro {
+    display: block;
+  }
+
+  .project-overview--story .project-overview__copy {
+    padding: 27px 24px 30px;
+    background: #fff;
+  }
+
+  .project-overview--site-only {
+    padding-top: 82px;
   }
 
   .project-overview__intro,
@@ -1719,6 +1847,7 @@ img {
 
   .project-gallery {
     padding-inline: 0;
+    padding-top: 35px;
     padding-bottom: 35px;
   }
 

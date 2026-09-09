@@ -21,6 +21,14 @@ type ResponsiveImageProps = {
   sizes?: string;
 };
 
+const projectGalleryImages = [
+  'gallery-01.webp',
+  'gallery-02.webp',
+  'gallery-03.webp',
+  'gallery-04.webp',
+  'gallery-05.webp',
+] as const;
+
 function ResponsiveImage({
   name,
   alt,
@@ -126,12 +134,6 @@ function Header() {
 function Hero() {
   return (
     <section className="fortis-hero" aria-label="470 Collins Street">
-      <ResponsiveImage
-        name="hero"
-        alt="Street-level architectural rendering of 470 Collins Street, Melbourne"
-        className="fortis-hero__image"
-        eager
-      />
       <a className="fortis-hero__scroll" href="#project-overview" aria-label="View project details">
         <ArrowIcon direction="down" />
       </a>
@@ -139,9 +141,9 @@ function Hero() {
   );
 }
 
-function ProjectOverview() {
+function ProjectIntroduction() {
   return (
-    <section className="project-overview section-frame" id="project-overview">
+    <section className="project-overview project-overview--story section-frame" id="project-overview">
       <div className="project-overview__intro">
         <div className="project-overview__copy">
           <h1>470 Collins St</h1>
@@ -158,20 +160,20 @@ function ProjectOverview() {
               Reimagined by architecture and interior design studio, <a href="https://www.fortis.com.au/carr/">Carr</a>,
               to reflect the evolving expectations of modern occupiers. 470 Collins Street will offer
               contemporary office spaces, elevated amenities and an activated ground plane—delivering
-              an <a href="#location">enhanced workplace experience</a> and uplift to A Grade Standard within
+              an <a className="project-overview__plain-link" href="#location"><span className="project-overview__pencil-underline">enhanced workplace</span> experience</a> and uplift to A Grade Standard within
               one of the city’s most connected and rapidly evolving precincts.
             </p>
           </div>
           <a className="outline-button" href="#enquire">Enquire</a>
         </div>
-        <ResponsiveImage
-          name="project-portrait"
-          alt="Architectural rendering of the renewed 470 Collins Street tower"
-          className="project-overview__portrait project-media"
-          sizes="(max-width: 596px) 100vw, 42vw"
-        />
       </div>
+    </section>
+  );
+}
 
+function ProjectSite() {
+  return (
+    <section className="project-overview project-overview--site-only section-frame">
       <div className="project-overview__site">
         <div className="project-overview__site-copy">
           <h2>The site</h2>
@@ -187,13 +189,83 @@ function ProjectOverview() {
           </p>
         </div>
         <ResponsiveImage
-          name="site"
-          alt="Collins Street streetscape in central Melbourne"
+          name="gallery-station"
+          alt="Train at a Melbourne railway station"
           className="project-overview__site-image project-media"
           sizes="(max-width: 596px) 100vw, 42vw"
         />
       </div>
     </section>
+  );
+}
+
+function ScrollVideoStory() {
+  const storyRef = useRef<HTMLDivElement>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    const story = storyRef.current;
+    const video = videoRef.current;
+    if (!story || !video) return;
+
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let animationFrame = 0;
+
+    const update = () => {
+      animationFrame = 0;
+      const duration = video.duration;
+      if (!Number.isFinite(duration) || duration <= 0) return;
+
+      const bounds = story.getBoundingClientRect();
+      const storyTop = window.scrollY + bounds.top;
+      const scrollRange = Math.max(1, story.offsetHeight - window.innerHeight);
+      const progress = Math.max(0, Math.min(1, (window.scrollY - storyTop) / scrollRange));
+      const targetTime = reducedMotion ? 0 : progress * Math.max(0, duration - 0.035);
+
+      if (Math.abs(video.currentTime - targetTime) > 0.025) video.currentTime = targetTime;
+      video.style.setProperty('--story-progress', String(progress));
+    };
+
+    const scheduleUpdate = () => {
+      if (!animationFrame) animationFrame = window.requestAnimationFrame(update);
+    };
+
+    video.pause();
+    video.addEventListener('loadedmetadata', scheduleUpdate);
+    window.addEventListener('scroll', scheduleUpdate, { passive: true });
+    window.addEventListener('resize', scheduleUpdate, { passive: true });
+    scheduleUpdate();
+
+    return () => {
+      if (animationFrame) window.cancelAnimationFrame(animationFrame);
+      video.removeEventListener('loadedmetadata', scheduleUpdate);
+      window.removeEventListener('scroll', scheduleUpdate);
+      window.removeEventListener('resize', scheduleUpdate);
+    };
+  }, []);
+
+  return (
+    <div ref={storyRef} className="project-video-story">
+      <div className="project-video-story__background" aria-hidden="true">
+        <video
+          ref={videoRef}
+          className="project-video-story__video"
+          muted
+          playsInline
+          preload="auto"
+          poster={`${ASSET_ROOT}/hero-scroll-poster.webp`}
+          disablePictureInPicture
+          tabIndex={-1}
+        >
+          <source src={`${ASSET_ROOT}/hero-scroll.mp4`} type="video/mp4" />
+        </video>
+        <span className="project-video-story__scrim" />
+      </div>
+      <div className="project-video-story__content">
+        <Hero />
+        <ProjectIntroduction />
+      </div>
+    </div>
   );
 }
 
@@ -206,6 +278,91 @@ function ProjectStats() {
         <div><dt>Levels</dt><dd>16</dd></div>
         <div><dt>Completion</dt><dd>Q2 2027</dd></div>
       </dl>
+    </section>
+  );
+}
+
+function ProjectGallery() {
+  const [activeSlide, setActiveSlide] = useState(0);
+  const gestureStart = useRef<{ x: number; y: number } | null>(null);
+  const lastSlide = projectGalleryImages.length - 1;
+
+  const showPrevious = () => setActiveSlide((slide) => Math.max(0, slide - 1));
+  const showNext = () => setActiveSlide((slide) => Math.min(lastSlide, slide + 1));
+
+  return (
+    <section
+      className="project-gallery section-frame"
+      aria-label="470 Collins Street gallery"
+      aria-roledescription="carousel"
+    >
+      <div
+        className="project-gallery__viewport"
+        role="group"
+        aria-label={`Image ${activeSlide + 1} of ${projectGalleryImages.length}`}
+        tabIndex={0}
+        onKeyDown={(event) => {
+          if (event.key === 'ArrowLeft') showPrevious();
+          if (event.key === 'ArrowRight') showNext();
+        }}
+        onPointerDown={(event) => {
+          if (!event.isPrimary || (event.target instanceof Element && event.target.closest('button'))) return;
+          gestureStart.current = { x: event.clientX, y: event.clientY };
+          event.currentTarget.setPointerCapture(event.pointerId);
+        }}
+        onPointerUp={(event) => {
+          const start = gestureStart.current;
+          gestureStart.current = null;
+          if (event.currentTarget.hasPointerCapture(event.pointerId)) {
+            event.currentTarget.releasePointerCapture(event.pointerId);
+          }
+          if (!start || !event.isPrimary) return;
+
+          const horizontalDistance = event.clientX - start.x;
+          const verticalDistance = event.clientY - start.y;
+          if (Math.abs(horizontalDistance) < 44 || Math.abs(horizontalDistance) <= Math.abs(verticalDistance)) return;
+          if (horizontalDistance > 0) showPrevious();
+          else showNext();
+        }}
+        onPointerCancel={() => { gestureStart.current = null; }}
+      >
+        <div
+          className="project-gallery__track"
+          style={{ transform: `translate3d(-${activeSlide * 100}%, 0, 0)` }}
+        >
+          {projectGalleryImages.map((image, index) => (
+            <figure className="project-gallery__slide" aria-hidden={index !== activeSlide} key={image}>
+              <img
+                className={image === 'gallery-04.webp' ? 'project-gallery__image--wide' : undefined}
+                src={`${ASSET_ROOT}/slider/${image}`}
+                alt={`470 Collins Street project view ${index + 1}`}
+                loading="lazy"
+                decoding="async"
+                draggable={false}
+              />
+            </figure>
+          ))}
+        </div>
+
+        <button
+          className="carousel-button carousel-button--previous"
+          type="button"
+          aria-label="Show previous gallery image"
+          disabled={activeSlide === 0}
+          onClick={showPrevious}
+        >
+          <ArrowIcon direction="left" />
+        </button>
+        <button
+          className="carousel-button carousel-button--next"
+          type="button"
+          aria-label="Show next gallery image"
+          disabled={activeSlide === lastSlide}
+          onClick={showNext}
+        >
+          <ArrowIcon />
+        </button>
+      </div>
     </section>
   );
 }
@@ -421,12 +578,13 @@ export function FortisProjectPage() {
     <div className="fortis-project-page">
       <Header />
       <main>
-        <Hero />
-        <ProjectOverview />
+        <ScrollVideoStory />
+        <ProjectSite />
         <ProjectStats />
         <section className="project-selector section-frame" id="available-spaces">
           <AvailableSpacesExperience embedded />
         </section>
+        <ProjectGallery />
         <NearbyAmenities />
         <InquiryForm />
         <RelatedProjects />
