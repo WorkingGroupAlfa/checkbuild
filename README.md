@@ -79,3 +79,15 @@ Selecting an offered floor reveals its available unit markers inside the buildin
 ## Loading regression checks
 
 With a local production preview running, use `npm run stress:loading -- http://127.0.0.1:4173`. This verifies zero idle decode activity, zero normal-resource requests during warm rotation even with the HTTP cache disabled, at most one URL write per gesture, cancellation of high-resolution downloads, missing-mask recovery, retrying a failed view, and data-saver limits. The existing viewer stress test continues to require no blank frames and no skipped intermediate frames under normal loading. Run it with `--adverse` and `--fail-webp` for slow CPU/network and JPEG fallback coverage. Unit tests cover request deduplication, queue priority, cache eviction, corrupt WebP fallback, and unmount cancellation.
+
+## Scroll video on Safari / iPhone
+
+The hero briefly starts muted inline playback to initialize the decoder, then pauses and follows scroll position. If autoplay is denied, a touchend, click, or keydown retries play synchronously with user activation. A separate image poster stays visible until the decoder submits a frame; network/media errors keep that poster instead of exposing an empty video surface. Reduced-motion preferences keep the poster and are observed while the page is open.
+
+Seeks are serialized: the current seek finishes before the latest scroll position is applied. Loaded-data, readiness and seek-completion events catch up after a delayed download. Tab restoration reinitializes the decoder. Scroll progress uses the sticky layer's actual height, so Safari's expanding/collapsing browser toolbar does not change the calculation independently of the background.
+
+The MP4 is H.264 High, level 3.1, 848 x 464, approximately 3.94 seconds and 843 KB. Its movie index now precedes the media data (fast start); the compressed video payload is unchanged. Future replacements should also use fast start, e.g. ffmpeg -i input.mp4 -c copy -movflags +faststart output.mp4. Render's existing byte-range response was verified as HTTP 206; no video-specific hosting configuration is required.
+
+Run npm run stress:hero -- http://127.0.0.1:4173 against a production preview. It checks decoded pixels changing with scroll, sticky positioning, zero overlapping/idle seeks, touch recovery after denied autoplay, delayed-download recovery, media-error poster fallback, and live reduced-motion changes. These desktop Chromium mobile checks and mocked lifecycle tests do not replace testing Safari on an actual iPhone. The Windows WebKit test build in this environment did not load MP4 media, on either the original or patched page, so it is not used as evidence of iOS playback.
+
+References: [WebKit video policies](https://webkit.org/blog/6784/new-video-policies-for-ios/) and [Safari poster behavior](https://bugs.webkit.org/show_bug.cgi?id=234743). The reported symptom was a black/gray hero on Safari/iOS 17; decoder initialization and frame readiness are the leading diagnosis, pending confirmation on the affected device.

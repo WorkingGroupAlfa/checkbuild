@@ -265,7 +265,6 @@ img {
 .project-video-story {
   position: relative;
   isolation: isolate;
-  overflow: clip;
   background: #c5c4bf;
 }
 
@@ -274,12 +273,15 @@ img {
   z-index: 0;
   top: 0;
   width: 100%;
+  height: 100vh;
   height: 100svh;
+  margin-bottom: -100vh;
   margin-bottom: -100svh;
   overflow: hidden;
   background: #c5c4bf;
 }
 
+.project-video-story__poster,
 .project-video-story__video,
 .project-video-story__scrim {
   position: absolute;
@@ -288,10 +290,20 @@ img {
   height: 100%;
 }
 
+.project-video-story__poster,
 .project-video-story__video {
   object-fit: cover;
   object-position: center center;
   image-rendering: auto;
+}
+
+.project-video-story__video {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.project-video-story__video[data-ready="true"] {
+  opacity: 1;
 }
 
 .project-video-story__scrim {
@@ -1741,6 +1753,7 @@ img {
     max-height: none;
   }
 
+  .project-video-story__poster,
   .project-video-story__video {
     object-position: 52% center;
   }

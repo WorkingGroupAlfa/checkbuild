@@ -14,7 +14,8 @@
     "stress:masks": "node scripts/stress-floor-interaction.mjs",
     "stress:units": "node scripts/stress-unit-flow.mjs",
     "preview": "vite preview",
-    "stress:loading": "node scripts/stress-sequence-loading.mjs"
+    "stress:loading": "node scripts/stress-sequence-loading.mjs",
+    "stress:hero": "node scripts/stress-hero-video.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",

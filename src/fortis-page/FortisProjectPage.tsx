@@ -7,6 +7,7 @@ import {
 import { ArrowIcon } from '../components/ArrowIcon/ArrowIcon';
 import { AvailableSpacesExperience } from '../components/AvailableSpacesExperience/AvailableSpacesExperience';
 import { NearbyAmenities } from './NearbyAmenities';
+import { attachScrollVideo } from '../lib/scrollVideo';
 import {
   ASSET_ROOT,
   offices,
@@ -208,52 +209,24 @@ function ScrollVideoStory() {
     const video = videoRef.current;
     if (!story || !video) return;
 
-    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    let animationFrame = 0;
-
-    const update = () => {
-      animationFrame = 0;
-      const duration = video.duration;
-      if (!Number.isFinite(duration) || duration <= 0) return;
-
-      const bounds = story.getBoundingClientRect();
-      const storyTop = window.scrollY + bounds.top;
-      const scrollRange = Math.max(1, story.offsetHeight - window.innerHeight);
-      const progress = Math.max(0, Math.min(1, (window.scrollY - storyTop) / scrollRange));
-      const targetTime = reducedMotion ? 0 : progress * Math.max(0, duration - 0.035);
-
-      if (Math.abs(video.currentTime - targetTime) > 0.025) video.currentTime = targetTime;
-      video.style.setProperty('--story-progress', String(progress));
-    };
-
-    const scheduleUpdate = () => {
-      if (!animationFrame) animationFrame = window.requestAnimationFrame(update);
-    };
-
-    video.pause();
-    video.addEventListener('loadedmetadata', scheduleUpdate);
-    window.addEventListener('scroll', scheduleUpdate, { passive: true });
-    window.addEventListener('resize', scheduleUpdate, { passive: true });
-    scheduleUpdate();
-
-    return () => {
-      if (animationFrame) window.cancelAnimationFrame(animationFrame);
-      video.removeEventListener('loadedmetadata', scheduleUpdate);
-      window.removeEventListener('scroll', scheduleUpdate);
-      window.removeEventListener('resize', scheduleUpdate);
-    };
+    return attachScrollVideo(story, video);
   }, []);
 
   return (
     <div ref={storyRef} className="project-video-story">
       <div className="project-video-story__background" aria-hidden="true">
+        <img
+          className="project-video-story__poster"
+          src={`${ASSET_ROOT}/hero-scroll-poster.webp`}
+          alt=""
+          fetchPriority="high"
+        />
         <video
           ref={videoRef}
           className="project-video-story__video"
           muted
           playsInline
           preload="auto"
-          poster={`${ASSET_ROOT}/hero-scroll-poster.webp`}
           disablePictureInPicture
           tabIndex={-1}
         >
